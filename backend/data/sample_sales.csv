@@ -1,0 +1,2249 @@
+Order_ID,Date,Sales,Category,Sub_Category,Region,Quantity,Discount,Profit
+CA-2021-10001,2021-01-01,228.06,Technology,Copiers,Central,1,0.2,24.76
+CA-2021-10002,2021-01-01,136.96,Technology,Accessories,East,1,0.2,36.67
+CA-2021-10003,2021-01-01,88.99,Office Supplies,Art,East,1,0.1,16.46
+CA-2021-10004,2021-01-02,478.47,Technology,Copiers,West,18,0.2,73.34
+CA-2021-10005,2021-01-03,51.24,Furniture,Bookcases,Central,1,0.15,4.23
+CA-2021-10006,2021-01-03,434.56,Furniture,Furnishings,West,3,0.0,36.15
+CA-2021-10007,2021-01-03,66.84,Office Supplies,Art,South,1,0.15,13.5
+CA-2021-10008,2021-01-04,67.01,Office Supplies,Binders,South,1,0.15,16.65
+CA-2021-10009,2021-01-04,174.57,Office Supplies,Binders,West,1,0.15,46.15
+CA-2021-10010,2021-01-04,70.8,Office Supplies,Art,East,1,0.0,11.17
+CA-2021-10011,2021-01-05,324.55,Furniture,Chairs,East,2,0.0,26.98
+CA-2021-10012,2021-01-05,90.23,Furniture,Furnishings,East,1,0.2,7.47
+CA-2021-10013,2021-01-06,109.22,Furniture,Tables,Central,1,0.2,27.59
+CA-2021-10014,2021-01-06,116.22,Office Supplies,Paper,South,1,0.1,16.86
+CA-2021-10015,2021-01-06,131.31,Technology,Machines,South,2,0.15,22.91
+CA-2021-10016,2021-01-07,399.88,Technology,Copiers,West,4,0.0,88.83
+CA-2021-10017,2021-01-08,75.2,Technology,Machines,Central,1,0.0,13.66
+CA-2021-10018,2021-01-08,333.44,Office Supplies,Appliances,Central,3,0.15,77.06
+CA-2021-10019,2021-01-09,334.64,Furniture,Tables,South,2,0.2,54.65
+CA-2021-10020,2021-01-09,119.78,Office Supplies,Storage,South,1,0.2,18.12
+CA-2021-10021,2021-01-10,142.01,Office Supplies,Paper,South,2,0.15,11.56
+CA-2021-10022,2021-01-10,315.08,Technology,Phones,West,6,0.15,42.18
+CA-2021-10023,2021-01-11,305.88,Office Supplies,Paper,West,2,0.1,67.07
+CA-2021-10024,2021-01-12,180.7,Furniture,Tables,West,2,0.15,24.53
+CA-2021-10025,2021-01-12,169.25,Furniture,Chairs,Central,1,0.0,30.11
+CA-2021-10026,2021-01-12,18.97,Office Supplies,Art,Central,1,0.15,2.44
+CA-2021-10027,2021-01-13,220.33,Furniture,Chairs,South,2,0.2,19.42
+CA-2021-10028,2021-01-13,168.43,Technology,Machines,Central,1,0.15,21.1
+CA-2021-10029,2021-01-14,47.96,Office Supplies,Paper,Central,1,0.0,5.84
+CA-2021-10030,2021-01-14,293.89,Technology,Accessories,West,5,0.2,33.79
+CA-2021-10031,2021-01-14,122.38,Furniture,Furnishings,South,2,0.0,12.07
+CA-2021-10032,2021-01-15,91.24,Office Supplies,Paper,South,1,0.0,10.25
+CA-2021-10033,2021-01-15,141.96,Office Supplies,Art,West,6,0.1,38.05
+CA-2021-10034,2021-01-15,146.89,Furniture,Chairs,West,3,0.1,26.02
+CA-2021-10035,2021-01-16,246.6,Furniture,Tables,East,5,0.2,51.77
+CA-2021-10036,2021-01-16,59.33,Technology,Copiers,East,1,0.2,5.86
+CA-2021-10037,2021-01-16,290.99,Technology,Accessories,Central,5,0.1,79.91
+CA-2021-10038,2021-01-17,156.19,Technology,Machines,East,3,0.0,28.09
+CA-2021-10039,2021-01-17,118.11,Technology,Machines,East,4,0.2,31.66
+CA-2021-10040,2021-01-17,283.94,Furniture,Tables,East,2,0.2,23.59
+CA-2021-10041,2021-01-18,335.39,Furniture,Bookcases,Central,2,0.2,46.58
+CA-2021-10042,2021-01-19,22.77,Office Supplies,Storage,South,1,0.1,4.62
+CA-2021-10043,2021-01-19,99.76,Office Supplies,Binders,Central,1,0.1,14.42
+CA-2021-10044,2021-01-19,337.29,Furniture,Chairs,Central,3,0.15,46.79
+CA-2021-10045,2021-01-20,120.1,Office Supplies,Paper,South,1,0.0,11.31
+CA-2021-10046,2021-01-20,65.31,Office Supplies,Art,Central,1,0.2,12.79
+CA-2021-10047,2021-01-20,208.61,Technology,Copiers,West,3,0.1,39.33
+CA-2021-10048,2021-01-21,393.21,Technology,Accessories,Central,10,0.0,96.56
+CA-2021-10049,2021-01-21,54.08,Furniture,Bookcases,South,1,0.2,10.07
+CA-2021-10050,2021-01-22,310.3,Office Supplies,Art,West,5,0.0,49.58
+CA-2021-10051,2021-01-22,38.43,Technology,Machines,West,1,0.0,4.49
+CA-2021-10052,2021-01-22,36.76,Office Supplies,Paper,South,1,0.1,9.67
+CA-2021-10053,2021-01-23,237.78,Furniture,Chairs,South,2,0.2,45.39
+CA-2021-10054,2021-01-23,204.7,Office Supplies,Appliances,Central,7,0.1,30.95
+CA-2021-10055,2021-01-24,504.02,Furniture,Tables,South,19,0.0,71.71
+CA-2021-10056,2021-01-25,177.37,Office Supplies,Appliances,South,6,0.15,14.73
+CA-2021-10057,2021-01-25,158.49,Technology,Accessories,South,1,0.0,34.36
+CA-2021-10058,2021-01-26,234.92,Office Supplies,Storage,South,6,0.0,44.43
+CA-2021-10059,2021-01-26,164.29,Furniture,Furnishings,Central,1,0.2,42.89
+CA-2021-10060,2021-01-26,82.33,Furniture,Chairs,South,2,0.1,7.23
+CA-2021-10061,2021-01-27,59.61,Office Supplies,Binders,Central,1,0.2,13.03
+CA-2021-10062,2021-01-27,289.16,Office Supplies,Appliances,Central,2,0.2,47.3
+CA-2021-10063,2021-01-28,488.36,Office Supplies,Appliances,East,5,0.15,135.81
+CA-2021-10064,2021-01-29,91.59,Furniture,Bookcases,East,1,0.15,9.22
+CA-2021-10065,2021-01-29,212.76,Furniture,Chairs,West,2,0.0,30.64
+CA-2021-10066,2021-01-29,86.99,Technology,Copiers,East,3,0.0,22.71
+CA-2021-10067,2021-01-30,483.63,Office Supplies,Art,Central,5,0.2,82.07
+CA-2021-10068,2021-01-31,24.62,Technology,Phones,East,1,0.15,6.87
+CA-2021-10069,2021-01-31,300.86,Office Supplies,Appliances,Central,2,0.15,66.54
+CA-2021-10070,2021-01-31,156.49,Technology,Machines,East,1,0.2,39.65
+CA-2021-10071,2021-02-01,21.73,Office Supplies,Paper,West,1,0.1,2.09
+CA-2021-10072,2021-02-01,298.64,Furniture,Tables,Central,3,0.0,46.03
+CA-2021-10073,2021-02-02,405.62,Technology,Copiers,West,2,0.15,67.69
+CA-2021-10074,2021-02-03,435.17,Office Supplies,Binders,South,12,0.0,106.43
+CA-2021-10075,2021-02-04,217.85,Furniture,Furnishings,East,4,0.1,52.38
+CA-2021-10076,2021-02-04,276.81,Furniture,Furnishings,East,10,0.0,24.55
+CA-2021-10077,2021-02-05,590.66,Furniture,Furnishings,Central,5,0.0,109.05
+CA-2021-10078,2021-02-06,531.56,Technology,Phones,Central,9,0.2,48.68
+CA-2021-10079,2021-02-06,115.79,Office Supplies,Art,South,1,0.2,13.19
+CA-2021-10080,2021-02-06,47.03,Office Supplies,Binders,South,1,0.2,7.15
+CA-2021-10081,2021-02-07,327.13,Furniture,Furnishings,South,7,0.1,31.16
+CA-2021-10082,2021-02-07,209.76,Office Supplies,Binders,Central,1,0.15,55.34
+CA-2021-10083,2021-02-07,101.15,Office Supplies,Binders,Central,3,0.15,16.41
+CA-2021-10084,2021-02-08,40.79,Office Supplies,Storage,Central,1,0.0,7.09
+CA-2021-10085,2021-02-08,225.64,Technology,Copiers,East,10,0.15,57.07
+CA-2021-10086,2021-02-08,119.98,Furniture,Chairs,Central,1,0.15,22.93
+CA-2021-10087,2021-02-09,548.35,Office Supplies,Binders,Central,10,0.1,66.36
+CA-2021-10088,2021-02-10,250.51,Office Supplies,Art,Central,7,0.1,45.0
+CA-2021-10089,2021-02-10,168.31,Office Supplies,Storage,Central,2,0.0,32.04
+CA-2021-10090,2021-02-11,416.48,Technology,Phones,East,11,0.15,68.35
+CA-2021-10091,2021-02-12,347.56,Office Supplies,Binders,West,3,0.15,58.21
+CA-2021-10092,2021-02-12,212.78,Technology,Accessories,South,2,0.0,50.37
+CA-2021-10093,2021-02-12,21.26,Office Supplies,Binders,Central,1,0.0,2.33
+CA-2021-10094,2021-02-13,707.42,Furniture,Tables,West,8,0.0,86.18
+CA-2021-10095,2021-02-14,146.53,Office Supplies,Art,South,1,0.0,38.0
+CA-2021-10096,2021-02-14,145.52,Technology,Copiers,East,1,0.0,17.24
+CA-2021-10097,2021-02-14,174.98,Technology,Phones,East,2,0.1,20.19
+CA-2021-10098,2021-02-15,453.66,Furniture,Chairs,South,9,0.1,47.97
+CA-2021-10099,2021-02-16,255.76,Technology,Machines,West,6,0.2,23.59
+CA-2021-10100,2021-02-16,157.39,Office Supplies,Art,East,5,0.15,18.4
+CA-2021-10101,2021-02-17,89.14,Technology,Accessories,South,1,0.1,7.79
+CA-2021-10102,2021-02-17,298.74,Technology,Copiers,Central,2,0.1,68.69
+CA-2021-10103,2021-02-17,31.22,Furniture,Tables,West,1,0.15,4.01
+CA-2021-10104,2021-02-18,138.63,Office Supplies,Binders,West,3,0.0,20.6
+CA-2021-10105,2021-02-18,306.81,Furniture,Furnishings,West,2,0.0,53.97
+CA-2021-10106,2021-02-19,206.84,Technology,Accessories,East,3,0.2,43.27
+CA-2021-10107,2021-02-19,126.42,Office Supplies,Storage,South,1,0.1,25.43
+CA-2021-10108,2021-02-19,136.85,Furniture,Chairs,West,2,0.1,17.68
+CA-2021-10109,2021-02-20,594.42,Furniture,Bookcases,Central,6,0.2,130.41
+CA-2021-10110,2021-02-20,20.76,Technology,Accessories,West,1,0.15,5.26
+CA-2021-10111,2021-02-21,501.17,Office Supplies,Storage,West,3,0.15,93.72
+CA-2021-10112,2021-02-21,91.61,Office Supplies,Storage,East,1,0.1,25.07
+CA-2021-10113,2021-02-22,380.14,Furniture,Tables,West,6,0.0,68.89
+CA-2021-10114,2021-02-23,242.74,Office Supplies,Binders,East,8,0.2,29.21
+CA-2021-10115,2021-02-23,281.37,Office Supplies,Art,East,7,0.0,65.29
+CA-2021-10116,2021-02-23,19.69,Technology,Copiers,South,1,0.15,2.95
+CA-2021-10117,2021-02-24,15.69,Furniture,Furnishings,Central,1,0.1,3.76
+CA-2021-10118,2021-02-24,308.05,Technology,Phones,East,2,0.15,63.69
+CA-2021-10119,2021-02-24,194.77,Office Supplies,Art,East,1,0.0,42.19
+CA-2021-10120,2021-02-25,142.74,Furniture,Bookcases,Central,1,0.0,21.56
+CA-2021-10121,2021-02-25,262.34,Technology,Copiers,West,2,0.2,33.0
+CA-2021-10122,2021-02-25,111.64,Technology,Copiers,West,1,0.15,25.24
+CA-2021-10123,2021-02-26,128.81,Furniture,Tables,East,2,0.0,30.36
+CA-2021-10124,2021-02-26,101.48,Furniture,Tables,South,1,0.1,18.14
+CA-2021-10125,2021-02-26,298.58,Office Supplies,Paper,West,2,0.15,46.51
+CA-2021-10126,2021-02-27,714.0,Technology,Phones,South,18,0.15,115.52
+CA-2021-10127,2021-02-28,306.42,Technology,Accessories,West,4,0.1,49.08
+CA-2021-10128,2021-02-28,448.08,Technology,Accessories,West,4,0.1,88.38
+CA-2021-10129,2021-03-01,145.85,Technology,Machines,South,1,0.2,34.72
+CA-2021-10130,2021-03-01,405.99,Furniture,Furnishings,Central,10,0.2,62.88
+CA-2021-10131,2021-03-02,398.51,Office Supplies,Storage,South,4,0.15,36.25
+CA-2021-10132,2021-03-02,88.54,Furniture,Tables,South,1,0.1,12.99
+CA-2021-10133,2021-03-03,52.4,Technology,Accessories,Central,1,0.0,10.35
+CA-2021-10134,2021-03-03,194.96,Technology,Machines,Central,5,0.2,38.12
+CA-2021-10135,2021-03-03,250.95,Office Supplies,Appliances,South,4,0.0,49.22
+CA-2021-10136,2021-03-04,467.87,Office Supplies,Art,Central,3,0.0,65.46
+CA-2021-10137,2021-03-05,654.66,Technology,Copiers,South,4,0.2,113.68
+CA-2021-10138,2021-03-06,18.21,Office Supplies,Art,East,1,0.1,4.24
+CA-2021-10139,2021-03-06,400.3,Furniture,Furnishings,East,13,0.15,61.91
+CA-2021-10140,2021-03-06,161.79,Office Supplies,Storage,West,1,0.0,13.76
+CA-2021-10141,2021-03-07,632.62,Furniture,Bookcases,Central,12,0.15,114.57
+CA-2021-10142,2021-03-07,164.39,Office Supplies,Paper,Central,1,0.15,34.61
+CA-2021-10143,2021-03-08,159.79,Furniture,Tables,East,2,0.15,41.43
+CA-2021-10144,2021-03-08,284.26,Technology,Accessories,Central,2,0.0,24.25
+CA-2021-10145,2021-03-09,533.39,Furniture,Furnishings,West,3,0.15,109.32
+CA-2021-10146,2021-03-10,252.67,Office Supplies,Paper,West,1,0.15,68.14
+CA-2021-10147,2021-03-10,88.36,Office Supplies,Art,South,2,0.1,15.68
+CA-2021-10148,2021-03-10,277.09,Office Supplies,Paper,West,12,0.1,63.27
+CA-2021-10149,2021-03-11,401.58,Office Supplies,Storage,West,2,0.1,104.46
+CA-2021-10150,2021-03-11,119.33,Office Supplies,Appliances,Central,1,0.2,12.36
+CA-2021-10151,2021-03-12,516.03,Office Supplies,Binders,South,11,0.1,55.73
+CA-2021-10152,2021-03-13,338.86,Furniture,Chairs,East,7,0.0,83.91
+CA-2021-10153,2021-03-13,304.7,Furniture,Furnishings,West,3,0.2,45.94
+CA-2021-10154,2021-03-13,133.89,Office Supplies,Storage,East,4,0.2,31.36
+CA-2021-10155,2021-03-14,148.89,Technology,Machines,West,3,0.2,18.31
+CA-2021-10156,2021-03-14,352.88,Technology,Machines,Central,3,0.15,87.97
+CA-2021-10157,2021-03-14,272.95,Technology,Phones,Central,4,0.1,47.72
+CA-2021-10158,2021-03-15,474.8,Furniture,Chairs,East,4,0.2,79.27
+CA-2021-10159,2021-03-16,618.57,Technology,Accessories,West,6,0.15,88.4
+CA-2021-10160,2021-03-17,236.23,Technology,Phones,Central,7,0.2,60.14
+CA-2021-10161,2021-03-17,13.94,Technology,Phones,East,1,0.1,2.89
+CA-2021-10162,2021-03-17,284.35,Furniture,Tables,East,2,0.15,78.92
+CA-2021-10163,2021-03-18,269.06,Technology,Phones,Central,4,0.2,27.73
+CA-2021-10164,2021-03-18,212.52,Technology,Copiers,East,2,0.1,19.33
+CA-2021-10165,2021-03-18,124.41,Technology,Accessories,Central,1,0.0,26.13
+CA-2021-10166,2021-03-19,154.24,Technology,Machines,West,1,0.2,30.0
+CA-2021-10167,2021-03-19,123.01,Furniture,Furnishings,East,1,0.0,25.24
+CA-2021-10168,2021-03-19,405.58,Furniture,Tables,South,8,0.15,69.92
+CA-2021-10169,2021-03-20,382.21,Furniture,Chairs,West,4,0.0,74.97
+CA-2021-10170,2021-03-20,50.17,Technology,Phones,West,1,0.15,8.24
+CA-2021-10171,2021-03-20,284.92,Furniture,Chairs,West,13,0.0,43.0
+CA-2021-10172,2021-03-21,378.94,Furniture,Chairs,South,16,0.1,33.73
+CA-2021-10173,2021-03-21,248.63,Technology,Phones,East,2,0.2,67.45
+CA-2021-10174,2021-03-22,300.63,Technology,Accessories,East,2,0.15,83.65
+CA-2021-10175,2021-03-22,160.59,Technology,Machines,South,1,0.1,32.37
+CA-2021-10176,2021-03-23,648.32,Technology,Accessories,East,13,0.0,175.99
+CA-2021-10177,2021-03-24,387.79,Technology,Machines,West,4,0.15,61.75
+CA-2021-10178,2021-03-24,240.04,Office Supplies,Binders,West,1,0.15,58.37
+CA-2021-10179,2021-03-25,262.7,Furniture,Chairs,South,2,0.1,45.05
+CA-2021-10180,2021-03-25,371.11,Technology,Copiers,South,4,0.15,100.62
+CA-2021-10181,2021-03-26,714.08,Technology,Accessories,South,13,0.1,94.22
+CA-2021-10182,2021-03-27,815.75,Office Supplies,Appliances,South,23,0.2,77.68
+CA-2021-10183,2021-03-28,257.23,Office Supplies,Storage,East,4,0.1,47.4
+CA-2021-10184,2021-03-28,499.04,Furniture,Bookcases,Central,12,0.0,123.46
+CA-2021-10185,2021-03-29,591.59,Technology,Copiers,West,13,0.0,151.55
+CA-2021-10186,2021-03-30,58.65,Office Supplies,Appliances,East,1,0.1,8.06
+CA-2021-10187,2021-03-30,540.84,Office Supplies,Storage,East,5,0.2,71.37
+CA-2021-10188,2021-03-30,0.25,Furniture,Bookcases,South,1,0.1,0.02
+CA-2021-10189,2021-03-31,625.72,Technology,Machines,South,14,0.0,62.89
+CA-2021-10190,2021-04-01,594.03,Office Supplies,Paper,West,7,0.1,121.29
+CA-2021-10191,2021-04-01,36.73,Technology,Accessories,West,1,0.15,10.06
+CA-2021-10192,2021-04-02,65.86,Technology,Phones,West,1,0.2,15.42
+CA-2021-10193,2021-04-02,671.02,Office Supplies,Binders,West,12,0.0,180.41
+CA-2021-10194,2021-04-02,11.76,Technology,Phones,East,1,0.15,2.88
+CA-2021-10195,2021-04-03,403.18,Furniture,Tables,South,16,0.0,108.34
+CA-2021-10196,2021-04-03,375.55,Furniture,Bookcases,South,5,0.0,63.26
+CA-2021-10197,2021-04-03,112.79,Technology,Phones,West,1,0.15,25.85
+CA-2021-10198,2021-04-04,15.06,Technology,Machines,South,1,0.2,1.76
+CA-2021-10199,2021-04-04,502.26,Furniture,Chairs,East,12,0.15,125.04
+CA-2021-10200,2021-04-04,218.93,Technology,Copiers,East,5,0.0,57.44
+CA-2021-10201,2021-04-05,639.69,Furniture,Furnishings,Central,6,0.0,85.59
+CA-2021-10202,2021-04-06,626.84,Office Supplies,Binders,West,4,0.1,86.71
+CA-2021-10203,2021-04-06,24.43,Furniture,Chairs,East,1,0.0,2.15
+CA-2021-10204,2021-04-06,94.2,Office Supplies,Storage,South,2,0.2,26.12
+CA-2021-10205,2021-04-07,226.62,Office Supplies,Art,East,2,0.0,58.13
+CA-2021-10206,2021-04-07,407.51,Office Supplies,Paper,East,13,0.1,58.85
+CA-2021-10207,2021-04-08,229.03,Office Supplies,Binders,West,5,0.0,61.91
+CA-2021-10208,2021-04-08,319.51,Furniture,Bookcases,Central,13,0.1,64.96
+CA-2021-10209,2021-04-09,234.64,Technology,Copiers,Central,7,0.2,44.72
+CA-2021-10210,2021-04-09,365.67,Office Supplies,Binders,West,4,0.15,32.23
+CA-2021-10211,2021-04-10,284.83,Technology,Machines,East,3,0.15,35.27
+CA-2021-10212,2021-04-10,636.6,Technology,Accessories,South,5,0.0,151.47
+CA-2021-10213,2021-04-11,15.69,Furniture,Furnishings,South,1,0.15,1.51
+CA-2021-10214,2021-04-11,788.23,Technology,Copiers,East,26,0.15,95.15
+CA-2021-10215,2021-04-12,108.88,Furniture,Furnishings,South,1,0.2,16.79
+CA-2021-10216,2021-04-12,355.37,Office Supplies,Paper,Central,3,0.2,30.52
+CA-2021-10217,2021-04-12,227.72,Office Supplies,Art,West,2,0.2,37.42
+CA-2021-10218,2021-04-13,335.7,Office Supplies,Appliances,Central,6,0.1,74.92
+CA-2021-10219,2021-04-13,365.35,Office Supplies,Binders,South,5,0.1,42.45
+CA-2021-10220,2021-04-14,529.22,Furniture,Tables,West,3,0.15,105.09
+CA-2021-10221,2021-04-15,34.22,Office Supplies,Storage,East,1,0.0,8.03
+CA-2021-10222,2021-04-15,95.07,Furniture,Bookcases,Central,1,0.1,9.0
+CA-2021-10223,2021-04-15,668.33,Office Supplies,Binders,East,10,0.1,72.95
+CA-2021-10224,2021-04-16,836.6,Technology,Machines,East,15,0.1,94.97
+CA-2021-10225,2021-04-17,825.0,Technology,Copiers,West,17,0.0,71.64
+CA-2021-10226,2021-04-18,74.49,Office Supplies,Appliances,East,2,0.1,8.64
+CA-2021-10227,2021-04-18,960.0,Technology,Phones,East,11,0.1,208.94
+CA-2021-10228,2021-04-19,0.65,Furniture,Bookcases,Central,1,0.15,0.12
+CA-2021-10229,2021-04-19,398.08,Office Supplies,Art,Central,16,0.0,43.27
+CA-2021-10230,2021-04-19,133.79,Office Supplies,Binders,South,1,0.1,15.74
+CA-2021-10231,2021-04-20,140.92,Office Supplies,Binders,East,1,0.1,21.82
+CA-2021-10232,2021-04-20,74.02,Office Supplies,Binders,West,1,0.2,18.72
+CA-2021-10233,2021-04-20,255.69,Furniture,Furnishings,Central,1,0.1,67.44
+CA-2021-10234,2021-04-21,231.69,Office Supplies,Art,West,1,0.1,33.28
+CA-2021-10235,2021-04-21,487.47,Furniture,Chairs,East,3,0.0,47.82
+CA-2021-10236,2021-04-22,230.96,Office Supplies,Art,West,3,0.1,53.69
+CA-2021-10237,2021-04-22,363.02,Furniture,Bookcases,Central,2,0.0,37.77
+CA-2021-10238,2021-04-22,89.16,Office Supplies,Paper,East,1,0.2,18.01
+CA-2021-10239,2021-04-23,587.27,Furniture,Furnishings,East,7,0.1,55.58
+CA-2021-10240,2021-04-24,69.38,Furniture,Bookcases,East,1,0.2,17.31
+CA-2021-10241,2021-04-24,386.97,Furniture,Chairs,West,11,0.0,61.82
+CA-2021-10242,2021-04-24,535.75,Furniture,Bookcases,South,6,0.15,124.82
+CA-2021-10243,2021-04-25,220.96,Technology,Phones,South,1,0.2,58.64
+CA-2021-10244,2021-04-25,518.44,Technology,Machines,East,6,0.15,51.99
+CA-2021-10245,2021-04-25,169.09,Furniture,Furnishings,South,1,0.1,23.92
+CA-2021-10246,2021-04-26,281.13,Office Supplies,Binders,West,5,0.2,68.77
+CA-2021-10247,2021-04-26,321.78,Office Supplies,Storage,Central,2,0.1,77.21
+CA-2021-10248,2021-04-26,34.74,Technology,Copiers,Central,1,0.1,4.07
+CA-2021-10249,2021-04-27,451.04,Furniture,Tables,Central,3,0.15,93.63
+CA-2021-10250,2021-04-27,219.76,Furniture,Tables,South,4,0.0,46.0
+CA-2021-10251,2021-04-28,119.41,Furniture,Tables,Central,1,0.1,27.03
+CA-2021-10252,2021-04-28,630.64,Technology,Accessories,East,19,0.2,69.33
+CA-2021-10253,2021-04-29,592.54,Office Supplies,Paper,Central,6,0.1,50.2
+CA-2021-10254,2021-04-30,133.24,Furniture,Tables,East,1,0.1,14.44
+CA-2021-10255,2021-04-30,117.57,Technology,Copiers,East,1,0.1,19.47
+CA-2021-10256,2021-04-30,517.31,Technology,Phones,East,23,0.2,54.67
+CA-2021-10257,2021-05-01,571.54,Furniture,Chairs,South,12,0.2,87.67
+CA-2021-10258,2021-05-01,358.79,Office Supplies,Paper,Central,12,0.0,88.4
+CA-2021-10259,2021-05-02,810.07,Furniture,Furnishings,West,8,0.15,151.15
+CA-2021-10260,2021-05-03,51.5,Office Supplies,Paper,Central,1,0.1,7.56
+CA-2021-10261,2021-05-03,455.61,Office Supplies,Art,West,3,0.0,94.31
+CA-2021-10262,2021-05-04,121.66,Furniture,Bookcases,South,6,0.2,25.91
+CA-2021-10263,2021-05-04,416.27,Technology,Machines,West,8,0.2,114.4
+CA-2021-10264,2021-05-04,55.15,Office Supplies,Appliances,South,1,0.2,7.1
+CA-2021-10265,2021-05-05,40.02,Furniture,Chairs,South,1,0.2,8.88
+CA-2021-10266,2021-05-05,603.53,Office Supplies,Art,East,12,0.0,91.75
+CA-2021-10267,2021-05-06,722.55,Furniture,Chairs,East,12,0.2,98.22
+CA-2021-10268,2021-05-07,589.62,Technology,Phones,West,6,0.0,92.05
+CA-2021-10269,2021-05-07,231.88,Office Supplies,Storage,South,4,0.1,22.3
+CA-2021-10270,2021-05-07,28.44,Furniture,Bookcases,West,1,0.15,4.24
+CA-2021-10271,2021-05-08,318.37,Furniture,Chairs,West,5,0.15,56.48
+CA-2021-10272,2021-05-08,537.27,Office Supplies,Appliances,South,6,0.0,131.65
+CA-2021-10273,2021-05-09,796.17,Furniture,Bookcases,South,26,0.2,217.48
+CA-2021-10274,2021-05-10,625.49,Office Supplies,Appliances,South,4,0.2,77.06
+CA-2021-10275,2021-05-11,266.98,Furniture,Tables,West,1,0.0,54.44
+CA-2021-10276,2021-05-11,454.22,Technology,Phones,Central,8,0.15,43.12
+CA-2021-10277,2021-05-11,116.37,Office Supplies,Storage,Central,1,0.2,23.69
+CA-2021-10278,2021-05-12,272.87,Furniture,Furnishings,South,3,0.15,61.36
+CA-2021-10279,2021-05-12,277.99,Furniture,Furnishings,Central,3,0.0,41.93
+CA-2021-10280,2021-05-12,261.91,Technology,Machines,West,2,0.0,41.23
+CA-2021-10281,2021-05-13,120.16,Office Supplies,Appliances,East,1,0.1,15.41
+CA-2021-10282,2021-05-13,570.48,Furniture,Chairs,West,20,0.2,101.3
+CA-2021-10283,2021-05-14,108.47,Technology,Phones,West,2,0.1,15.72
+CA-2021-10284,2021-05-14,364.56,Office Supplies,Storage,East,3,0.0,62.66
+CA-2021-10285,2021-05-14,242.81,Furniture,Tables,East,6,0.2,57.64
+CA-2021-10286,2021-05-15,1054.23,Office Supplies,Binders,South,7,0.0,258.31
+CA-2021-10287,2021-05-16,191.61,Technology,Phones,South,2,0.0,21.08
+CA-2021-10288,2021-05-16,401.21,Furniture,Bookcases,East,15,0.2,38.9
+CA-2021-10289,2021-05-16,180.14,Technology,Phones,East,1,0.15,14.85
+CA-2021-10290,2021-05-17,227.54,Technology,Copiers,West,6,0.1,56.0
+CA-2021-10291,2021-05-17,183.79,Office Supplies,Art,East,3,0.2,23.08
+CA-2021-10292,2021-05-17,98.68,Furniture,Tables,Central,2,0.0,12.94
+CA-2021-10293,2021-05-18,13.83,Technology,Accessories,Central,1,0.0,1.45
+CA-2021-10294,2021-05-18,619.48,Technology,Machines,West,6,0.0,163.58
+CA-2021-10295,2021-05-19,229.73,Office Supplies,Paper,East,3,0.1,38.57
+CA-2021-10296,2021-05-19,691.97,Furniture,Tables,West,12,0.2,72.17
+CA-2021-10297,2021-05-20,463.3,Office Supplies,Paper,South,3,0.1,96.0
+CA-2021-10298,2021-05-20,220.61,Office Supplies,Appliances,West,1,0.2,42.26
+CA-2021-10299,2021-05-20,71.58,Technology,Machines,South,1,0.1,16.51
+CA-2021-10300,2021-05-21,857.48,Furniture,Chairs,Central,26,0.1,105.21
+CA-2021-10301,2021-05-22,108.93,Furniture,Chairs,East,1,0.15,11.02
+CA-2021-10302,2021-05-22,279.57,Technology,Phones,West,2,0.15,71.41
+CA-2021-10303,2021-05-22,355.81,Furniture,Bookcases,South,4,0.2,86.23
+CA-2021-10304,2021-05-23,209.81,Office Supplies,Appliances,South,1,0.15,24.67
+CA-2021-10305,2021-05-23,657.98,Furniture,Furnishings,East,7,0.2,53.33
+CA-2021-10306,2021-05-23,93.27,Office Supplies,Binders,West,1,0.1,11.24
+CA-2021-10307,2021-05-24,355.84,Technology,Copiers,Central,4,0.15,99.37
+CA-2021-10308,2021-05-24,283.94,Technology,Phones,South,2,0.2,35.05
+CA-2021-10309,2021-05-25,756.06,Office Supplies,Art,South,6,0.2,121.32
+CA-2021-10310,2021-05-25,2.05,Technology,Machines,East,1,0.2,0.21
+CA-2021-10311,2021-05-26,324.67,Office Supplies,Binders,West,2,0.15,27.46
+CA-2021-10312,2021-05-26,323.93,Technology,Phones,Central,10,0.1,70.97
+CA-2021-10313,2021-05-27,394.59,Technology,Phones,West,5,0.0,78.78
+CA-2021-10314,2021-05-27,108.5,Technology,Copiers,Central,1,0.1,22.62
+CA-2021-10315,2021-05-27,270.54,Furniture,Tables,South,3,0.15,28.05
+CA-2021-10316,2021-05-28,608.5,Technology,Phones,West,6,0.0,117.51
+CA-2021-10317,2021-05-28,177.12,Office Supplies,Binders,Central,7,0.0,34.92
+CA-2021-10318,2021-05-29,115.78,Office Supplies,Binders,Central,1,0.2,13.57
+CA-2021-10319,2021-05-29,921.63,Furniture,Chairs,West,6,0.2,98.33
+CA-2021-10320,2021-05-29,97.93,Office Supplies,Binders,Central,1,0.0,7.97
+CA-2021-10321,2021-05-30,989.48,Furniture,Bookcases,South,9,0.2,81.81
+CA-2021-10322,2021-05-31,124.73,Office Supplies,Paper,East,2,0.0,22.14
+CA-2021-10323,2021-05-31,559.88,Technology,Machines,West,4,0.0,83.53
+CA-2021-10324,2021-06-01,369.88,Technology,Copiers,West,3,0.15,100.86
+CA-2021-10325,2021-06-01,298.08,Technology,Machines,Central,4,0.1,48.81
+CA-2021-10326,2021-06-02,775.14,Technology,Accessories,East,8,0.15,109.87
+CA-2021-10327,2021-06-02,31.21,Furniture,Furnishings,South,1,0.0,2.63
+CA-2021-10328,2021-06-03,648.93,Office Supplies,Paper,Central,5,0.0,119.84
+CA-2021-10329,2021-06-04,369.2,Office Supplies,Binders,East,4,0.0,99.37
+CA-2021-10330,2021-06-04,440.24,Furniture,Tables,West,5,0.2,75.74
+CA-2021-10331,2021-06-05,484.94,Technology,Accessories,Central,18,0.15,87.02
+CA-2021-10332,2021-06-05,39.55,Technology,Phones,South,1,0.2,9.15
+CA-2021-10333,2021-06-05,441.92,Office Supplies,Appliances,Central,3,0.2,57.94
+CA-2021-10334,2021-06-06,464.66,Office Supplies,Storage,South,8,0.1,83.44
+CA-2021-10335,2021-06-06,457.66,Office Supplies,Art,Central,3,0.1,45.16
+CA-2021-10336,2021-06-07,668.54,Office Supplies,Art,South,5,0.0,138.33
+CA-2021-10337,2021-06-08,564.1,Office Supplies,Art,West,9,0.15,86.09
+CA-2021-10338,2021-06-08,127.36,Technology,Accessories,Central,1,0.0,25.42
+CA-2021-10339,2021-06-09,48.91,Technology,Phones,South,1,0.1,4.73
+CA-2021-10340,2021-06-09,539.08,Furniture,Furnishings,Central,6,0.2,149.69
+CA-2021-10341,2021-06-09,255.14,Furniture,Bookcases,East,2,0.0,36.89
+CA-2021-10342,2021-06-10,655.26,Furniture,Furnishings,East,5,0.1,62.83
+CA-2021-10343,2021-06-11,877.16,Furniture,Chairs,South,6,0.1,194.77
+CA-2021-10344,2021-06-12,559.67,Office Supplies,Storage,South,8,0.1,72.12
+CA-2021-10345,2021-06-12,200.05,Office Supplies,Paper,East,2,0.1,29.93
+CA-2021-10346,2021-06-12,155.74,Technology,Accessories,West,1,0.15,31.8
+CA-2021-10347,2021-06-13,314.22,Office Supplies,Storage,Central,13,0.0,67.63
+CA-2021-10348,2021-06-13,384.88,Office Supplies,Storage,South,18,0.15,44.25
+CA-2021-10349,2021-06-14,76.15,Furniture,Bookcases,West,1,0.0,6.6
+CA-2021-10350,2021-06-14,239.43,Furniture,Chairs,West,2,0.2,60.87
+CA-2021-10351,2021-06-14,275.46,Technology,Phones,Central,9,0.15,36.38
+CA-2021-10352,2021-06-15,776.36,Technology,Copiers,Central,22,0.2,121.04
+CA-2021-10353,2021-06-16,76.73,Office Supplies,Storage,South,3,0.2,17.49
+CA-2021-10354,2021-06-16,603.29,Office Supplies,Paper,Central,4,0.15,139.24
+CA-2021-10355,2021-06-17,614.18,Furniture,Bookcases,West,5,0.15,126.3
+CA-2021-10356,2021-06-18,697.73,Furniture,Tables,East,32,0.2,95.43
+CA-2021-10357,2021-06-18,362.68,Office Supplies,Storage,East,6,0.15,81.98
+CA-2021-10358,2021-06-19,1008.42,Office Supplies,Paper,East,10,0.0,280.15
+CA-2021-10359,2021-06-20,950.82,Technology,Copiers,South,7,0.0,175.23
+CA-2021-10360,2021-06-20,21.2,Furniture,Furnishings,South,1,0.2,2.18
+CA-2021-10361,2021-06-21,786.34,Furniture,Furnishings,Central,6,0.2,213.23
+CA-2021-10362,2021-06-22,374.59,Technology,Accessories,South,3,0.15,47.75
+CA-2021-10363,2021-06-22,98.39,Technology,Machines,South,1,0.2,17.47
+CA-2021-10364,2021-06-22,156.88,Office Supplies,Art,West,2,0.15,35.88
+CA-2021-10365,2021-06-23,717.53,Office Supplies,Paper,West,10,0.2,144.09
+CA-2021-10366,2021-06-24,637.38,Furniture,Bookcases,South,7,0.2,86.77
+CA-2021-10367,2021-06-24,72.08,Furniture,Chairs,East,3,0.1,6.48
+CA-2021-10368,2021-06-25,571.03,Furniture,Chairs,South,6,0.15,50.75
+CA-2021-10369,2021-06-25,103.1,Furniture,Chairs,South,3,0.0,25.12
+CA-2021-10370,2021-06-25,191.07,Furniture,Bookcases,Central,2,0.0,16.42
+CA-2021-10371,2021-06-26,132.99,Technology,Machines,South,1,0.0,17.51
+CA-2021-10372,2021-06-26,303.02,Furniture,Furnishings,East,2,0.15,82.06
+CA-2021-10373,2021-06-26,473.4,Furniture,Furnishings,East,4,0.15,105.81
+CA-2021-10374,2021-06-27,26.23,Office Supplies,Art,West,1,0.2,4.03
+CA-2021-10375,2021-06-27,395.64,Technology,Copiers,South,4,0.0,37.27
+CA-2021-10376,2021-06-27,495.81,Office Supplies,Storage,Central,4,0.1,105.96
+CA-2021-10377,2021-06-28,277.28,Furniture,Chairs,Central,2,0.2,57.56
+CA-2021-10378,2021-06-28,211.81,Furniture,Tables,East,7,0.2,58.94
+CA-2021-10379,2021-06-28,45.41,Office Supplies,Paper,East,1,0.15,7.71
+CA-2021-10380,2021-06-29,701.56,Furniture,Bookcases,Central,8,0.2,147.65
+CA-2021-10381,2021-06-29,36.45,Furniture,Tables,Central,1,0.15,3.48
+CA-2021-10382,2021-06-29,106.96,Furniture,Chairs,West,1,0.2,13.4
+CA-2021-10383,2021-06-30,244.71,Office Supplies,Storage,East,10,0.2,53.27
+CA-2021-10384,2021-06-30,17.89,Technology,Accessories,South,1,0.15,1.94
+CA-2021-10385,2021-06-30,378.66,Furniture,Chairs,Central,9,0.0,69.46
+CA-2021-10386,2021-07-01,378.63,Technology,Copiers,West,3,0.0,81.57
+CA-2021-10387,2021-07-01,155.64,Furniture,Furnishings,West,1,0.2,43.21
+CA-2021-10388,2021-07-02,1015.56,Office Supplies,Storage,Central,6,0.2,101.41
+CA-2021-10389,2021-07-03,53.11,Office Supplies,Storage,West,1,0.0,9.12
+CA-2021-10390,2021-07-03,829.37,Office Supplies,Binders,East,6,0.0,224.91
+CA-2021-10391,2021-07-04,289.31,Furniture,Bookcases,Central,7,0.0,45.45
+CA-2021-10392,2021-07-04,682.69,Office Supplies,Art,East,17,0.0,127.29
+CA-2021-10393,2021-07-05,584.58,Technology,Copiers,Central,8,0.1,77.09
+CA-2021-10394,2021-07-06,234.57,Furniture,Bookcases,East,2,0.15,28.49
+CA-2021-10395,2021-07-06,122.66,Furniture,Chairs,Central,1,0.2,17.81
+CA-2021-10396,2021-07-06,249.76,Office Supplies,Storage,East,2,0.2,21.95
+CA-2021-10397,2021-07-07,639.9,Office Supplies,Storage,Central,4,0.0,127.87
+CA-2021-10398,2021-07-08,54.41,Furniture,Chairs,South,1,0.1,4.73
+CA-2021-10399,2021-07-08,607.48,Office Supplies,Paper,Central,7,0.2,59.98
+CA-2021-10400,2021-07-09,400.23,Office Supplies,Storage,East,4,0.15,62.96
+CA-2021-10401,2021-07-09,211.95,Technology,Machines,East,3,0.0,53.65
+CA-2021-10402,2021-07-10,244.28,Technology,Machines,Central,7,0.2,19.7
+CA-2021-10403,2021-07-10,237.24,Furniture,Chairs,East,1,0.15,33.78
+CA-2021-10404,2021-07-10,435.48,Technology,Copiers,East,5,0.1,54.06
+CA-2021-10405,2021-07-11,9.66,Technology,Copiers,West,1,0.2,1.35
+CA-2021-10406,2021-07-11,324.17,Office Supplies,Paper,South,2,0.1,88.01
+CA-2021-10407,2021-07-11,582.35,Technology,Copiers,Central,12,0.1,143.08
+CA-2021-10408,2021-07-12,653.44,Furniture,Furnishings,South,5,0.2,158.03
+CA-2021-10409,2021-07-13,749.45,Office Supplies,Paper,West,24,0.2,162.99
+CA-2021-10410,2021-07-14,882.46,Office Supplies,Appliances,East,26,0.1,123.47
+CA-2021-10411,2021-07-15,768.79,Office Supplies,Art,South,9,0.1,72.71
+CA-2021-10412,2021-07-16,109.69,Office Supplies,Storage,West,1,0.0,27.25
+CA-2021-10413,2021-07-16,540.98,Furniture,Chairs,West,3,0.0,66.5
+CA-2021-10414,2021-07-17,255.79,Technology,Machines,West,3,0.2,52.43
+CA-2021-10415,2021-07-17,32.15,Office Supplies,Binders,South,1,0.0,7.74
+CA-2021-10416,2021-07-17,538.04,Office Supplies,Art,East,3,0.2,72.25
+CA-2021-10417,2021-07-18,391.67,Furniture,Furnishings,East,6,0.15,46.14
+CA-2021-10418,2021-07-18,288.59,Furniture,Tables,West,5,0.1,74.79
+CA-2021-10419,2021-07-19,354.89,Furniture,Furnishings,East,2,0.0,53.96
+CA-2021-10420,2021-07-19,234.69,Technology,Phones,Central,1,0.2,55.81
+CA-2021-10421,2021-07-20,680.92,Technology,Phones,East,6,0.1,131.37
+CA-2021-10422,2021-07-21,457.15,Furniture,Chairs,Central,4,0.0,62.03
+CA-2021-10423,2021-07-21,276.96,Technology,Phones,South,2,0.1,37.06
+CA-2021-10424,2021-07-21,36.83,Technology,Copiers,South,1,0.0,5.6
+CA-2021-10425,2021-07-22,690.63,Office Supplies,Storage,South,33,0.15,161.27
+CA-2021-10426,2021-07-23,508.7,Office Supplies,Paper,East,3,0.1,130.24
+CA-2021-10427,2021-07-23,340.46,Furniture,Furnishings,East,2,0.0,47.34
+CA-2021-10428,2021-07-24,248.91,Furniture,Furnishings,South,3,0.0,64.23
+CA-2021-10429,2021-07-24,684.27,Technology,Copiers,East,24,0.1,161.76
+CA-2021-10430,2021-07-25,763.42,Furniture,Tables,West,14,0.1,112.58
+CA-2021-10431,2021-07-26,73.66,Furniture,Bookcases,East,1,0.2,11.75
+CA-2021-10432,2021-07-26,434.62,Furniture,Furnishings,Central,3,0.15,53.88
+CA-2021-10433,2021-07-26,57.0,Office Supplies,Art,Central,1,0.1,13.34
+CA-2021-10434,2021-07-27,323.67,Technology,Machines,South,5,0.0,73.73
+CA-2021-10435,2021-07-27,141.61,Technology,Machines,East,2,0.2,27.42
+CA-2021-10436,2021-07-28,221.9,Technology,Phones,South,2,0.1,24.51
+CA-2021-10437,2021-07-28,156.08,Technology,Phones,East,1,0.1,27.6
+CA-2021-10438,2021-07-28,349.02,Technology,Machines,Central,3,0.2,94.78
+CA-2021-10439,2021-07-29,838.5,Office Supplies,Storage,Central,9,0.1,128.4
+CA-2021-10440,2021-07-30,390.35,Technology,Phones,Central,9,0.0,72.39
+CA-2021-10441,2021-07-30,323.89,Technology,Copiers,South,3,0.0,48.27
+CA-2021-10442,2021-07-31,284.79,Technology,Copiers,East,2,0.1,31.17
+CA-2021-10443,2021-07-31,526.8,Furniture,Furnishings,South,10,0.2,56.29
+CA-2021-10444,2021-08-01,55.01,Office Supplies,Binders,West,1,0.0,9.45
+CA-2021-10445,2021-08-01,374.46,Technology,Accessories,West,4,0.2,97.19
+CA-2021-10446,2021-08-01,412.32,Furniture,Chairs,South,2,0.1,103.39
+CA-2021-10447,2021-08-02,62.16,Technology,Accessories,West,1,0.15,10.68
+CA-2021-10448,2021-08-02,545.65,Office Supplies,Storage,Central,18,0.1,45.07
+CA-2021-10449,2021-08-03,600.25,Furniture,Furnishings,West,4,0.2,67.43
+CA-2021-10450,2021-08-04,627.83,Furniture,Bookcases,Central,5,0.2,121.18
+CA-2021-10451,2021-08-04,140.8,Office Supplies,Appliances,West,1,0.0,11.52
+CA-2021-10452,2021-08-05,690.62,Office Supplies,Art,South,5,0.2,166.89
+CA-2021-10453,2021-08-05,19.93,Office Supplies,Appliances,Central,1,0.15,5.16
+CA-2021-10454,2021-08-06,739.16,Furniture,Tables,South,4,0.1,205.97
+CA-2021-10455,2021-08-07,716.16,Technology,Phones,Central,7,0.1,146.39
+CA-2021-10456,2021-08-08,660.71,Furniture,Bookcases,West,6,0.1,172.08
+CA-2021-10457,2021-08-09,500.82,Office Supplies,Appliances,East,3,0.0,112.1
+CA-2021-10458,2021-08-10,141.86,Furniture,Furnishings,Central,1,0.15,35.35
+CA-2021-10459,2021-08-10,100.47,Furniture,Chairs,West,1,0.1,25.9
+CA-2021-10460,2021-08-10,465.56,Office Supplies,Art,East,4,0.0,64.78
+CA-2021-10461,2021-08-11,311.83,Technology,Copiers,East,3,0.15,75.52
+CA-2021-10462,2021-08-11,302.06,Technology,Phones,South,2,0.2,45.47
+CA-2021-10463,2021-08-12,338.91,Technology,Phones,East,4,0.0,79.0
+CA-2021-10464,2021-08-12,290.92,Furniture,Chairs,East,10,0.1,26.45
+CA-2021-10465,2021-08-12,21.72,Office Supplies,Appliances,East,1,0.2,1.74
+CA-2021-10466,2021-08-13,148.08,Office Supplies,Appliances,East,2,0.15,17.22
+CA-2021-10467,2021-08-13,391.9,Office Supplies,Storage,Central,3,0.15,48.63
+CA-2021-10468,2021-08-13,259.02,Office Supplies,Appliances,West,2,0.0,40.44
+CA-2021-10469,2021-08-14,255.78,Technology,Accessories,East,4,0.2,22.63
+CA-2021-10470,2021-08-14,401.89,Furniture,Chairs,South,2,0.15,89.57
+CA-2021-10471,2021-08-14,59.56,Furniture,Chairs,West,1,0.15,10.83
+CA-2021-10472,2021-08-15,417.24,Technology,Accessories,East,11,0.1,94.21
+CA-2021-10473,2021-08-15,437.57,Office Supplies,Paper,East,18,0.0,52.09
+CA-2021-10474,2021-08-16,527.82,Furniture,Bookcases,East,4,0.2,113.06
+CA-2021-10475,2021-08-17,756.4,Technology,Machines,South,10,0.2,118.66
+CA-2021-10476,2021-08-18,219.11,Furniture,Tables,West,2,0.2,42.02
+CA-2021-10477,2021-08-18,19.1,Furniture,Bookcases,West,1,0.0,3.59
+CA-2021-10478,2021-08-18,229.64,Furniture,Chairs,East,2,0.1,23.81
+CA-2021-10479,2021-08-19,86.02,Technology,Phones,East,2,0.1,17.63
+CA-2021-10480,2021-08-19,79.47,Technology,Accessories,South,1,0.15,6.55
+CA-2021-10481,2021-08-19,475.88,Furniture,Chairs,South,8,0.15,56.29
+CA-2021-10482,2021-08-20,738.23,Furniture,Chairs,South,10,0.1,95.55
+CA-2021-10483,2021-08-21,743.37,Furniture,Bookcases,West,15,0.15,199.88
+CA-2021-10484,2021-08-22,752.7,Technology,Copiers,Central,16,0.15,178.43
+CA-2021-10485,2021-08-23,551.07,Office Supplies,Appliances,West,12,0.1,104.46
+CA-2021-10486,2021-08-24,477.82,Furniture,Chairs,Central,5,0.15,63.48
+CA-2021-10487,2021-08-24,124.05,Office Supplies,Binders,East,1,0.1,17.06
+CA-2021-10488,2021-08-25,153.66,Technology,Phones,West,1,0.15,31.46
+CA-2021-10489,2021-08-25,32.08,Technology,Accessories,West,1,0.1,8.76
+CA-2021-10490,2021-08-25,441.1,Technology,Copiers,West,5,0.2,89.1
+CA-2021-10491,2021-08-26,614.05,Technology,Machines,West,4,0.0,63.5
+CA-2021-10492,2021-08-27,315.88,Office Supplies,Art,West,4,0.0,51.06
+CA-2021-10493,2021-08-27,508.11,Furniture,Chairs,South,3,0.0,86.4
+CA-2021-10494,2021-08-27,53.63,Furniture,Tables,South,1,0.1,6.31
+CA-2021-10495,2021-08-28,673.52,Office Supplies,Storage,West,10,0.2,154.69
+CA-2021-10496,2021-08-28,19.19,Technology,Phones,South,1,0.2,3.2
+CA-2021-10497,2021-08-29,908.97,Office Supplies,Art,East,28,0.0,221.49
+CA-2021-10498,2021-08-30,484.76,Furniture,Tables,East,16,0.1,44.84
+CA-2021-10499,2021-08-30,5.0,Furniture,Tables,Central,1,0.0,1.07
+CA-2021-10500,2021-08-30,103.12,Office Supplies,Binders,West,1,0.15,18.43
+CA-2021-10501,2021-08-31,173.44,Office Supplies,Storage,West,2,0.0,21.03
+CA-2021-10502,2021-08-31,245.6,Technology,Phones,Central,4,0.2,64.6
+CA-2021-10503,2021-08-31,242.14,Furniture,Chairs,West,1,0.0,39.29
+CA-2021-10504,2021-09-01,102.95,Office Supplies,Art,West,1,0.0,24.38
+CA-2021-10505,2021-09-01,440.72,Office Supplies,Binders,Central,7,0.15,88.04
+CA-2021-10506,2021-09-02,10.67,Technology,Phones,Central,1,0.1,2.25
+CA-2021-10507,2021-09-02,124.61,Furniture,Tables,West,3,0.0,11.73
+CA-2021-10508,2021-09-02,483.1,Office Supplies,Art,East,4,0.15,117.31
+CA-2021-10509,2021-09-03,80.33,Technology,Machines,West,1,0.0,18.36
+CA-2021-10510,2021-09-03,234.33,Office Supplies,Art,South,1,0.15,28.87
+CA-2021-10511,2021-09-03,254.53,Technology,Machines,East,4,0.1,39.38
+CA-2021-10512,2021-09-04,678.19,Furniture,Tables,Central,5,0.15,80.55
+CA-2021-10513,2021-09-05,279.57,Technology,Machines,Central,3,0.15,56.5
+CA-2021-10514,2021-09-05,381.19,Furniture,Bookcases,East,5,0.2,83.4
+CA-2021-10515,2021-09-06,467.93,Furniture,Tables,East,4,0.1,65.21
+CA-2021-10516,2021-09-07,455.57,Technology,Machines,West,3,0.1,68.72
+CA-2021-10517,2021-09-07,100.85,Technology,Machines,West,1,0.2,14.34
+CA-2021-10518,2021-09-08,38.57,Technology,Phones,East,1,0.1,9.81
+CA-2021-10519,2021-09-08,35.83,Technology,Accessories,South,1,0.0,4.33
+CA-2021-10520,2021-09-08,464.73,Office Supplies,Storage,East,3,0.1,39.24
+CA-2021-10521,2021-09-09,54.78,Furniture,Bookcases,South,1,0.0,6.64
+CA-2021-10522,2021-09-09,415.7,Furniture,Tables,East,3,0.1,75.47
+CA-2021-10523,2021-09-09,55.69,Furniture,Chairs,East,1,0.15,5.22
+CA-2021-10524,2021-09-10,859.84,Office Supplies,Art,South,40,0.2,188.7
+CA-2021-10525,2021-09-11,637.77,Office Supplies,Paper,Central,17,0.1,151.99
+CA-2021-10526,2021-09-12,260.31,Technology,Phones,West,3,0.2,21.63
+CA-2021-10527,2021-09-12,332.53,Office Supplies,Art,Central,3,0.2,82.99
+CA-2021-10528,2021-09-13,465.08,Office Supplies,Binders,East,3,0.15,58.74
+CA-2021-10529,2021-09-14,440.58,Office Supplies,Art,Central,6,0.15,93.11
+CA-2021-10530,2021-09-14,67.3,Technology,Machines,Central,1,0.1,14.29
+CA-2021-10531,2021-09-15,549.29,Technology,Machines,West,4,0.15,49.29
+CA-2021-10532,2021-09-16,231.21,Technology,Machines,West,1,0.15,49.53
+CA-2021-10533,2021-09-16,211.51,Furniture,Bookcases,Central,1,0.15,54.59
+CA-2021-10534,2021-09-17,771.0,Technology,Copiers,Central,10,0.1,198.78
+CA-2021-10535,2021-09-18,353.84,Technology,Accessories,South,7,0.15,41.43
+CA-2021-10536,2021-09-18,517.45,Furniture,Bookcases,West,6,0.2,116.36
+CA-2021-10537,2021-09-19,108.63,Technology,Accessories,Central,1,0.2,18.06
+CA-2021-10538,2021-09-19,41.8,Office Supplies,Paper,Central,1,0.15,8.66
+CA-2021-10539,2021-09-19,621.67,Furniture,Tables,East,4,0.0,136.1
+CA-2021-10540,2021-09-20,20.29,Technology,Machines,South,1,0.1,4.82
+CA-2021-10541,2021-09-20,466.47,Office Supplies,Appliances,South,6,0.2,57.58
+CA-2021-10542,2021-09-21,451.35,Office Supplies,Appliances,East,3,0.15,86.42
+CA-2021-10543,2021-09-22,388.07,Technology,Phones,Central,2,0.1,38.37
+CA-2021-10544,2021-09-22,155.46,Technology,Phones,West,1,0.1,15.39
+CA-2021-10545,2021-09-23,257.72,Technology,Phones,Central,5,0.15,36.29
+CA-2021-10546,2021-09-23,153.61,Furniture,Chairs,Central,6,0.15,38.38
+CA-2021-10547,2021-09-23,106.61,Office Supplies,Storage,West,1,0.2,15.18
+CA-2021-10548,2021-09-24,316.61,Furniture,Chairs,East,3,0.0,29.72
+CA-2021-10549,2021-09-24,168.59,Furniture,Bookcases,Central,2,0.1,18.16
+CA-2021-10550,2021-09-24,144.58,Furniture,Furnishings,South,1,0.2,22.53
+CA-2021-10551,2021-09-25,260.96,Technology,Phones,Central,3,0.1,54.78
+CA-2021-10552,2021-09-25,467.84,Furniture,Tables,South,3,0.1,42.42
+CA-2021-10553,2021-09-26,344.99,Furniture,Bookcases,East,3,0.0,72.35
+CA-2021-10554,2021-09-26,20.19,Office Supplies,Storage,East,1,0.2,3.29
+CA-2021-10555,2021-09-26,448.6,Office Supplies,Binders,Central,5,0.1,51.12
+CA-2021-10556,2021-09-27,258.21,Technology,Copiers,South,3,0.2,70.28
+CA-2021-10557,2021-09-27,160.88,Technology,Machines,South,1,0.0,17.82
+CA-2021-10558,2021-09-28,206.59,Technology,Accessories,South,8,0.2,26.06
+CA-2021-10559,2021-09-28,212.12,Furniture,Furnishings,South,1,0.2,46.27
+CA-2021-10560,2021-09-29,29.88,Technology,Phones,Central,1,0.15,3.14
+CA-2021-10561,2021-09-29,250.27,Technology,Machines,East,1,0.15,50.21
+CA-2021-10562,2021-09-29,273.52,Furniture,Furnishings,Central,2,0.1,28.88
+CA-2021-10563,2021-09-30,466.71,Office Supplies,Appliances,Central,5,0.1,43.97
+CA-2021-10564,2021-10-01,132.62,Office Supplies,Binders,South,3,0.0,24.66
+CA-2021-10565,2021-10-01,322.3,Furniture,Tables,East,2,0.2,26.35
+CA-2021-10566,2021-10-02,633.89,Office Supplies,Art,East,9,0.0,58.64
+CA-2021-10567,2021-10-03,601.19,Technology,Accessories,South,20,0.2,66.72
+CA-2021-10568,2021-10-04,224.04,Office Supplies,Binders,South,3,0.2,45.88
+CA-2021-10569,2021-10-04,175.42,Office Supplies,Paper,East,2,0.15,27.92
+CA-2021-10570,2021-10-04,30.98,Technology,Accessories,East,1,0.0,3.66
+CA-2021-10571,2021-10-05,454.53,Technology,Machines,South,4,0.1,64.9
+CA-2021-10572,2021-10-06,577.8,Office Supplies,Storage,East,6,0.2,122.04
+CA-2021-10573,2021-10-07,409.11,Technology,Machines,West,11,0.15,69.87
+CA-2021-10574,2021-10-07,100.72,Furniture,Furnishings,West,1,0.0,27.22
+CA-2021-10575,2021-10-08,592.38,Office Supplies,Art,South,6,0.0,135.25
+CA-2021-10576,2021-10-09,69.48,Office Supplies,Storage,South,1,0.1,17.03
+CA-2021-10577,2021-10-09,386.09,Office Supplies,Appliances,West,2,0.2,59.55
+CA-2021-10578,2021-10-09,93.51,Office Supplies,Storage,West,1,0.15,13.79
+CA-2021-10579,2021-10-10,657.51,Furniture,Bookcases,East,12,0.0,167.54
+CA-2021-10580,2021-10-11,136.67,Office Supplies,Binders,East,1,0.0,17.28
+CA-2021-10581,2021-10-11,214.15,Furniture,Chairs,Central,4,0.2,37.95
+CA-2021-10582,2021-10-11,150.16,Office Supplies,Storage,East,1,0.2,18.25
+CA-2021-10583,2021-10-12,1.22,Technology,Accessories,West,1,0.0,0.27
+CA-2021-10584,2021-10-12,278.76,Furniture,Furnishings,West,3,0.1,48.82
+CA-2021-10585,2021-10-12,228.23,Technology,Phones,West,4,0.15,47.77
+CA-2021-10586,2021-10-13,111.79,Technology,Phones,Central,1,0.1,21.27
+CA-2021-10587,2021-10-13,282.7,Furniture,Tables,Central,6,0.15,65.23
+CA-2021-10588,2021-10-13,83.48,Furniture,Furnishings,Central,1,0.0,8.54
+CA-2021-10589,2021-10-14,222.12,Office Supplies,Storage,Central,2,0.15,52.1
+CA-2021-10590,2021-10-14,176.2,Office Supplies,Appliances,East,1,0.15,46.78
+CA-2021-10591,2021-10-15,474.06,Technology,Accessories,South,3,0.15,77.61
+CA-2021-10592,2021-10-15,133.94,Furniture,Chairs,Central,2,0.2,35.71
+CA-2021-10593,2021-10-16,94.94,Furniture,Bookcases,South,1,0.1,24.93
+CA-2021-10594,2021-10-16,155.8,Office Supplies,Appliances,South,1,0.0,34.47
+CA-2021-10595,2021-10-16,429.66,Technology,Machines,West,3,0.2,63.59
+CA-2021-10596,2021-10-17,138.59,Furniture,Bookcases,South,3,0.2,23.64
+CA-2021-10597,2021-10-17,6.82,Office Supplies,Art,Central,1,0.2,1.51
+CA-2021-10598,2021-10-17,350.56,Technology,Machines,Central,2,0.0,92.07
+CA-2021-10599,2021-10-18,147.48,Furniture,Bookcases,Central,3,0.0,19.16
+CA-2021-10600,2021-10-18,106.85,Technology,Accessories,Central,1,0.2,24.73
+CA-2021-10601,2021-10-18,88.9,Technology,Machines,Central,2,0.1,10.5
+CA-2021-10602,2021-10-19,396.25,Furniture,Furnishings,West,9,0.0,73.82
+CA-2021-10603,2021-10-19,130.23,Office Supplies,Appliances,Central,1,0.1,25.94
+CA-2021-10604,2021-10-20,406.75,Office Supplies,Paper,Central,6,0.15,33.77
+CA-2021-10605,2021-10-21,235.75,Technology,Machines,Central,3,0.1,34.27
+CA-2021-10606,2021-10-21,151.23,Furniture,Furnishings,Central,2,0.2,15.26
+CA-2021-10607,2021-10-21,73.5,Furniture,Chairs,Central,1,0.15,20.3
+CA-2021-10608,2021-10-22,355.07,Office Supplies,Appliances,Central,3,0.2,95.04
+CA-2021-10609,2021-10-22,250.98,Office Supplies,Art,West,2,0.15,68.76
+CA-2021-10610,2021-10-22,36.0,Furniture,Furnishings,Central,1,0.15,3.26
+CA-2021-10611,2021-10-23,656.12,Furniture,Bookcases,East,12,0.15,142.87
+CA-2021-10612,2021-10-24,363.52,Office Supplies,Paper,East,3,0.0,35.24
+CA-2021-10613,2021-10-24,242.06,Furniture,Furnishings,West,1,0.15,30.08
+CA-2021-10614,2021-10-25,25.74,Furniture,Chairs,Central,1,0.15,2.15
+CA-2021-10615,2021-10-25,147.09,Furniture,Tables,West,1,0.0,29.47
+CA-2021-10616,2021-10-25,245.69,Technology,Phones,West,3,0.1,51.8
+CA-2021-10617,2021-10-26,380.11,Furniture,Bookcases,South,7,0.15,77.0
+CA-2021-10618,2021-10-27,10.41,Technology,Machines,West,1,0.2,1.5
+CA-2021-10619,2021-10-27,273.31,Furniture,Chairs,Central,5,0.0,46.14
+CA-2021-10620,2021-10-27,241.58,Furniture,Tables,West,2,0.0,22.71
+CA-2021-10621,2021-10-28,4.55,Office Supplies,Art,South,1,0.15,0.45
+CA-2021-10622,2021-10-28,365.59,Technology,Copiers,Central,2,0.0,90.41
+CA-2021-10623,2021-10-28,26.13,Technology,Machines,South,1,0.1,3.74
+CA-2021-10624,2021-10-29,93.56,Furniture,Chairs,Central,1,0.15,24.21
+CA-2021-10625,2021-10-29,369.18,Technology,Phones,West,4,0.1,47.04
+CA-2021-10626,2021-10-29,42.97,Furniture,Bookcases,West,1,0.1,5.58
+CA-2021-10627,2021-10-30,324.69,Technology,Copiers,Central,2,0.15,89.51
+CA-2021-10628,2021-10-30,150.07,Technology,Machines,East,1,0.0,37.73
+CA-2021-10629,2021-10-31,481.08,Office Supplies,Storage,East,3,0.15,134.47
+CA-2021-10630,2021-10-31,117.63,Technology,Accessories,East,1,0.15,31.49
+CA-2021-10631,2021-11-01,80.35,Furniture,Furnishings,West,1,0.2,13.53
+CA-2021-10632,2021-11-01,101.38,Office Supplies,Binders,East,1,0.1,10.14
+CA-2021-10633,2021-11-01,367.19,Furniture,Chairs,West,9,0.2,41.35
+CA-2021-10634,2021-11-02,28.25,Technology,Copiers,East,1,0.2,3.83
+CA-2021-10635,2021-11-02,186.94,Furniture,Tables,West,7,0.15,30.66
+CA-2021-10636,2021-11-02,312.26,Technology,Accessories,Central,13,0.1,84.11
+CA-2021-10637,2021-11-03,16.04,Technology,Accessories,West,1,0.15,3.56
+CA-2021-10638,2021-11-03,346.39,Technology,Machines,Central,9,0.15,65.81
+CA-2021-10639,2021-11-03,197.85,Furniture,Tables,Central,1,0.0,28.39
+CA-2021-10640,2021-11-04,686.45,Office Supplies,Art,South,25,0.15,174.45
+CA-2021-10641,2021-11-05,113.96,Furniture,Tables,East,1,0.15,29.88
+CA-2021-10642,2021-11-05,203.62,Furniture,Furnishings,East,3,0.2,32.89
+CA-2021-10643,2021-11-05,138.44,Office Supplies,Appliances,West,5,0.0,20.42
+CA-2021-10644,2021-11-06,130.79,Furniture,Furnishings,West,2,0.15,18.24
+CA-2021-10645,2021-11-06,624.13,Technology,Copiers,Central,5,0.2,133.86
+CA-2021-10646,2021-11-07,603.29,Office Supplies,Storage,East,19,0.2,80.92
+CA-2021-10647,2021-11-07,202.73,Office Supplies,Appliances,West,2,0.15,56.3
+CA-2021-10648,2021-11-08,51.93,Furniture,Chairs,Central,1,0.0,12.13
+CA-2021-10649,2021-11-08,121.56,Technology,Machines,West,1,0.2,25.9
+CA-2021-10650,2021-11-08,402.1,Office Supplies,Appliances,Central,3,0.0,42.56
+CA-2021-10651,2021-11-09,268.13,Furniture,Bookcases,South,2,0.15,35.02
+CA-2021-10652,2021-11-09,6.44,Technology,Accessories,Central,1,0.15,1.76
+CA-2021-10653,2021-11-09,346.82,Technology,Machines,Central,3,0.0,93.22
+CA-2021-10654,2021-11-10,543.61,Office Supplies,Art,West,14,0.2,68.09
+CA-2021-10655,2021-11-11,528.05,Office Supplies,Binders,Central,18,0.2,64.67
+CA-2021-10656,2021-11-12,757.2,Technology,Copiers,East,5,0.2,133.04
+CA-2021-10657,2021-11-13,106.46,Office Supplies,Art,Central,1,0.0,22.84
+CA-2021-10658,2021-11-13,657.78,Office Supplies,Storage,West,6,0.1,104.97
+CA-2021-10659,2021-11-14,454.14,Furniture,Tables,West,14,0.1,47.91
+CA-2021-10660,2021-11-14,176.68,Office Supplies,Binders,South,4,0.1,39.39
+CA-2021-10661,2021-11-14,170.49,Office Supplies,Appliances,South,1,0.2,36.7
+CA-2021-10662,2021-11-15,87.33,Furniture,Furnishings,East,1,0.1,14.71
+CA-2021-10663,2021-11-15,421.52,Office Supplies,Art,South,3,0.15,80.64
+CA-2021-10664,2021-11-15,25.43,Technology,Accessories,South,1,0.0,6.26
+CA-2021-10665,2021-11-16,127.42,Technology,Machines,South,1,0.15,32.9
+CA-2021-10666,2021-11-16,70.63,Furniture,Bookcases,Central,1,0.15,7.74
+CA-2021-10667,2021-11-16,414.25,Office Supplies,Appliances,Central,3,0.0,75.76
+CA-2021-10668,2021-11-17,119.39,Technology,Phones,South,3,0.2,12.85
+CA-2021-10669,2021-11-17,489.01,Technology,Copiers,Central,3,0.15,91.14
+CA-2021-10670,2021-11-18,16.08,Technology,Phones,Central,1,0.15,2.31
+CA-2021-10671,2021-11-18,524.16,Office Supplies,Appliances,South,4,0.0,114.76
+CA-2021-10672,2021-11-19,802.55,Furniture,Furnishings,East,6,0.15,144.45
+CA-2021-10673,2021-11-20,42.67,Furniture,Furnishings,East,1,0.2,7.61
+CA-2021-10674,2021-11-20,666.31,Furniture,Tables,Central,14,0.2,126.74
+CA-2021-10675,2021-11-21,295.78,Technology,Machines,Central,2,0.15,55.86
+CA-2021-10676,2021-11-21,261.76,Office Supplies,Storage,West,4,0.15,23.12
+CA-2021-10677,2021-11-21,30.21,Technology,Copiers,South,1,0.2,4.28
+CA-2021-10678,2021-11-22,22.15,Technology,Machines,West,1,0.15,4.61
+CA-2021-10679,2021-11-22,500.04,Furniture,Furnishings,East,4,0.1,95.65
+CA-2021-10680,2021-11-23,220.26,Furniture,Chairs,East,1,0.0,60.2
+CA-2021-10681,2021-11-23,430.82,Technology,Machines,East,3,0.1,69.99
+CA-2021-10682,2021-11-24,197.42,Office Supplies,Art,Central,1,0.1,48.0
+CA-2021-10683,2021-11-24,385.35,Furniture,Bookcases,East,4,0.1,35.54
+CA-2021-10684,2021-11-25,244.32,Technology,Accessories,South,1,0.1,38.47
+CA-2021-10685,2021-11-25,285.55,Technology,Phones,South,3,0.1,26.35
+CA-2021-10686,2021-11-26,185.73,Furniture,Chairs,West,2,0.15,34.37
+CA-2021-10687,2021-11-26,454.26,Office Supplies,Storage,South,7,0.2,71.93
+CA-2021-10688,2021-11-26,50.39,Office Supplies,Art,East,1,0.1,4.62
+CA-2021-10689,2021-11-27,983.7,Furniture,Furnishings,Central,16,0.2,94.29
+CA-2021-10690,2021-11-28,618.02,Furniture,Furnishings,Central,15,0.15,95.37
+CA-2021-10691,2021-11-28,110.48,Furniture,Chairs,Central,1,0.1,19.22
+CA-2021-10692,2021-11-28,129.91,Furniture,Furnishings,West,4,0.15,30.96
+CA-2021-10693,2021-11-29,51.13,Furniture,Bookcases,West,1,0.1,5.9
+CA-2021-10694,2021-11-29,445.71,Office Supplies,Art,South,3,0.15,81.68
+CA-2021-10695,2021-11-30,459.48,Office Supplies,Appliances,South,3,0.15,68.17
+CA-2021-10696,2021-11-30,0.89,Office Supplies,Appliances,South,1,0.0,0.17
+CA-2021-10697,2021-11-30,190.6,Furniture,Bookcases,West,1,0.0,19.69
+CA-2021-10698,2021-12-01,389.53,Furniture,Furnishings,Central,8,0.15,95.54
+CA-2021-10699,2021-12-01,196.5,Office Supplies,Art,East,2,0.2,37.52
+CA-2021-10700,2021-12-02,169.0,Technology,Copiers,South,1,0.15,33.97
+CA-2021-10701,2021-12-02,259.77,Technology,Copiers,East,2,0.0,63.36
+CA-2021-10702,2021-12-02,154.52,Furniture,Bookcases,East,1,0.2,38.24
+CA-2021-10703,2021-12-03,309.42,Furniture,Bookcases,Central,11,0.15,77.65
+CA-2021-10704,2021-12-03,94.65,Furniture,Bookcases,Central,1,0.15,11.25
+CA-2021-10705,2021-12-03,108.2,Technology,Machines,Central,3,0.0,20.63
+CA-2021-10706,2021-12-04,854.41,Furniture,Furnishings,West,5,0.0,225.14
+CA-2021-10707,2021-12-05,347.63,Furniture,Tables,Central,3,0.2,48.43
+CA-2021-10708,2021-12-05,462.7,Furniture,Tables,South,3,0.2,48.43
+CA-2021-10709,2021-12-06,212.52,Technology,Accessories,Central,1,0.0,23.06
+CA-2021-10710,2021-12-06,333.95,Furniture,Bookcases,West,5,0.15,27.0
+CA-2021-10711,2021-12-07,328.88,Furniture,Furnishings,West,2,0.2,89.24
+CA-2021-10712,2021-12-07,120.9,Office Supplies,Appliances,East,2,0.2,14.0
+CA-2021-10713,2021-12-07,239.66,Technology,Accessories,West,2,0.0,41.95
+CA-2021-10714,2021-12-08,348.93,Technology,Copiers,Central,2,0.0,75.88
+CA-2021-10715,2021-12-08,131.76,Office Supplies,Appliances,South,1,0.0,21.34
+CA-2021-10716,2021-12-08,226.61,Technology,Accessories,Central,10,0.15,33.27
+CA-2021-10717,2021-12-09,207.14,Office Supplies,Paper,East,1,0.1,43.59
+CA-2021-10718,2021-12-09,328.43,Office Supplies,Appliances,West,3,0.1,30.16
+CA-2021-10719,2021-12-09,31.33,Technology,Machines,East,1,0.2,7.08
+CA-2021-10720,2021-12-10,392.82,Furniture,Chairs,East,5,0.15,84.0
+CA-2021-10721,2021-12-10,440.82,Technology,Copiers,Central,4,0.0,87.62
+CA-2021-10722,2021-12-11,679.76,Technology,Phones,South,14,0.15,166.88
+CA-2021-10723,2021-12-12,123.9,Office Supplies,Storage,East,1,0.0,29.64
+CA-2021-10724,2021-12-12,428.35,Office Supplies,Appliances,East,5,0.2,56.66
+CA-2021-10725,2021-12-12,234.62,Furniture,Furnishings,East,2,0.1,32.29
+CA-2021-10726,2021-12-13,519.49,Office Supplies,Appliances,Central,5,0.2,54.92
+CA-2021-10727,2021-12-14,595.69,Technology,Accessories,South,6,0.0,62.59
+CA-2021-10728,2021-12-15,668.9,Office Supplies,Storage,West,4,0.1,137.39
+CA-2021-10729,2021-12-16,66.38,Furniture,Tables,Central,1,0.2,7.95
+CA-2021-10730,2021-12-16,163.8,Technology,Accessories,West,2,0.0,32.37
+CA-2021-10731,2021-12-16,288.7,Office Supplies,Paper,South,6,0.15,33.02
+CA-2021-10732,2021-12-17,582.01,Technology,Machines,Central,4,0.0,139.53
+CA-2021-10733,2021-12-18,811.92,Technology,Phones,South,7,0.0,156.63
+CA-2021-10734,2021-12-19,890.68,Furniture,Tables,East,15,0.2,184.99
+CA-2021-10735,2021-12-20,55.6,Technology,Phones,East,2,0.2,10.01
+CA-2021-10736,2021-12-20,481.74,Furniture,Tables,South,4,0.2,87.89
+CA-2021-10737,2021-12-20,62.62,Office Supplies,Art,Central,1,0.2,13.1
+CA-2021-10738,2021-12-21,528.68,Technology,Phones,East,4,0.0,87.57
+CA-2021-10739,2021-12-21,39.91,Office Supplies,Storage,West,1,0.15,8.34
+CA-2021-10740,2021-12-21,40.06,Furniture,Bookcases,West,1,0.15,7.4
+CA-2021-10741,2021-12-22,254.29,Technology,Phones,South,1,0.15,27.62
+CA-2021-10742,2021-12-22,398.93,Technology,Accessories,South,5,0.15,94.78
+CA-2021-10743,2021-12-23,74.49,Office Supplies,Paper,Central,1,0.15,18.73
+CA-2021-10744,2021-12-23,99.37,Office Supplies,Art,East,1,0.1,26.73
+CA-2021-10745,2021-12-23,431.34,Furniture,Tables,East,15,0.1,90.21
+CA-2021-10746,2021-12-24,329.63,Technology,Copiers,West,15,0.15,89.16
+CA-2021-10747,2021-12-24,431.43,Furniture,Tables,South,8,0.15,104.57
+CA-2021-10748,2021-12-25,190.77,Office Supplies,Art,Central,1,0.1,26.98
+CA-2021-10749,2021-12-25,505.71,Technology,Copiers,East,6,0.1,49.37
+CA-2021-10750,2021-12-25,106.89,Technology,Phones,Central,1,0.0,22.15
+CA-2021-10751,2021-12-26,358.29,Technology,Machines,East,2,0.15,79.5
+CA-2021-10752,2021-12-26,201.2,Office Supplies,Storage,South,2,0.2,44.14
+CA-2021-10753,2021-12-26,260.67,Technology,Copiers,East,4,0.2,26.72
+CA-2021-10754,2021-12-27,17.67,Technology,Machines,Central,1,0.15,4.47
+CA-2021-10755,2021-12-27,103.41,Office Supplies,Appliances,South,1,0.2,19.53
+CA-2021-10756,2021-12-27,476.62,Furniture,Tables,West,8,0.1,70.93
+CA-2021-10757,2021-12-28,140.67,Technology,Copiers,South,1,0.1,13.03
+CA-2021-10758,2021-12-28,476.65,Technology,Accessories,West,16,0.1,120.99
+CA-2021-10759,2021-12-29,462.62,Technology,Phones,South,3,0.2,75.77
+CA-2021-10760,2021-12-30,801.77,Technology,Accessories,South,9,0.1,183.82
+CA-2021-10761,2021-12-31,812.24,Technology,Phones,East,17,0.0,205.02
+CA-2022-10762,2022-01-01,0.05,Office Supplies,Binders,Central,1,0.15,0.01
+CA-2022-10763,2022-01-01,590.59,Office Supplies,Paper,Central,7,0.2,83.59
+CA-2022-10764,2022-01-02,246.51,Office Supplies,Binders,Central,2,0.2,21.64
+CA-2022-10765,2022-01-02,321.97,Furniture,Furnishings,West,4,0.0,54.36
+CA-2022-10766,2022-01-02,29.75,Technology,Phones,West,1,0.1,7.53
+CA-2022-10767,2022-01-03,15.81,Technology,Machines,West,1,0.2,2.15
+CA-2022-10768,2022-01-03,375.58,Office Supplies,Paper,South,2,0.2,94.87
+CA-2022-10769,2022-01-03,18.85,Furniture,Chairs,West,1,0.15,2.74
+CA-2022-10770,2022-01-04,287.35,Technology,Accessories,West,3,0.15,75.02
+CA-2022-10771,2022-01-04,122.04,Furniture,Bookcases,East,1,0.0,33.03
+CA-2022-10772,2022-01-05,249.49,Office Supplies,Paper,Central,2,0.1,55.78
+CA-2022-10773,2022-01-05,249.91,Technology,Copiers,East,8,0.15,58.02
+CA-2022-10774,2022-01-06,430.04,Furniture,Furnishings,West,5,0.0,104.9
+CA-2022-10775,2022-01-06,2.98,Technology,Copiers,South,1,0.2,0.41
+CA-2022-10776,2022-01-06,160.28,Office Supplies,Appliances,South,1,0.2,17.95
+CA-2022-10777,2022-01-07,333.71,Office Supplies,Paper,South,3,0.15,63.21
+CA-2022-10778,2022-01-07,59.72,Office Supplies,Storage,West,1,0.0,5.25
+CA-2022-10779,2022-01-07,163.87,Office Supplies,Appliances,Central,3,0.15,24.66
+CA-2022-10780,2022-01-08,689.31,Office Supplies,Paper,South,4,0.15,121.01
+CA-2022-10781,2022-01-09,614.23,Technology,Copiers,Central,6,0.0,164.38
+CA-2022-10782,2022-01-10,228.79,Office Supplies,Binders,Central,1,0.1,55.57
+CA-2022-10783,2022-01-10,109.99,Office Supplies,Art,East,1,0.15,14.02
+CA-2022-10784,2022-01-10,148.33,Office Supplies,Storage,South,1,0.2,32.52
+CA-2022-10785,2022-01-11,263.3,Technology,Accessories,West,6,0.2,48.3
+CA-2022-10786,2022-01-11,230.55,Furniture,Bookcases,East,2,0.1,21.78
+CA-2022-10787,2022-01-11,39.68,Office Supplies,Paper,Central,1,0.0,6.03
+CA-2022-10788,2022-01-12,420.05,Furniture,Chairs,West,5,0.2,43.96
+CA-2022-10789,2022-01-13,523.16,Furniture,Chairs,West,3,0.2,116.63
+CA-2022-10790,2022-01-14,565.31,Furniture,Chairs,West,4,0.2,148.84
+CA-2022-10791,2022-01-15,50.28,Furniture,Bookcases,South,1,0.2,9.89
+CA-2022-10792,2022-01-15,494.33,Technology,Copiers,South,18,0.15,88.9
+CA-2022-10793,2022-01-16,556.81,Office Supplies,Art,East,7,0.0,65.74
+CA-2022-10794,2022-01-16,122.0,Furniture,Tables,Central,1,0.0,20.27
+CA-2022-10795,2022-01-17,117.73,Furniture,Tables,Central,1,0.2,28.38
+CA-2022-10796,2022-01-17,145.05,Furniture,Tables,West,1,0.0,23.26
+CA-2022-10797,2022-01-17,163.13,Office Supplies,Appliances,Central,2,0.2,28.72
+CA-2022-10798,2022-01-18,179.76,Office Supplies,Paper,East,2,0.15,49.16
+CA-2022-10799,2022-01-18,271.87,Furniture,Tables,Central,2,0.2,47.58
+CA-2022-10800,2022-01-19,214.2,Office Supplies,Binders,South,5,0.2,35.51
+CA-2022-10801,2022-01-19,353.45,Office Supplies,Binders,East,5,0.0,75.17
+CA-2022-10802,2022-01-20,322.74,Office Supplies,Storage,West,2,0.1,30.24
+CA-2022-10803,2022-01-20,78.37,Office Supplies,Binders,South,1,0.1,15.63
+CA-2022-10804,2022-01-20,139.5,Technology,Machines,Central,1,0.15,20.65
+CA-2022-10805,2022-01-21,548.94,Furniture,Bookcases,Central,7,0.1,125.14
+CA-2022-10806,2022-01-21,25.35,Furniture,Chairs,East,1,0.0,3.48
+CA-2022-10807,2022-01-21,126.75,Office Supplies,Appliances,South,2,0.15,27.99
+CA-2022-10808,2022-01-22,309.3,Technology,Accessories,West,11,0.1,31.02
+CA-2022-10809,2022-01-22,128.39,Technology,Accessories,Central,1,0.2,11.74
+CA-2022-10810,2022-01-22,269.02,Office Supplies,Appliances,West,3,0.1,69.86
+CA-2022-10811,2022-01-23,233.19,Furniture,Tables,West,5,0.0,49.75
+CA-2022-10812,2022-01-23,458.78,Technology,Phones,Central,8,0.1,85.21
+CA-2022-10813,2022-01-24,402.0,Furniture,Tables,South,4,0.2,67.35
+CA-2022-10814,2022-01-24,71.35,Furniture,Tables,East,1,0.1,19.02
+CA-2022-10815,2022-01-25,117.18,Office Supplies,Appliances,South,1,0.1,30.95
+CA-2022-10816,2022-01-25,66.71,Office Supplies,Paper,Central,1,0.2,9.67
+CA-2022-10817,2022-01-25,224.34,Furniture,Furnishings,West,2,0.1,38.48
+CA-2022-10818,2022-01-26,645.75,Office Supplies,Storage,West,7,0.2,100.48
+CA-2022-10819,2022-01-27,472.21,Office Supplies,Paper,South,6,0.15,48.92
+CA-2022-10820,2022-01-27,69.7,Technology,Machines,East,1,0.1,6.98
+CA-2022-10821,2022-01-28,309.22,Furniture,Tables,South,6,0.15,72.15
+CA-2022-10822,2022-01-28,303.57,Technology,Accessories,West,3,0.0,60.76
+CA-2022-10823,2022-01-28,144.99,Furniture,Furnishings,West,1,0.0,20.01
+CA-2022-10824,2022-01-29,484.97,Furniture,Furnishings,South,6,0.0,85.9
+CA-2022-10825,2022-01-29,113.27,Furniture,Furnishings,East,2,0.1,14.72
+CA-2022-10826,2022-01-30,21.74,Office Supplies,Appliances,East,1,0.1,1.78
+CA-2022-10827,2022-01-30,280.48,Technology,Accessories,West,2,0.2,24.41
+CA-2022-10828,2022-01-30,476.45,Office Supplies,Art,East,6,0.0,89.32
+CA-2022-10829,2022-01-31,306.11,Office Supplies,Binders,South,2,0.2,49.12
+CA-2022-10830,2022-01-31,130.29,Technology,Copiers,Central,2,0.0,20.14
+CA-2022-10831,2022-01-31,18.77,Technology,Machines,West,1,0.15,2.73
+CA-2022-10832,2022-02-01,177.78,Office Supplies,Appliances,Central,2,0.2,42.97
+CA-2022-10833,2022-02-01,21.82,Office Supplies,Paper,South,1,0.0,3.06
+CA-2022-10834,2022-02-01,287.48,Furniture,Furnishings,East,3,0.1,59.48
+CA-2022-10835,2022-02-02,18.9,Office Supplies,Appliances,South,1,0.15,5.06
+CA-2022-10836,2022-02-02,360.84,Furniture,Chairs,Central,3,0.2,95.53
+CA-2022-10837,2022-02-02,183.35,Technology,Accessories,Central,1,0.1,26.05
+CA-2022-10838,2022-02-03,38.9,Office Supplies,Art,East,1,0.1,9.35
+CA-2022-10839,2022-02-03,436.17,Technology,Phones,East,3,0.15,117.56
+CA-2022-10840,2022-02-04,287.9,Furniture,Chairs,Central,3,0.15,39.83
+CA-2022-10841,2022-02-04,86.95,Furniture,Tables,West,1,0.2,13.13
+CA-2022-10842,2022-02-04,244.17,Technology,Copiers,South,2,0.1,52.45
+CA-2022-10843,2022-02-05,2.64,Technology,Copiers,Central,1,0.2,0.43
+CA-2022-10844,2022-02-05,421.69,Office Supplies,Paper,South,6,0.0,101.02
+CA-2022-10845,2022-02-05,388.01,Technology,Copiers,South,2,0.1,61.0
+CA-2022-10846,2022-02-06,214.81,Technology,Machines,East,6,0.0,35.11
+CA-2022-10847,2022-02-06,15.62,Technology,Machines,Central,1,0.1,2.99
+CA-2022-10848,2022-02-06,357.39,Technology,Copiers,South,5,0.0,49.38
+CA-2022-10849,2022-02-07,472.5,Technology,Phones,South,9,0.2,44.92
+CA-2022-10850,2022-02-07,95.61,Technology,Accessories,West,1,0.1,16.38
+CA-2022-10851,2022-02-08,584.14,Furniture,Tables,West,10,0.15,161.66
+CA-2022-10852,2022-02-09,525.28,Furniture,Chairs,East,4,0.0,61.86
+CA-2022-10853,2022-02-10,668.76,Technology,Copiers,Central,5,0.0,68.47
+CA-2022-10854,2022-02-11,319.35,Office Supplies,Paper,East,2,0.15,64.83
+CA-2022-10855,2022-02-11,269.9,Technology,Machines,South,1,0.2,46.04
+CA-2022-10856,2022-02-11,205.3,Office Supplies,Paper,South,3,0.0,40.23
+CA-2022-10857,2022-02-12,619.72,Furniture,Chairs,East,22,0.0,98.2
+CA-2022-10858,2022-02-12,353.79,Technology,Phones,Central,5,0.0,46.62
+CA-2022-10859,2022-02-13,708.34,Technology,Accessories,Central,13,0.0,185.53
+CA-2022-10860,2022-02-14,504.75,Technology,Copiers,South,15,0.15,101.98
+CA-2022-10861,2022-02-15,292.01,Technology,Accessories,East,2,0.15,54.51
+CA-2022-10862,2022-02-15,326.76,Furniture,Furnishings,West,8,0.1,58.71
+CA-2022-10863,2022-02-16,588.11,Technology,Machines,West,10,0.1,163.53
+CA-2022-10864,2022-02-17,86.15,Furniture,Bookcases,South,1,0.0,15.75
+CA-2022-10865,2022-02-17,223.73,Technology,Copiers,East,1,0.0,26.29
+CA-2022-10866,2022-02-17,196.43,Furniture,Chairs,West,3,0.15,23.0
+CA-2022-10867,2022-02-18,127.35,Technology,Machines,West,1,0.0,24.69
+CA-2022-10868,2022-02-18,104.95,Office Supplies,Binders,Central,1,0.2,18.01
+CA-2022-10869,2022-02-18,606.93,Technology,Phones,Central,5,0.2,165.9
+CA-2022-10870,2022-02-19,895.66,Office Supplies,Storage,West,8,0.15,93.06
+CA-2022-10871,2022-02-20,766.19,Technology,Machines,East,11,0.0,68.64
+CA-2022-10872,2022-02-21,50.06,Office Supplies,Binders,West,1,0.2,13.85
+CA-2022-10873,2022-02-21,498.2,Technology,Accessories,East,4,0.2,77.81
+CA-2022-10874,2022-02-22,352.28,Office Supplies,Storage,West,4,0.15,30.32
+CA-2022-10875,2022-02-22,20.66,Office Supplies,Appliances,West,1,0.15,2.21
+CA-2022-10876,2022-02-22,282.74,Office Supplies,Storage,Central,9,0.0,42.29
+CA-2022-10877,2022-02-23,394.89,Office Supplies,Storage,East,3,0.0,48.76
+CA-2022-10878,2022-02-23,314.88,Technology,Phones,South,2,0.2,85.31
+CA-2022-10879,2022-02-24,218.32,Technology,Copiers,South,2,0.2,21.46
+CA-2022-10880,2022-02-24,134.25,Office Supplies,Appliances,Central,1,0.2,19.14
+CA-2022-10881,2022-02-24,468.41,Technology,Phones,East,3,0.0,75.81
+CA-2022-10882,2022-02-25,689.48,Technology,Copiers,South,8,0.2,180.61
+CA-2022-10883,2022-02-25,173.04,Technology,Copiers,East,3,0.0,33.54
+CA-2022-10884,2022-02-26,744.94,Furniture,Chairs,South,9,0.2,100.52
+CA-2022-10885,2022-02-27,352.22,Office Supplies,Storage,South,14,0.0,62.84
+CA-2022-10886,2022-02-27,52.62,Office Supplies,Paper,Central,1,0.0,4.76
+CA-2022-10887,2022-02-27,217.67,Furniture,Furnishings,Central,3,0.0,55.19
+CA-2022-10888,2022-02-28,544.33,Office Supplies,Binders,South,4,0.0,91.3
+CA-2022-10889,2022-03-01,669.56,Office Supplies,Binders,Central,12,0.1,139.13
+CA-2022-10890,2022-03-02,627.55,Technology,Copiers,South,6,0.1,104.43
+CA-2022-10891,2022-03-03,510.12,Furniture,Furnishings,Central,3,0.2,129.37
+CA-2022-10892,2022-03-03,182.77,Furniture,Furnishings,South,1,0.1,18.73
+CA-2022-10893,2022-03-04,55.41,Technology,Accessories,East,1,0.1,15.18
+CA-2022-10894,2022-03-04,131.35,Office Supplies,Storage,East,1,0.1,27.3
+CA-2022-10895,2022-03-04,512.6,Technology,Copiers,South,6,0.2,69.62
+CA-2022-10896,2022-03-05,1005.98,Office Supplies,Binders,Central,31,0.15,210.51
+CA-2022-10897,2022-03-06,958.56,Technology,Copiers,South,6,0.0,220.81
+CA-2022-10898,2022-03-07,291.34,Office Supplies,Appliances,East,3,0.2,69.01
+CA-2022-10899,2022-03-07,201.16,Technology,Accessories,West,3,0.1,53.57
+CA-2022-10900,2022-03-08,560.75,Office Supplies,Binders,East,4,0.1,125.08
+CA-2022-10901,2022-03-08,69.61,Office Supplies,Appliances,West,1,0.2,6.12
+CA-2022-10902,2022-03-08,101.33,Furniture,Bookcases,South,1,0.0,17.21
+CA-2022-10903,2022-03-09,416.24,Office Supplies,Storage,West,3,0.15,62.6
+CA-2022-10904,2022-03-09,216.78,Furniture,Chairs,Central,4,0.0,28.37
+CA-2022-10905,2022-03-10,381.12,Office Supplies,Binders,East,4,0.0,37.45
+CA-2022-10906,2022-03-10,316.69,Office Supplies,Binders,East,2,0.2,37.26
+CA-2022-10907,2022-03-11,51.7,Office Supplies,Appliances,East,1,0.0,10.3
+CA-2022-10908,2022-03-11,875.08,Furniture,Tables,East,7,0.15,216.74
+CA-2022-10909,2022-03-12,243.78,Furniture,Bookcases,West,6,0.0,56.52
+CA-2022-10910,2022-03-12,469.36,Technology,Phones,Central,4,0.2,69.77
+CA-2022-10911,2022-03-12,245.45,Furniture,Bookcases,West,2,0.1,57.77
+CA-2022-10912,2022-03-13,36.99,Technology,Machines,South,1,0.0,5.28
+CA-2022-10913,2022-03-13,880.06,Furniture,Chairs,South,6,0.0,99.71
+CA-2022-10914,2022-03-14,490.29,Furniture,Tables,East,10,0.15,129.55
+CA-2022-10915,2022-03-14,80.81,Technology,Phones,Central,1,0.2,15.74
+CA-2022-10916,2022-03-15,311.96,Technology,Phones,West,15,0.1,43.35
+CA-2022-10917,2022-03-15,500.57,Office Supplies,Binders,Central,3,0.15,131.68
+CA-2022-10918,2022-03-16,275.01,Office Supplies,Paper,Central,6,0.2,52.01
+CA-2022-10919,2022-03-16,28.54,Furniture,Furnishings,South,1,0.0,4.96
+CA-2022-10920,2022-03-16,383.62,Technology,Machines,West,11,0.0,74.77
+CA-2022-10921,2022-03-17,941.55,Office Supplies,Storage,East,20,0.0,177.95
+CA-2022-10922,2022-03-18,1116.33,Furniture,Tables,West,22,0.2,241.72
+CA-2022-10923,2022-03-19,200.91,Technology,Copiers,East,2,0.0,22.65
+CA-2022-10924,2022-03-19,599.43,Office Supplies,Storage,East,4,0.15,63.76
+CA-2022-10925,2022-03-20,502.12,Furniture,Tables,South,6,0.0,83.37
+CA-2022-10926,2022-03-20,35.48,Technology,Machines,Central,1,0.1,9.48
+CA-2022-10927,2022-03-20,475.5,Office Supplies,Storage,East,3,0.1,108.17
+CA-2022-10928,2022-03-21,626.59,Furniture,Chairs,West,5,0.15,89.69
+CA-2022-10929,2022-03-22,42.57,Office Supplies,Binders,East,1,0.15,5.41
+CA-2022-10930,2022-03-22,702.16,Office Supplies,Storage,Central,5,0.1,71.26
+CA-2022-10931,2022-03-23,825.21,Furniture,Furnishings,Central,7,0.2,105.1
+CA-2022-10932,2022-03-24,645.98,Technology,Phones,East,23,0.0,90.36
+CA-2022-10933,2022-03-24,59.45,Office Supplies,Binders,South,1,0.1,9.25
+CA-2022-10934,2022-03-25,363.93,Technology,Phones,Central,2,0.15,33.07
+CA-2022-10935,2022-03-25,484.48,Office Supplies,Appliances,West,17,0.2,109.25
+CA-2022-10936,2022-03-26,466.64,Office Supplies,Binders,South,4,0.2,53.57
+CA-2022-10937,2022-03-26,121.29,Furniture,Tables,East,1,0.15,18.47
+CA-2022-10938,2022-03-26,326.99,Technology,Copiers,East,13,0.0,79.53
+CA-2022-10939,2022-03-27,636.4,Office Supplies,Storage,Central,4,0.1,69.28
+CA-2022-10940,2022-03-27,482.31,Office Supplies,Art,West,8,0.1,58.99
+CA-2022-10941,2022-03-28,36.29,Technology,Phones,Central,1,0.0,7.72
+CA-2022-10942,2022-03-28,186.13,Technology,Copiers,South,4,0.15,50.09
+CA-2022-10943,2022-03-28,408.84,Office Supplies,Storage,West,4,0.1,33.32
+CA-2022-10944,2022-03-29,303.16,Technology,Accessories,South,6,0.0,50.94
+CA-2022-10945,2022-03-29,45.2,Furniture,Chairs,East,1,0.1,10.29
+CA-2022-10946,2022-03-29,581.04,Furniture,Bookcases,Central,21,0.1,70.22
+CA-2022-10947,2022-03-30,483.12,Furniture,Tables,South,5,0.1,66.77
+CA-2022-10948,2022-03-30,241.02,Office Supplies,Binders,West,11,0.1,47.54
+CA-2022-10949,2022-03-31,69.1,Office Supplies,Binders,Central,1,0.1,13.03
+CA-2022-10950,2022-03-31,81.09,Technology,Machines,Central,2,0.0,16.59
+CA-2022-10951,2022-03-31,501.54,Furniture,Tables,East,8,0.0,56.63
+CA-2022-10952,2022-04-01,372.94,Office Supplies,Binders,Central,4,0.15,31.94
+CA-2022-10953,2022-04-01,527.23,Technology,Accessories,Central,9,0.0,117.56
+CA-2022-10954,2022-04-02,808.19,Furniture,Tables,South,6,0.15,65.44
+CA-2022-10955,2022-04-03,914.82,Furniture,Chairs,West,39,0.2,253.96
+CA-2022-10956,2022-04-04,286.0,Technology,Machines,Central,5,0.15,43.82
+CA-2022-10957,2022-04-04,331.47,Furniture,Furnishings,South,5,0.1,44.34
+CA-2022-10958,2022-04-04,178.93,Office Supplies,Storage,South,4,0.15,37.58
+CA-2022-10959,2022-04-05,732.62,Furniture,Bookcases,West,12,0.0,150.0
+CA-2022-10960,2022-04-06,266.16,Technology,Copiers,South,4,0.15,65.24
+CA-2022-10961,2022-04-06,119.13,Office Supplies,Appliances,East,1,0.0,10.72
+CA-2022-10962,2022-04-06,410.34,Furniture,Tables,South,2,0.15,85.77
+CA-2022-10963,2022-04-07,813.6,Technology,Copiers,Central,15,0.2,157.33
+CA-2022-10964,2022-04-08,953.39,Furniture,Chairs,East,8,0.0,90.04
+CA-2022-10965,2022-04-09,95.06,Office Supplies,Paper,East,1,0.0,10.88
+CA-2022-10966,2022-04-09,1027.47,Furniture,Bookcases,South,10,0.0,279.95
+CA-2022-10967,2022-04-10,837.31,Office Supplies,Storage,South,5,0.15,101.57
+CA-2022-10968,2022-04-10,86.13,Office Supplies,Paper,South,1,0.2,16.3
+CA-2022-10969,2022-04-11,322.83,Office Supplies,Paper,West,2,0.1,42.79
+CA-2022-10970,2022-04-11,376.52,Technology,Machines,East,11,0.15,37.74
+CA-2022-10971,2022-04-12,621.81,Furniture,Tables,South,5,0.2,149.51
+CA-2022-10972,2022-04-12,52.96,Office Supplies,Art,West,2,0.15,8.77
+CA-2022-10973,2022-04-13,436.92,Office Supplies,Paper,East,3,0.0,76.42
+CA-2022-10974,2022-04-13,515.69,Technology,Phones,West,5,0.2,101.53
+CA-2022-10975,2022-04-14,203.44,Technology,Machines,West,2,0.2,36.29
+CA-2022-10976,2022-04-14,566.27,Furniture,Bookcases,Central,4,0.2,100.4
+CA-2022-10977,2022-04-15,1083.79,Office Supplies,Appliances,Central,18,0.1,123.67
+CA-2022-10978,2022-04-16,177.32,Technology,Phones,East,1,0.2,24.05
+CA-2022-10979,2022-04-16,356.86,Furniture,Tables,South,6,0.0,43.25
+CA-2022-10980,2022-04-16,364.5,Furniture,Chairs,West,4,0.1,50.02
+CA-2022-10981,2022-04-17,348.65,Technology,Phones,West,2,0.1,88.86
+CA-2022-10982,2022-04-17,96.41,Office Supplies,Binders,Central,1,0.15,13.15
+CA-2022-10983,2022-04-17,569.42,Furniture,Tables,South,11,0.1,67.87
+CA-2022-10984,2022-04-18,40.49,Furniture,Furnishings,Central,1,0.2,9.14
+CA-2022-10985,2022-04-18,732.42,Office Supplies,Storage,West,21,0.15,114.75
+CA-2022-10986,2022-04-19,344.09,Technology,Copiers,South,3,0.15,53.4
+CA-2022-10987,2022-04-19,328.02,Technology,Phones,West,7,0.2,27.42
+CA-2022-10988,2022-04-19,151.32,Technology,Machines,South,1,0.1,31.4
+CA-2022-10989,2022-04-20,43.28,Furniture,Tables,Central,1,0.1,7.68
+CA-2022-10990,2022-04-20,787.24,Technology,Phones,Central,18,0.2,148.03
+CA-2022-10991,2022-04-21,992.21,Technology,Copiers,East,8,0.15,276.95
+CA-2022-10992,2022-04-22,362.28,Office Supplies,Paper,East,2,0.0,76.05
+CA-2022-10993,2022-04-22,607.73,Office Supplies,Paper,South,5,0.2,93.52
+CA-2022-10994,2022-04-23,435.59,Furniture,Tables,West,3,0.0,53.15
+CA-2022-10995,2022-04-23,454.64,Technology,Accessories,South,6,0.1,109.36
+CA-2022-10996,2022-04-23,500.75,Office Supplies,Storage,South,13,0.1,49.33
+CA-2022-10997,2022-04-24,1.99,Office Supplies,Art,South,1,0.2,0.4
+CA-2022-10998,2022-04-24,928.05,Technology,Copiers,East,6,0.1,123.0
+CA-2022-10999,2022-04-24,138.82,Furniture,Tables,South,1,0.1,22.27
+CA-2022-11000,2022-04-25,473.91,Technology,Machines,East,14,0.1,52.45
+CA-2022-11001,2022-04-25,254.51,Technology,Copiers,Central,11,0.0,61.0
+CA-2022-11002,2022-04-26,698.32,Furniture,Tables,West,4,0.1,105.44
+CA-2022-11003,2022-04-26,70.84,Furniture,Bookcases,West,1,0.15,12.77
+CA-2022-11004,2022-04-27,131.33,Technology,Machines,Central,1,0.15,34.66
+CA-2022-11005,2022-04-27,511.13,Office Supplies,Binders,West,4,0.0,118.27
+CA-2022-11006,2022-04-27,285.15,Office Supplies,Paper,South,6,0.0,63.88
+CA-2022-11007,2022-04-28,338.96,Technology,Copiers,Central,2,0.15,83.81
+CA-2022-11008,2022-04-28,397.65,Furniture,Furnishings,West,4,0.1,44.27
+CA-2022-11009,2022-04-28,123.02,Furniture,Tables,Central,1,0.2,33.99
+CA-2022-11010,2022-04-29,67.5,Office Supplies,Paper,Central,2,0.0,16.68
+CA-2022-11011,2022-04-29,372.0,Technology,Machines,East,3,0.0,92.53
+CA-2022-11012,2022-04-29,457.88,Technology,Machines,East,4,0.15,42.35
+CA-2022-11013,2022-04-30,996.98,Furniture,Tables,West,16,0.15,157.41
+CA-2022-11014,2022-05-01,140.29,Technology,Machines,West,4,0.2,21.65
+CA-2022-11015,2022-05-01,544.31,Office Supplies,Storage,South,7,0.15,112.26
+CA-2022-11016,2022-05-01,132.86,Office Supplies,Appliances,Central,6,0.1,24.61
+CA-2022-11017,2022-05-02,197.28,Furniture,Furnishings,East,1,0.0,28.19
+CA-2022-11018,2022-05-02,388.83,Furniture,Tables,West,3,0.0,59.1
+CA-2022-11019,2022-05-02,113.49,Furniture,Bookcases,West,1,0.0,30.66
+CA-2022-11020,2022-05-03,330.46,Furniture,Bookcases,West,3,0.15,54.29
+CA-2022-11021,2022-05-03,590.81,Office Supplies,Paper,South,4,0.0,81.09
+CA-2022-11022,2022-05-03,78.07,Technology,Phones,South,1,0.15,18.83
+CA-2022-11023,2022-05-04,902.18,Furniture,Tables,East,6,0.15,165.68
+CA-2022-11024,2022-05-05,111.16,Furniture,Chairs,West,1,0.15,13.54
+CA-2022-11025,2022-05-05,334.65,Furniture,Furnishings,South,6,0.0,68.9
+CA-2022-11026,2022-05-05,456.06,Office Supplies,Art,South,6,0.15,82.41
+CA-2022-11027,2022-05-06,742.61,Furniture,Chairs,Central,5,0.1,191.57
+CA-2022-11028,2022-05-06,127.14,Furniture,Chairs,South,1,0.15,16.44
+CA-2022-11029,2022-05-07,234.89,Technology,Phones,Central,2,0.1,49.27
+CA-2022-11030,2022-05-07,126.34,Technology,Phones,West,3,0.2,17.13
+CA-2022-11031,2022-05-07,855.44,Office Supplies,Storage,South,11,0.2,215.05
+CA-2022-11032,2022-05-08,1208.82,Furniture,Furnishings,Central,13,0.2,172.76
+CA-2022-11033,2022-05-09,789.39,Office Supplies,Art,South,6,0.0,82.98
+CA-2022-11034,2022-05-10,967.88,Technology,Machines,West,6,0.15,104.01
+CA-2022-11035,2022-05-11,297.59,Office Supplies,Appliances,West,4,0.0,39.77
+CA-2022-11036,2022-05-11,560.4,Office Supplies,Art,West,4,0.1,143.65
+CA-2022-11037,2022-05-12,249.92,Furniture,Furnishings,West,4,0.2,32.61
+CA-2022-11038,2022-05-12,108.5,Technology,Accessories,Central,2,0.1,29.7
+CA-2022-11039,2022-05-12,704.11,Furniture,Bookcases,Central,7,0.1,63.31
+CA-2022-11040,2022-05-13,618.83,Office Supplies,Paper,East,8,0.1,134.31
+CA-2022-11041,2022-05-13,424.6,Furniture,Furnishings,South,3,0.0,114.49
+CA-2022-11042,2022-05-14,1435.77,Technology,Accessories,Central,10,0.15,303.79
+CA-2022-11043,2022-05-15,302.39,Furniture,Tables,Central,2,0.0,61.81
+CA-2022-11044,2022-05-15,807.41,Office Supplies,Art,East,7,0.15,142.51
+CA-2022-11045,2022-05-16,207.92,Furniture,Chairs,South,7,0.15,33.72
+CA-2022-11046,2022-05-16,555.75,Furniture,Chairs,South,7,0.2,85.79
+CA-2022-11047,2022-05-17,751.82,Office Supplies,Paper,East,16,0.0,208.01
+CA-2022-11048,2022-05-18,766.8,Technology,Accessories,East,28,0.2,195.4
+CA-2022-11049,2022-05-19,700.2,Office Supplies,Appliances,Central,6,0.15,131.23
+CA-2022-11050,2022-05-19,309.88,Office Supplies,Art,Central,3,0.0,36.37
+CA-2022-11051,2022-05-20,802.05,Office Supplies,Appliances,West,26,0.15,203.4
+CA-2022-11052,2022-05-20,371.83,Technology,Phones,Central,4,0.15,76.11
+CA-2022-11053,2022-05-21,363.49,Office Supplies,Paper,East,3,0.0,65.63
+CA-2022-11054,2022-05-21,760.8,Office Supplies,Binders,South,6,0.0,140.26
+CA-2022-11055,2022-05-22,81.57,Furniture,Bookcases,West,1,0.0,20.91
+CA-2022-11056,2022-05-22,1043.9,Furniture,Tables,East,23,0.15,224.75
+CA-2022-11057,2022-05-23,459.93,Furniture,Bookcases,East,3,0.15,37.33
+CA-2022-11058,2022-05-23,316.33,Office Supplies,Art,East,10,0.2,77.54
+CA-2022-11059,2022-05-24,301.93,Office Supplies,Binders,West,4,0.15,67.57
+CA-2022-11060,2022-05-24,402.5,Furniture,Tables,East,3,0.2,46.47
+CA-2022-11061,2022-05-24,190.3,Technology,Copiers,Central,1,0.1,30.08
+CA-2022-11062,2022-05-25,36.02,Furniture,Furnishings,East,1,0.15,5.52
+CA-2022-11063,2022-05-25,83.66,Technology,Phones,East,1,0.1,8.85
+CA-2022-11064,2022-05-25,730.52,Office Supplies,Art,South,6,0.15,185.49
+CA-2022-11065,2022-05-26,494.67,Furniture,Furnishings,East,7,0.1,59.45
+CA-2022-11066,2022-05-26,334.69,Office Supplies,Appliances,West,4,0.1,78.13
+CA-2022-11067,2022-05-27,118.36,Technology,Machines,West,1,0.15,19.22
+CA-2022-11068,2022-05-27,1036.45,Technology,Phones,East,11,0.1,97.28
+CA-2022-11069,2022-05-28,1509.74,Office Supplies,Storage,Central,17,0.15,148.1
+CA-2022-11070,2022-05-29,106.47,Technology,Phones,West,1,0.15,26.94
+CA-2022-11071,2022-05-29,460.93,Furniture,Furnishings,West,9,0.1,84.92
+CA-2022-11072,2022-05-29,456.34,Technology,Accessories,West,12,0.15,87.59
+CA-2022-11073,2022-05-30,885.7,Technology,Phones,South,30,0.2,202.73
+CA-2022-11074,2022-05-31,712.5,Office Supplies,Art,East,28,0.2,75.77
+CA-2022-11075,2022-05-31,148.21,Furniture,Furnishings,South,1,0.1,28.32
+CA-2022-11076,2022-06-01,1151.31,Technology,Copiers,East,10,0.1,184.41
+CA-2022-11077,2022-06-02,341.78,Office Supplies,Storage,West,7,0.15,46.72
+CA-2022-11078,2022-06-02,618.34,Office Supplies,Binders,Central,9,0.0,149.5
+CA-2022-11079,2022-06-03,5.67,Office Supplies,Paper,East,1,0.0,0.73
+CA-2022-11080,2022-06-03,372.81,Furniture,Furnishings,East,7,0.1,46.1
+CA-2022-11081,2022-06-03,754.41,Office Supplies,Storage,Central,10,0.15,166.78
+CA-2022-11082,2022-06-04,119.19,Furniture,Bookcases,Central,1,0.0,23.74
+CA-2022-11083,2022-06-04,156.39,Office Supplies,Appliances,East,1,0.1,27.34
+CA-2022-11084,2022-06-04,672.3,Office Supplies,Storage,East,9,0.2,75.43
+CA-2022-11085,2022-06-05,979.54,Furniture,Tables,Central,7,0.15,247.21
+CA-2022-11086,2022-06-05,260.39,Furniture,Tables,East,1,0.0,24.69
+CA-2022-11087,2022-06-06,675.71,Furniture,Bookcases,Central,15,0.2,114.81
+CA-2022-11088,2022-06-06,105.08,Furniture,Tables,Central,1,0.0,14.43
+CA-2022-11089,2022-06-06,9.87,Furniture,Chairs,Central,1,0.0,1.35
+CA-2022-11090,2022-06-07,881.7,Office Supplies,Art,South,7,0.1,200.46
+CA-2022-11091,2022-06-08,1005.21,Office Supplies,Binders,Central,15,0.15,191.46
+CA-2022-11092,2022-06-09,260.3,Office Supplies,Paper,West,3,0.1,36.63
+CA-2022-11093,2022-06-09,489.62,Furniture,Chairs,East,4,0.15,67.13
+CA-2022-11094,2022-06-10,1080.81,Office Supplies,Appliances,West,31,0.1,165.41
+CA-2022-11095,2022-06-10,35.61,Furniture,Bookcases,South,1,0.15,9.67
+CA-2022-11096,2022-06-10,27.42,Furniture,Chairs,Central,1,0.1,2.48
+CA-2022-11097,2022-06-11,779.93,Office Supplies,Art,West,5,0.1,213.04
+CA-2022-11098,2022-06-11,258.66,Office Supplies,Binders,West,9,0.2,31.74
+CA-2022-11099,2022-06-12,1140.32,Office Supplies,Appliances,Central,13,0.2,304.5
+CA-2022-11100,2022-06-13,560.52,Furniture,Tables,East,4,0.1,54.42
+CA-2022-11101,2022-06-13,100.83,Furniture,Tables,Central,1,0.15,17.12
+CA-2022-11102,2022-06-14,743.05,Office Supplies,Paper,Central,6,0.0,75.38
+CA-2022-11103,2022-06-15,1109.98,Technology,Accessories,South,8,0.15,269.63
+CA-2022-11104,2022-06-16,626.87,Furniture,Chairs,West,10,0.0,170.25
+CA-2022-11105,2022-06-16,298.15,Technology,Phones,East,2,0.2,44.14
+CA-2022-11106,2022-06-17,237.39,Office Supplies,Art,East,1,0.0,22.56
+CA-2022-11107,2022-06-17,792.18,Technology,Accessories,West,38,0.1,96.15
+CA-2022-11108,2022-06-18,1352.6,Technology,Accessories,Central,16,0.15,237.26
+CA-2022-11109,2022-06-19,1214.91,Office Supplies,Binders,West,19,0.1,214.21
+CA-2022-11110,2022-06-20,840.01,Technology,Copiers,Central,7,0.1,106.01
+CA-2022-11111,2022-06-21,932.44,Technology,Machines,Central,8,0.1,106.81
+CA-2022-11112,2022-06-21,28.83,Technology,Machines,South,1,0.1,7.69
+CA-2022-11113,2022-06-22,111.13,Furniture,Chairs,East,1,0.0,24.41
+CA-2022-11114,2022-06-22,392.81,Office Supplies,Binders,East,4,0.1,41.54
+CA-2022-11115,2022-06-22,450.0,Technology,Phones,East,17,0.2,104.97
+CA-2022-11116,2022-06-23,375.58,Technology,Machines,East,3,0.1,41.09
+CA-2022-11117,2022-06-23,322.35,Office Supplies,Storage,Central,14,0.1,41.45
+CA-2022-11118,2022-06-24,268.23,Office Supplies,Storage,East,4,0.1,72.74
+CA-2022-11119,2022-06-24,3.23,Technology,Accessories,East,1,0.2,0.67
+CA-2022-11120,2022-06-24,775.47,Technology,Machines,West,7,0.1,118.21
+CA-2022-11121,2022-06-25,1059.32,Furniture,Tables,South,13,0.15,165.04
+CA-2022-11122,2022-06-25,72.04,Office Supplies,Paper,Central,1,0.2,16.15
+CA-2022-11123,2022-06-26,1422.84,Office Supplies,Paper,Central,10,0.0,247.77
+CA-2022-11124,2022-06-27,612.06,Office Supplies,Storage,West,9,0.15,77.9
+CA-2022-11125,2022-06-27,140.0,Furniture,Bookcases,Central,1,0.15,30.52
+CA-2022-11126,2022-06-28,892.96,Technology,Phones,Central,17,0.2,115.86
+CA-2022-11127,2022-06-29,913.0,Technology,Machines,South,18,0.2,222.19
+CA-2022-11128,2022-06-29,125.64,Technology,Copiers,East,1,0.15,22.45
+CA-2022-11129,2022-06-29,37.2,Technology,Machines,West,1,0.2,4.11
+CA-2022-11130,2022-06-30,991.81,Office Supplies,Paper,East,12,0.2,261.24
+CA-2022-11131,2022-07-01,988.48,Furniture,Tables,West,6,0.0,215.14
+CA-2022-11132,2022-07-02,1264.81,Furniture,Chairs,Central,9,0.0,177.75
+CA-2022-11133,2022-07-03,64.91,Office Supplies,Paper,West,1,0.2,5.39
+CA-2022-11134,2022-07-03,825.9,Technology,Machines,South,6,0.2,140.41
+CA-2022-11135,2022-07-04,29.07,Technology,Copiers,East,1,0.15,5.95
+CA-2022-11136,2022-07-04,573.24,Technology,Phones,West,4,0.2,111.66
+CA-2022-11137,2022-07-04,140.11,Furniture,Chairs,West,1,0.15,18.43
+CA-2022-11138,2022-07-05,777.55,Technology,Copiers,West,12,0.0,216.87
+CA-2022-11139,2022-07-05,13.79,Furniture,Furnishings,South,1,0.0,1.22
+CA-2022-11140,2022-07-06,214.9,Office Supplies,Paper,West,10,0.0,60.1
+CA-2022-11141,2022-07-06,432.18,Technology,Accessories,West,8,0.15,76.59
+CA-2022-11142,2022-07-07,933.35,Office Supplies,Appliances,Central,27,0.15,110.37
+CA-2022-11143,2022-07-08,1282.67,Technology,Phones,Central,11,0.2,131.67
+CA-2022-11144,2022-07-09,922.84,Office Supplies,Paper,South,31,0.0,133.72
+CA-2022-11145,2022-07-09,230.15,Technology,Accessories,Central,1,0.2,49.31
+CA-2022-11146,2022-07-10,482.91,Furniture,Chairs,Central,4,0.0,113.41
+CA-2022-11147,2022-07-10,1.7,Technology,Phones,East,1,0.2,0.15
+CA-2022-11148,2022-07-10,835.57,Furniture,Bookcases,Central,7,0.1,151.35
+CA-2022-11149,2022-07-11,14.4,Technology,Accessories,Central,1,0.15,3.26
+CA-2022-11150,2022-07-11,430.36,Furniture,Chairs,South,3,0.1,108.84
+CA-2022-11151,2022-07-11,289.89,Furniture,Bookcases,Central,2,0.15,59.38
+CA-2022-11152,2022-07-12,428.25,Furniture,Bookcases,South,6,0.0,98.47
+CA-2022-11153,2022-07-12,212.65,Technology,Machines,West,1,0.1,49.78
+CA-2022-11154,2022-07-12,193.36,Office Supplies,Appliances,East,1,0.0,45.64
+CA-2022-11155,2022-07-13,521.06,Office Supplies,Binders,South,5,0.0,120.62
+CA-2022-11156,2022-07-13,158.02,Furniture,Chairs,South,1,0.15,20.95
+CA-2022-11157,2022-07-13,127.98,Furniture,Bookcases,Central,1,0.1,29.03
+CA-2022-11158,2022-07-14,140.25,Furniture,Bookcases,West,1,0.15,22.63
+CA-2022-11159,2022-07-14,703.7,Technology,Machines,West,4,0.1,80.33
+CA-2022-11160,2022-07-14,115.06,Furniture,Furnishings,West,2,0.2,11.59
+CA-2022-11161,2022-07-15,364.58,Office Supplies,Art,South,2,0.1,37.19
+CA-2022-11162,2022-07-15,183.24,Office Supplies,Binders,Central,8,0.0,42.68
+CA-2022-11163,2022-07-15,467.55,Office Supplies,Paper,Central,7,0.2,50.76
+CA-2022-11164,2022-07-16,720.25,Technology,Accessories,South,5,0.2,74.87
+CA-2022-11165,2022-07-16,384.56,Office Supplies,Storage,East,14,0.15,67.69
+CA-2022-11166,2022-07-17,928.04,Technology,Accessories,West,6,0.1,147.55
+CA-2022-11167,2022-07-18,754.62,Technology,Accessories,South,5,0.0,99.05
+CA-2022-11168,2022-07-19,930.62,Technology,Accessories,East,20,0.1,157.83
+CA-2022-11169,2022-07-20,680.9,Technology,Accessories,South,23,0.0,95.52
+CA-2022-11170,2022-07-20,40.63,Furniture,Chairs,East,1,0.1,3.66
+CA-2022-11171,2022-07-20,39.64,Furniture,Bookcases,South,1,0.15,9.71
+CA-2022-11172,2022-07-21,874.49,Office Supplies,Paper,East,10,0.2,172.74
+CA-2022-11173,2022-07-22,142.49,Office Supplies,Paper,South,1,0.1,19.23
+CA-2022-11174,2022-07-22,551.8,Furniture,Chairs,South,18,0.1,136.07
+CA-2022-11175,2022-07-22,373.77,Furniture,Tables,South,5,0.0,102.18
+CA-2022-11176,2022-07-23,0.99,Office Supplies,Binders,East,1,0.0,0.13
+CA-2022-11177,2022-07-23,202.68,Furniture,Tables,East,2,0.15,18.97
+CA-2022-11178,2022-07-23,660.49,Technology,Accessories,West,6,0.15,77.82
+CA-2022-11179,2022-07-24,570.79,Technology,Phones,Central,6,0.1,159.0
+CA-2022-11180,2022-07-24,536.42,Technology,Machines,Central,11,0.0,100.16
+CA-2022-11181,2022-07-25,313.42,Technology,Accessories,Central,3,0.1,67.42
+CA-2022-11182,2022-07-25,402.69,Technology,Copiers,East,3,0.15,72.19
+CA-2022-11183,2022-07-26,914.68,Technology,Accessories,East,6,0.1,202.32
+CA-2022-11184,2022-07-27,485.01,Furniture,Chairs,East,5,0.2,126.19
+CA-2022-11185,2022-07-27,167.48,Office Supplies,Binders,South,2,0.1,33.64
+CA-2022-11186,2022-07-27,119.6,Furniture,Chairs,Central,2,0.1,19.2
+CA-2022-11187,2022-07-28,290.56,Office Supplies,Binders,East,3,0.1,59.21
+CA-2022-11188,2022-07-28,290.91,Technology,Phones,West,1,0.0,43.56
+CA-2022-11189,2022-07-28,176.03,Technology,Machines,Central,7,0.1,34.83
+CA-2022-11190,2022-07-29,120.75,Furniture,Tables,East,1,0.15,20.99
+CA-2022-11191,2022-07-29,16.28,Office Supplies,Appliances,Central,1,0.2,2.92
+CA-2022-11192,2022-07-29,1026.54,Technology,Phones,East,32,0.2,173.83
+CA-2022-11193,2022-07-30,1150.27,Furniture,Furnishings,West,8,0.15,133.85
+CA-2022-11194,2022-07-31,574.8,Technology,Phones,South,6,0.2,81.58
+CA-2022-11195,2022-07-31,242.85,Technology,Accessories,South,2,0.0,41.77
+CA-2022-11196,2022-07-31,263.73,Furniture,Tables,Central,2,0.0,68.4
+CA-2022-11197,2022-08-01,671.91,Furniture,Chairs,South,18,0.1,157.94
+CA-2022-11198,2022-08-02,994.73,Technology,Copiers,East,8,0.2,209.06
+CA-2022-11199,2022-08-03,56.78,Office Supplies,Storage,East,1,0.15,11.44
+CA-2022-11200,2022-08-03,583.73,Furniture,Furnishings,East,9,0.1,102.67
+CA-2022-11201,2022-08-03,160.55,Office Supplies,Paper,East,6,0.2,24.83
+CA-2022-11202,2022-08-04,504.15,Furniture,Tables,Central,3,0.0,99.07
+CA-2022-11203,2022-08-04,337.42,Furniture,Chairs,South,3,0.1,63.72
+CA-2022-11204,2022-08-04,97.03,Furniture,Bookcases,Central,1,0.1,21.84
+CA-2022-11205,2022-08-05,265.95,Furniture,Furnishings,East,1,0.0,64.23
+CA-2022-11206,2022-08-05,200.46,Technology,Accessories,East,3,0.1,26.93
+CA-2022-11207,2022-08-05,440.24,Furniture,Bookcases,East,3,0.2,119.1
+CA-2022-11208,2022-08-06,1092.13,Furniture,Tables,West,22,0.0,178.02
+CA-2022-11209,2022-08-07,512.75,Furniture,Chairs,Central,3,0.1,103.52
+CA-2022-11210,2022-08-07,196.42,Office Supplies,Art,West,3,0.1,46.51
+CA-2022-11211,2022-08-08,306.64,Office Supplies,Appliances,Central,2,0.1,58.12
+CA-2022-11212,2022-08-08,486.66,Furniture,Tables,Central,8,0.0,50.54
+CA-2022-11213,2022-08-09,80.26,Furniture,Bookcases,South,1,0.1,19.76
+CA-2022-11214,2022-08-09,303.81,Furniture,Chairs,East,10,0.1,49.7
+CA-2022-11215,2022-08-09,338.17,Furniture,Tables,East,12,0.2,43.18
+CA-2022-11216,2022-08-10,531.13,Furniture,Bookcases,East,6,0.0,100.13
+CA-2022-11217,2022-08-10,95.88,Office Supplies,Binders,South,1,0.15,19.77
+CA-2022-11218,2022-08-10,197.78,Technology,Phones,Central,2,0.2,29.35
+CA-2022-11219,2022-08-11,866.56,Office Supplies,Binders,Central,6,0.2,94.99
+CA-2022-11220,2022-08-12,957.89,Technology,Machines,East,8,0.0,214.59
+CA-2022-11221,2022-08-13,891.7,Furniture,Furnishings,East,12,0.2,201.64
+CA-2022-11222,2022-08-14,887.32,Office Supplies,Paper,West,6,0.1,108.15
+CA-2022-11223,2022-08-14,15.09,Technology,Accessories,East,1,0.15,3.22
+CA-2022-11224,2022-08-15,546.5,Technology,Accessories,East,5,0.2,128.05
+CA-2022-11225,2022-08-15,132.63,Technology,Accessories,East,2,0.15,18.46
+CA-2022-11226,2022-08-16,738.28,Furniture,Chairs,South,5,0.0,186.2
+CA-2022-11227,2022-08-17,785.43,Technology,Copiers,East,9,0.1,121.41
+CA-2022-11228,2022-08-18,758.4,Furniture,Chairs,South,12,0.15,187.76
+CA-2022-11229,2022-08-19,24.79,Technology,Copiers,West,1,0.0,3.63
+CA-2022-11230,2022-08-19,218.6,Office Supplies,Appliances,East,1,0.0,39.98
+CA-2022-11231,2022-08-19,539.7,Furniture,Chairs,South,5,0.2,45.34
+CA-2022-11232,2022-08-20,861.76,Technology,Phones,East,8,0.15,194.1
+CA-2022-11233,2022-08-20,109.96,Technology,Phones,East,1,0.0,23.56
+CA-2022-11234,2022-08-20,60.97,Technology,Machines,East,1,0.2,9.94
+CA-2022-11235,2022-08-21,1079.42,Furniture,Bookcases,West,7,0.1,198.1
+CA-2022-11236,2022-08-22,777.32,Furniture,Bookcases,South,5,0.15,152.3
+CA-2022-11237,2022-08-23,241.35,Technology,Copiers,East,2,0.2,59.75
+CA-2022-11238,2022-08-23,36.04,Office Supplies,Art,East,1,0.15,7.16
+CA-2022-11239,2022-08-23,535.55,Technology,Phones,East,6,0.0,116.7
+CA-2022-11240,2022-08-24,647.86,Office Supplies,Storage,Central,9,0.2,154.94
+CA-2022-11241,2022-08-25,182.24,Technology,Phones,East,2,0.15,23.22
+CA-2022-11242,2022-08-25,323.86,Office Supplies,Binders,South,11,0.15,40.37
+CA-2022-11243,2022-08-25,173.89,Office Supplies,Binders,East,1,0.15,33.18
+CA-2022-11244,2022-08-26,141.3,Technology,Copiers,Central,1,0.1,15.29
+CA-2022-11245,2022-08-26,772.64,Furniture,Tables,West,24,0.1,148.94
+CA-2022-11246,2022-08-27,178.0,Office Supplies,Art,East,4,0.15,24.96
+CA-2022-11247,2022-08-27,832.48,Office Supplies,Paper,West,19,0.2,68.88
+CA-2022-11248,2022-08-28,271.79,Office Supplies,Paper,East,2,0.1,32.42
+CA-2022-11249,2022-08-28,139.31,Technology,Machines,South,1,0.15,31.02
+CA-2022-11250,2022-08-28,676.92,Furniture,Bookcases,East,7,0.1,105.33
+CA-2022-11251,2022-08-29,618.71,Technology,Accessories,West,5,0.0,86.44
+CA-2022-11252,2022-08-30,611.41,Office Supplies,Art,East,5,0.15,164.44
+CA-2022-11253,2022-08-30,196.18,Office Supplies,Storage,West,1,0.0,42.33
+CA-2022-11254,2022-08-31,427.29,Technology,Copiers,South,9,0.2,114.24
+CA-2022-11255,2022-08-31,132.88,Technology,Phones,South,3,0.0,11.64
+CA-2022-11256,2022-08-31,300.64,Furniture,Chairs,West,4,0.2,46.97
+CA-2022-11257,2022-09-01,687.56,Office Supplies,Paper,East,13,0.0,135.68
+CA-2022-11258,2022-09-01,158.46,Office Supplies,Paper,Central,1,0.15,32.67
+CA-2022-11259,2022-09-02,402.17,Office Supplies,Appliances,Central,3,0.15,46.99
+CA-2022-11260,2022-09-02,444.81,Furniture,Furnishings,East,6,0.2,72.37
+CA-2022-11261,2022-09-03,291.4,Furniture,Tables,West,3,0.15,48.93
+CA-2022-11262,2022-09-03,62.49,Technology,Copiers,West,1,0.0,12.68
+CA-2022-11263,2022-09-03,634.97,Technology,Accessories,South,26,0.0,52.53
+CA-2022-11264,2022-09-04,689.55,Technology,Copiers,East,9,0.2,111.42
+CA-2022-11265,2022-09-04,191.22,Furniture,Bookcases,Central,2,0.15,22.88
+CA-2022-11266,2022-09-05,73.41,Technology,Phones,South,1,0.1,18.67
+CA-2022-11267,2022-09-05,190.15,Furniture,Tables,South,2,0.2,29.99
+CA-2022-11268,2022-09-05,311.18,Office Supplies,Binders,Central,9,0.2,80.15
+CA-2022-11269,2022-09-06,171.85,Office Supplies,Appliances,South,1,0.0,31.06
+CA-2022-11270,2022-09-06,331.91,Technology,Copiers,South,2,0.15,82.9
+CA-2022-11271,2022-09-06,122.08,Furniture,Tables,East,1,0.0,31.37
+CA-2022-11272,2022-09-07,399.07,Furniture,Furnishings,South,3,0.15,38.92
+CA-2022-11273,2022-09-07,182.67,Technology,Machines,West,1,0.15,16.41
+CA-2022-11274,2022-09-07,12.81,Furniture,Chairs,South,1,0.1,1.34
+CA-2022-11275,2022-09-08,448.63,Technology,Machines,West,14,0.15,64.07
+CA-2022-11276,2022-09-08,49.74,Technology,Phones,West,1,0.15,4.92
+CA-2022-11277,2022-09-08,249.24,Office Supplies,Art,East,4,0.2,36.75
+CA-2022-11278,2022-09-09,36.77,Technology,Machines,West,1,0.0,4.15
+CA-2022-11279,2022-09-09,537.82,Furniture,Furnishings,South,3,0.2,121.43
+CA-2022-11280,2022-09-09,186.57,Technology,Copiers,East,2,0.15,17.29
+CA-2022-11281,2022-09-10,232.64,Office Supplies,Art,Central,5,0.1,54.13
+CA-2022-11282,2022-09-10,302.31,Furniture,Furnishings,South,2,0.2,60.36
+CA-2022-11283,2022-09-10,344.72,Furniture,Bookcases,East,3,0.0,56.56
+CA-2022-11284,2022-09-11,9.59,Furniture,Chairs,East,1,0.15,2.31
+CA-2022-11285,2022-09-11,646.36,Furniture,Chairs,Central,5,0.2,91.75
+CA-2022-11286,2022-09-11,113.84,Office Supplies,Appliances,Central,1,0.0,27.14
+CA-2022-11287,2022-09-12,625.26,Office Supplies,Appliances,South,6,0.1,64.63
+CA-2022-11288,2022-09-13,395.2,Office Supplies,Storage,East,2,0.2,76.55
+CA-2022-11289,2022-09-13,18.24,Furniture,Tables,South,1,0.1,4.52
+CA-2022-11290,2022-09-13,210.59,Furniture,Chairs,South,4,0.1,33.76
+CA-2022-11291,2022-09-14,532.84,Furniture,Tables,West,10,0.2,128.02
+CA-2022-11292,2022-09-14,104.04,Furniture,Chairs,South,1,0.1,25.51
+CA-2022-11293,2022-09-15,42.8,Technology,Accessories,East,1,0.15,10.71
+CA-2022-11294,2022-09-15,658.78,Technology,Accessories,South,5,0.1,122.99
+CA-2022-11295,2022-09-16,589.53,Technology,Copiers,South,5,0.0,130.58
+CA-2022-11296,2022-09-16,47.23,Technology,Phones,South,1,0.1,4.98
+CA-2022-11297,2022-09-16,6.33,Furniture,Chairs,South,1,0.15,1.52
+CA-2022-11298,2022-09-17,712.05,Technology,Copiers,South,13,0.1,113.46
+CA-2022-11299,2022-09-18,744.55,Furniture,Tables,Central,14,0.2,126.44
+CA-2022-11300,2022-09-19,431.03,Technology,Copiers,East,8,0.1,97.45
+CA-2022-11301,2022-09-19,24.58,Office Supplies,Binders,East,1,0.15,2.66
+CA-2022-11302,2022-09-20,827.1,Furniture,Furnishings,South,7,0.0,134.95
+CA-2022-11303,2022-09-21,491.0,Office Supplies,Appliances,West,13,0.2,128.18
+CA-2022-11304,2022-09-21,144.86,Office Supplies,Appliances,South,1,0.0,18.76
+CA-2022-11305,2022-09-22,640.29,Technology,Machines,South,6,0.15,106.02
+CA-2022-11306,2022-09-22,70.93,Office Supplies,Binders,East,1,0.1,10.0
+CA-2022-11307,2022-09-23,76.4,Office Supplies,Appliances,East,2,0.0,6.55
+CA-2022-11308,2022-09-23,357.14,Technology,Machines,West,9,0.1,88.49
+CA-2022-11309,2022-09-23,184.08,Technology,Accessories,East,1,0.1,50.47
+CA-2022-11310,2022-09-24,790.17,Office Supplies,Appliances,Central,11,0.0,172.41
+CA-2022-11311,2022-09-25,918.15,Technology,Accessories,West,10,0.0,77.53
+CA-2022-11312,2022-09-26,84.01,Technology,Copiers,West,1,0.2,21.77
+CA-2022-11313,2022-09-26,350.34,Technology,Machines,Central,3,0.2,36.87
+CA-2022-11314,2022-09-26,105.01,Office Supplies,Storage,East,1,0.0,17.24
+CA-2022-11315,2022-09-27,5.21,Furniture,Bookcases,East,1,0.1,0.62
+CA-2022-11316,2022-09-27,433.76,Technology,Copiers,Central,4,0.1,119.93
+CA-2022-11317,2022-09-27,30.31,Furniture,Bookcases,Central,1,0.0,7.69
+CA-2022-11318,2022-09-28,620.05,Furniture,Chairs,West,10,0.0,114.53
+CA-2022-11319,2022-09-29,72.09,Office Supplies,Appliances,West,1,0.0,10.82
+CA-2022-11320,2022-09-29,525.53,Furniture,Chairs,South,5,0.15,113.89
+CA-2022-11321,2022-09-30,89.25,Furniture,Tables,West,1,0.0,8.18
+CA-2022-11322,2022-09-30,471.42,Office Supplies,Binders,South,11,0.2,125.07
+CA-2022-11323,2022-09-30,80.78,Furniture,Furnishings,South,1,0.2,8.18
+CA-2022-11324,2022-10-01,861.22,Technology,Phones,Central,13,0.1,163.86
+CA-2022-11325,2022-10-02,584.38,Technology,Accessories,South,12,0.0,108.32
+CA-2022-11326,2022-10-02,225.93,Furniture,Chairs,South,6,0.2,29.52
+CA-2022-11327,2022-10-03,348.48,Furniture,Bookcases,East,3,0.15,91.52
+CA-2022-11328,2022-10-03,265.92,Technology,Machines,South,1,0.1,32.14
+CA-2022-11329,2022-10-04,533.88,Furniture,Furnishings,Central,5,0.2,65.15
+CA-2022-11330,2022-10-05,223.43,Furniture,Furnishings,East,2,0.1,54.32
+CA-2022-11331,2022-10-05,1.85,Technology,Copiers,East,1,0.0,0.39
+CA-2022-11332,2022-10-05,140.88,Office Supplies,Storage,South,1,0.0,28.42
+CA-2022-11333,2022-10-06,59.17,Technology,Copiers,West,1,0.15,6.24
+CA-2022-11334,2022-10-06,539.95,Furniture,Tables,West,18,0.15,91.48
+CA-2022-11335,2022-10-07,837.54,Office Supplies,Storage,East,8,0.1,101.81
+CA-2022-11336,2022-10-08,773.44,Furniture,Tables,South,15,0.0,68.11
+CA-2022-11337,2022-10-09,258.75,Technology,Accessories,West,10,0.1,69.64
+CA-2022-11338,2022-10-09,287.54,Technology,Copiers,Central,9,0.1,72.33
+CA-2022-11339,2022-10-09,174.61,Technology,Machines,Central,3,0.2,21.17
+CA-2022-11340,2022-10-10,411.92,Furniture,Furnishings,South,2,0.2,107.4
+CA-2022-11341,2022-10-10,78.46,Technology,Accessories,West,1,0.1,8.27
+CA-2022-11342,2022-10-11,86.14,Furniture,Bookcases,South,1,0.0,22.05
+CA-2022-11343,2022-10-11,197.46,Technology,Accessories,South,1,0.1,41.33
+CA-2022-11344,2022-10-11,180.83,Office Supplies,Storage,South,1,0.2,42.04
+CA-2022-11345,2022-10-12,113.22,Furniture,Tables,Central,2,0.2,28.15
+CA-2022-11346,2022-10-12,589.46,Office Supplies,Appliances,East,5,0.2,99.89
+CA-2022-11347,2022-10-13,58.67,Technology,Accessories,East,1,0.15,10.19
+CA-2022-11348,2022-10-13,584.13,Office Supplies,Binders,Central,11,0.15,65.49
+CA-2022-11349,2022-10-14,289.11,Furniture,Tables,Central,3,0.2,63.78
+CA-2022-11350,2022-10-14,74.79,Furniture,Chairs,South,2,0.15,17.45
+CA-2022-11351,2022-10-14,434.55,Technology,Copiers,South,10,0.2,95.96
+CA-2022-11352,2022-10-15,111.23,Furniture,Tables,West,1,0.2,27.83
+CA-2022-11353,2022-10-15,92.74,Furniture,Chairs,West,1,0.1,17.13
+CA-2022-11354,2022-10-15,461.46,Technology,Machines,Central,3,0.15,49.24
+CA-2022-11355,2022-10-16,374.1,Technology,Machines,East,4,0.2,46.99
+CA-2022-11356,2022-10-16,211.81,Technology,Accessories,Central,1,0.2,21.9
+CA-2022-11357,2022-10-16,358.22,Furniture,Chairs,South,2,0.0,42.92
+CA-2022-11358,2022-10-17,160.05,Technology,Copiers,South,2,0.1,36.72
+CA-2022-11359,2022-10-17,305.22,Furniture,Chairs,South,4,0.0,60.29
+CA-2022-11360,2022-10-18,602.58,Office Supplies,Paper,South,10,0.15,62.07
+CA-2022-11361,2022-10-19,552.03,Technology,Phones,West,7,0.0,66.66
+CA-2022-11362,2022-10-20,716.67,Technology,Machines,East,8,0.1,200.04
+CA-2022-11363,2022-10-21,138.64,Office Supplies,Art,South,3,0.2,31.09
+CA-2022-11364,2022-10-21,487.88,Office Supplies,Binders,West,4,0.0,54.22
+CA-2022-11365,2022-10-21,14.74,Furniture,Tables,East,1,0.0,2.42
+CA-2022-11366,2022-10-22,614.48,Furniture,Bookcases,South,7,0.1,163.97
+CA-2022-11367,2022-10-23,598.1,Technology,Phones,East,4,0.15,84.85
+CA-2022-11368,2022-10-23,93.92,Office Supplies,Binders,West,2,0.15,22.3
+CA-2022-11369,2022-10-24,534.3,Office Supplies,Appliances,East,12,0.1,91.05
+CA-2022-11370,2022-10-25,559.08,Technology,Phones,East,7,0.1,133.49
+CA-2022-11371,2022-10-26,499.53,Office Supplies,Binders,South,4,0.15,118.02
+CA-2022-11372,2022-10-27,57.89,Furniture,Chairs,West,1,0.0,7.94
+CA-2022-11373,2022-10-27,286.97,Furniture,Furnishings,West,2,0.2,69.85
+CA-2022-11374,2022-10-27,302.98,Office Supplies,Storage,South,4,0.1,73.67
+CA-2022-11375,2022-10-28,340.29,Technology,Phones,East,5,0.0,55.34
+CA-2022-11376,2022-10-28,357.29,Office Supplies,Binders,South,3,0.1,71.01
+CA-2022-11377,2022-10-28,73.16,Technology,Copiers,East,1,0.2,18.98
+CA-2022-11378,2022-10-29,256.67,Furniture,Bookcases,Central,4,0.2,43.33
+CA-2022-11379,2022-10-29,61.13,Office Supplies,Art,Central,1,0.15,17.11
+CA-2022-11380,2022-10-29,495.82,Office Supplies,Storage,East,11,0.0,68.82
+CA-2022-11381,2022-10-30,233.08,Technology,Phones,East,2,0.15,54.82
+CA-2022-11382,2022-10-30,505.95,Furniture,Chairs,Central,4,0.15,55.15
+CA-2022-11383,2022-10-31,518.93,Technology,Copiers,East,18,0.0,95.54
+CA-2022-11384,2022-11-01,0.58,Office Supplies,Binders,South,1,0.2,0.12
+CA-2022-11385,2022-11-01,294.27,Technology,Phones,South,2,0.2,45.3
+CA-2022-11386,2022-11-01,598.36,Technology,Phones,East,4,0.1,155.92
+CA-2022-11387,2022-11-02,677.76,Furniture,Chairs,East,5,0.2,122.34
+CA-2022-11388,2022-11-02,99.62,Technology,Accessories,South,1,0.2,13.49
+CA-2022-11389,2022-11-03,167.22,Technology,Accessories,West,1,0.1,27.06
+CA-2022-11390,2022-11-03,582.33,Office Supplies,Storage,Central,6,0.15,99.81
+CA-2022-11391,2022-11-04,269.92,Furniture,Chairs,East,3,0.0,71.65
+CA-2022-11392,2022-11-04,307.17,Furniture,Furnishings,West,6,0.15,71.75
+CA-2022-11393,2022-11-04,448.71,Office Supplies,Art,South,4,0.1,75.45
+CA-2022-11394,2022-11-05,137.88,Technology,Accessories,Central,5,0.2,36.71
+CA-2022-11395,2022-11-05,841.38,Office Supplies,Binders,Central,7,0.15,177.32
+CA-2022-11396,2022-11-05,182.26,Office Supplies,Storage,South,3,0.15,32.72
+CA-2022-11397,2022-11-06,840.79,Furniture,Bookcases,South,5,0.15,96.89
+CA-2022-11398,2022-11-07,137.87,Office Supplies,Appliances,Central,3,0.2,11.7
+CA-2022-11399,2022-11-07,318.66,Furniture,Furnishings,West,14,0.1,25.87
+CA-2022-11400,2022-11-07,148.01,Office Supplies,Storage,Central,1,0.2,24.14
+CA-2022-11401,2022-11-08,330.98,Office Supplies,Art,East,2,0.2,59.79
+CA-2022-11402,2022-11-08,229.82,Office Supplies,Storage,South,2,0.2,31.69
+CA-2022-11403,2022-11-09,396.1,Technology,Machines,Central,4,0.0,52.17
+CA-2022-11404,2022-11-09,300.53,Furniture,Furnishings,East,2,0.1,37.27
+CA-2022-11405,2022-11-10,360.13,Technology,Phones,Central,3,0.2,65.56
+CA-2022-11406,2022-11-10,168.33,Furniture,Bookcases,West,2,0.0,17.53
+CA-2022-11407,2022-11-10,306.38,Furniture,Chairs,Central,3,0.15,41.8
+CA-2022-11408,2022-11-11,30.84,Technology,Phones,Central,1,0.15,6.23
+CA-2022-11409,2022-11-11,404.25,Furniture,Furnishings,West,3,0.2,109.78
+CA-2022-11410,2022-11-11,390.83,Office Supplies,Storage,South,5,0.15,47.67
+CA-2022-11411,2022-11-12,921.28,Technology,Phones,South,22,0.1,86.62
+CA-2022-11412,2022-11-13,928.68,Office Supplies,Paper,East,6,0.15,123.19
+CA-2022-11413,2022-11-14,328.37,Office Supplies,Art,Central,8,0.2,47.25
+CA-2022-11414,2022-11-14,111.49,Furniture,Chairs,East,1,0.2,9.28
+CA-2022-11415,2022-11-14,31.68,Office Supplies,Storage,Central,1,0.2,4.7
+CA-2022-11416,2022-11-15,861.43,Office Supplies,Art,South,11,0.1,155.12
+CA-2022-11417,2022-11-16,632.24,Office Supplies,Art,Central,4,0.1,145.77
+CA-2022-11418,2022-11-17,184.46,Office Supplies,Art,South,3,0.2,17.97
+CA-2022-11419,2022-11-17,551.33,Office Supplies,Art,East,9,0.2,108.74
+CA-2022-11420,2022-11-18,159.64,Technology,Accessories,West,2,0.15,25.08
+CA-2022-11421,2022-11-18,583.05,Furniture,Tables,South,10,0.2,53.82
+CA-2022-11422,2022-11-18,211.95,Technology,Accessories,West,1,0.0,18.73
+CA-2022-11423,2022-11-19,74.3,Furniture,Furnishings,East,1,0.1,6.07
+CA-2022-11424,2022-11-19,343.82,Office Supplies,Art,West,7,0.1,72.7
+CA-2022-11425,2022-11-19,328.48,Furniture,Furnishings,East,11,0.0,57.18
+CA-2022-11426,2022-11-20,276.03,Office Supplies,Storage,West,2,0.1,56.07
+CA-2022-11427,2022-11-20,474.39,Office Supplies,Storage,West,3,0.2,91.61
+CA-2022-11428,2022-11-20,56.07,Furniture,Chairs,Central,1,0.15,5.99
+CA-2022-11429,2022-11-21,18.98,Technology,Copiers,Central,1,0.15,2.16
+CA-2022-11430,2022-11-21,455.35,Office Supplies,Paper,East,5,0.0,119.68
+CA-2022-11431,2022-11-21,150.41,Technology,Machines,South,1,0.1,13.87
+CA-2022-11432,2022-11-22,177.03,Technology,Machines,East,2,0.2,34.65
+CA-2022-11433,2022-11-22,390.88,Technology,Phones,Central,6,0.1,102.61
+CA-2022-11434,2022-11-23,10.41,Office Supplies,Appliances,South,1,0.1,2.89
+CA-2022-11435,2022-11-23,226.91,Office Supplies,Binders,South,7,0.15,24.69
+CA-2022-11436,2022-11-23,380.74,Furniture,Furnishings,South,4,0.15,38.87
+CA-2022-11437,2022-11-24,749.83,Office Supplies,Storage,East,36,0.1,84.61
+CA-2022-11438,2022-11-25,345.67,Technology,Accessories,West,3,0.2,37.85
+CA-2022-11439,2022-11-25,89.75,Furniture,Furnishings,South,1,0.2,15.48
+CA-2022-11440,2022-11-25,427.72,Furniture,Bookcases,West,3,0.2,56.99
+CA-2022-11441,2022-11-26,1027.13,Furniture,Furnishings,West,8,0.2,238.68
+CA-2022-11442,2022-11-27,447.63,Office Supplies,Appliances,South,4,0.15,106.08
+CA-2022-11443,2022-11-27,420.95,Technology,Copiers,Central,5,0.1,114.0
+CA-2022-11444,2022-11-28,678.55,Office Supplies,Storage,Central,19,0.0,136.76
+CA-2022-11445,2022-11-29,102.14,Furniture,Furnishings,South,1,0.0,21.32
+CA-2022-11446,2022-11-29,690.94,Furniture,Bookcases,East,6,0.2,118.24
+CA-2022-11447,2022-11-30,56.38,Furniture,Bookcases,East,1,0.2,8.35
+CA-2022-11448,2022-11-30,341.6,Technology,Machines,South,10,0.0,38.63
+CA-2022-11449,2022-11-30,203.64,Furniture,Furnishings,East,2,0.2,53.5
+CA-2022-11450,2022-12-01,73.96,Office Supplies,Paper,South,1,0.2,8.31
+CA-2022-11451,2022-12-01,299.76,Furniture,Bookcases,East,5,0.1,51.46
+CA-2022-11452,2022-12-01,489.65,Technology,Phones,East,9,0.15,114.63
+CA-2022-11453,2022-12-02,310.89,Technology,Machines,South,9,0.15,48.62
+CA-2022-11454,2022-12-02,91.97,Office Supplies,Appliances,Central,1,0.1,11.85
+CA-2022-11455,2022-12-02,593.11,Technology,Phones,East,7,0.0,93.92
+CA-2022-11456,2022-12-03,676.02,Office Supplies,Paper,South,17,0.0,186.05
+CA-2022-11457,2022-12-03,480.66,Office Supplies,Art,East,20,0.1,88.2
+CA-2022-11458,2022-12-04,716.37,Office Supplies,Paper,East,5,0.1,159.2
+CA-2022-11459,2022-12-04,230.48,Office Supplies,Storage,Central,1,0.2,54.16
+CA-2022-11460,2022-12-05,231.89,Technology,Phones,Central,1,0.15,42.41
+CA-2022-11461,2022-12-05,43.04,Technology,Accessories,Central,1,0.15,9.63
+CA-2022-11462,2022-12-05,354.87,Technology,Copiers,Central,2,0.0,52.38
+CA-2022-11463,2022-12-06,562.19,Furniture,Chairs,East,7,0.0,135.2
+CA-2022-11464,2022-12-07,424.76,Office Supplies,Binders,South,3,0.0,108.07
+CA-2022-11465,2022-12-07,254.43,Furniture,Bookcases,South,1,0.2,59.62
+CA-2022-11466,2022-12-07,33.04,Office Supplies,Art,Central,1,0.1,3.89
+CA-2022-11467,2022-12-08,797.09,Furniture,Chairs,East,14,0.1,147.9
+CA-2022-11468,2022-12-09,176.83,Office Supplies,Art,Central,1,0.15,44.64
+CA-2022-11469,2022-12-09,27.67,Office Supplies,Appliances,West,1,0.15,7.17
+CA-2022-11470,2022-12-09,633.42,Furniture,Tables,East,5,0.2,126.82
+CA-2022-11471,2022-12-10,988.1,Technology,Accessories,South,18,0.2,188.18
+CA-2022-11472,2022-12-11,273.69,Technology,Accessories,South,3,0.1,54.52
+CA-2022-11473,2022-12-11,669.44,Office Supplies,Binders,East,5,0.15,109.77
+CA-2022-11474,2022-12-12,290.93,Office Supplies,Binders,South,3,0.0,41.34
+CA-2022-11475,2022-12-12,290.36,Furniture,Tables,Central,2,0.0,37.17
+CA-2022-11476,2022-12-13,528.36,Technology,Accessories,South,10,0.15,128.97
+CA-2022-11477,2022-12-13,223.97,Furniture,Bookcases,Central,3,0.0,30.71
+CA-2022-11478,2022-12-14,161.49,Technology,Phones,West,1,0.2,31.11
+CA-2022-11479,2022-12-14,653.06,Technology,Phones,East,8,0.1,75.91
+CA-2022-11480,2022-12-15,81.07,Furniture,Chairs,East,1,0.0,19.97
+CA-2022-11481,2022-12-15,632.61,Technology,Machines,West,5,0.1,76.68
+CA-2022-11482,2022-12-16,186.86,Office Supplies,Storage,East,6,0.1,41.14
+CA-2022-11483,2022-12-16,141.42,Office Supplies,Storage,Central,1,0.0,27.01
+CA-2022-11484,2022-12-16,555.59,Furniture,Chairs,South,7,0.2,110.73
+CA-2022-11485,2022-12-17,274.09,Office Supplies,Appliances,South,8,0.15,43.45
+CA-2022-11486,2022-12-17,860.59,Furniture,Furnishings,South,6,0.15,155.16
+CA-2022-11487,2022-12-18,401.62,Technology,Machines,Central,3,0.15,44.5
+CA-2022-11488,2022-12-18,194.4,Technology,Machines,South,5,0.2,28.57
+CA-2022-11489,2022-12-18,39.34,Furniture,Tables,Central,1,0.2,7.02
+CA-2022-11490,2022-12-19,541.28,Furniture,Chairs,West,9,0.2,86.8
+CA-2022-11491,2022-12-19,190.69,Technology,Copiers,Central,3,0.15,46.04
+CA-2022-11492,2022-12-20,465.16,Technology,Copiers,Central,7,0.2,112.64
+CA-2022-11493,2022-12-20,43.34,Technology,Copiers,South,1,0.2,6.23
+CA-2022-11494,2022-12-20,188.65,Office Supplies,Binders,South,2,0.15,23.58
+CA-2022-11495,2022-12-21,665.56,Furniture,Bookcases,South,21,0.0,121.58
+CA-2022-11496,2022-12-21,214.54,Furniture,Furnishings,West,6,0.1,53.25
+CA-2022-11497,2022-12-22,336.24,Furniture,Tables,Central,3,0.0,56.81
+CA-2022-11498,2022-12-22,541.44,Office Supplies,Paper,East,4,0.1,101.92
+CA-2022-11499,2022-12-23,1052.58,Technology,Phones,Central,16,0.2,241.68
+CA-2022-11500,2022-12-24,279.21,Furniture,Tables,South,2,0.0,72.83
+CA-2022-11501,2022-12-24,671.45,Furniture,Bookcases,South,5,0.2,140.81
+CA-2022-11502,2022-12-25,132.86,Furniture,Tables,Central,3,0.0,36.6
+CA-2022-11503,2022-12-25,442.55,Technology,Copiers,West,6,0.2,65.56
+CA-2022-11504,2022-12-25,319.27,Technology,Machines,East,4,0.0,34.34
+CA-2022-11505,2022-12-26,768.13,Office Supplies,Storage,South,6,0.15,191.02
+CA-2022-11506,2022-12-27,5.31,Furniture,Chairs,East,1,0.15,0.54
+CA-2022-11507,2022-12-27,570.1,Office Supplies,Paper,West,18,0.1,104.12
+CA-2022-11508,2022-12-27,123.36,Technology,Machines,West,1,0.0,14.52
+CA-2022-11509,2022-12-28,789.17,Technology,Accessories,Central,6,0.0,188.04
+CA-2022-11510,2022-12-29,62.73,Technology,Accessories,South,1,0.1,16.59
+CA-2022-11511,2022-12-29,15.13,Furniture,Furnishings,Central,1,0.15,4.2
+CA-2022-11512,2022-12-29,609.44,Technology,Phones,Central,6,0.2,155.91
+CA-2022-11513,2022-12-30,202.46,Furniture,Bookcases,Central,6,0.2,31.5
+CA-2022-11514,2022-12-30,756.91,Furniture,Tables,Central,8,0.2,134.48
+CA-2022-11515,2022-12-31,572.27,Furniture,Bookcases,West,26,0.1,72.37
+CA-2022-11516,2022-12-31,171.56,Furniture,Furnishings,East,1,0.2,19.12
+CA-2022-11517,2022-12-31,404.44,Furniture,Furnishings,East,14,0.15,70.19
+CA-2023-11518,2023-01-01,381.31,Furniture,Furnishings,Central,3,0.2,61.14
+CA-2023-11519,2023-01-01,370.49,Office Supplies,Paper,East,2,0.0,92.19
+CA-2023-11520,2023-01-02,74.42,Technology,Copiers,East,1,0.1,10.38
+CA-2023-11521,2023-01-02,387.28,Furniture,Tables,East,3,0.2,31.05
+CA-2023-11522,2023-01-03,507.37,Office Supplies,Art,East,19,0.0,97.68
+CA-2023-11523,2023-01-03,29.18,Office Supplies,Appliances,West,1,0.2,7.51
+CA-2023-11524,2023-01-04,273.93,Furniture,Furnishings,West,3,0.0,38.62
+CA-2023-11525,2023-01-04,362.44,Furniture,Bookcases,West,3,0.0,61.49
+CA-2023-11526,2023-01-05,474.05,Technology,Phones,South,8,0.0,72.07
+CA-2023-11527,2023-01-06,463.29,Furniture,Bookcases,South,3,0.2,96.87
+CA-2023-11528,2023-01-06,46.27,Technology,Copiers,East,1,0.0,10.08
+CA-2023-11529,2023-01-07,699.49,Technology,Accessories,Central,22,0.1,82.02
+CA-2023-11530,2023-01-08,803.98,Technology,Machines,South,7,0.0,93.13
+CA-2023-11531,2023-01-09,122.51,Furniture,Bookcases,West,1,0.1,32.56
+CA-2023-11532,2023-01-09,40.07,Furniture,Tables,West,1,0.1,8.09
+CA-2023-11533,2023-01-09,325.2,Office Supplies,Storage,East,11,0.15,60.64
+CA-2023-11534,2023-01-10,119.86,Office Supplies,Appliances,South,2,0.1,19.07
+CA-2023-11535,2023-01-10,570.15,Office Supplies,Appliances,South,3,0.2,122.21
+CA-2023-11536,2023-01-10,81.41,Furniture,Tables,South,1,0.2,8.05
+CA-2023-11537,2023-01-11,693.02,Furniture,Tables,Central,7,0.2,137.66
+CA-2023-11538,2023-01-12,65.71,Office Supplies,Binders,South,1,0.15,10.73
+CA-2023-11539,2023-01-12,95.4,Office Supplies,Binders,South,1,0.15,21.06
+CA-2023-11540,2023-01-12,429.63,Technology,Accessories,West,4,0.1,55.72
+CA-2023-11541,2023-01-13,345.99,Technology,Machines,South,3,0.2,64.63
+CA-2023-11542,2023-01-13,256.05,Office Supplies,Storage,South,11,0.1,66.11
+CA-2023-11543,2023-01-14,898.37,Office Supplies,Paper,Central,22,0.0,81.09
+CA-2023-11544,2023-01-15,238.68,Technology,Accessories,West,4,0.1,35.19
+CA-2023-11545,2023-01-15,404.31,Technology,Phones,East,2,0.1,37.88
+CA-2023-11546,2023-01-16,96.16,Office Supplies,Binders,South,1,0.1,15.33
+CA-2023-11547,2023-01-16,80.99,Furniture,Bookcases,West,1,0.0,12.04
+CA-2023-11548,2023-01-16,288.48,Technology,Phones,South,12,0.15,68.54
+CA-2023-11549,2023-01-17,632.67,Office Supplies,Art,Central,12,0.15,143.9
+CA-2023-11550,2023-01-18,520.62,Furniture,Furnishings,Central,15,0.0,130.18
+CA-2023-11551,2023-01-19,483.8,Furniture,Tables,Central,5,0.0,110.46
+CA-2023-11552,2023-01-19,79.78,Technology,Machines,Central,1,0.2,20.3
+CA-2023-11553,2023-01-20,426.71,Office Supplies,Binders,Central,3,0.1,51.11
+CA-2023-11554,2023-01-20,257.01,Technology,Accessories,East,2,0.2,21.67
+CA-2023-11555,2023-01-20,151.96,Furniture,Furnishings,West,4,0.15,23.6
+CA-2023-11556,2023-01-21,957.45,Furniture,Chairs,East,16,0.2,259.35
+CA-2023-11557,2023-01-22,283.06,Technology,Accessories,East,6,0.1,75.33
+CA-2023-11558,2023-01-22,600.62,Office Supplies,Appliances,East,11,0.15,91.19
+CA-2023-11559,2023-01-23,81.55,Office Supplies,Appliances,Central,1,0.0,17.71
+CA-2023-11560,2023-01-23,414.68,Technology,Accessories,West,5,0.2,44.85
+CA-2023-11561,2023-01-24,393.45,Technology,Copiers,East,17,0.0,103.43
+CA-2023-11562,2023-01-24,287.82,Furniture,Bookcases,West,3,0.2,40.18
+CA-2023-11563,2023-01-25,753.53,Technology,Phones,Central,5,0.0,91.47
+CA-2023-11564,2023-01-26,70.35,Technology,Phones,Central,1,0.2,15.08
+CA-2023-11565,2023-01-26,364.53,Technology,Phones,West,8,0.1,97.81
+CA-2023-11566,2023-01-26,203.41,Office Supplies,Binders,South,2,0.1,25.14
+CA-2023-11567,2023-01-27,332.42,Furniture,Bookcases,South,11,0.0,74.36
+CA-2023-11568,2023-01-27,350.46,Office Supplies,Appliances,East,4,0.2,79.62
+CA-2023-11569,2023-01-28,324.88,Furniture,Tables,West,8,0.2,34.98
+CA-2023-11570,2023-01-28,750.32,Technology,Copiers,South,12,0.0,172.01
+CA-2023-11571,2023-01-29,1015.05,Technology,Accessories,Central,47,0.2,174.07
+CA-2023-11572,2023-01-30,283.06,Office Supplies,Appliances,East,2,0.0,59.3
+CA-2023-11573,2023-01-30,75.77,Office Supplies,Storage,West,1,0.2,20.99
+CA-2023-11574,2023-01-30,286.14,Technology,Accessories,West,1,0.2,59.52
+CA-2023-11575,2023-01-31,482.78,Office Supplies,Appliances,South,8,0.2,112.59
+CA-2023-11576,2023-01-31,54.0,Technology,Accessories,East,1,0.2,12.89
+CA-2023-11577,2023-01-31,224.78,Technology,Accessories,South,4,0.2,35.93
+CA-2023-11578,2023-02-01,35.7,Furniture,Chairs,South,1,0.0,3.49
+CA-2023-11579,2023-02-01,749.06,Technology,Machines,South,37,0.0,97.81
+CA-2023-11580,2023-02-01,13.35,Furniture,Furnishings,West,1,0.0,2.44
+CA-2023-11581,2023-02-02,759.66,Technology,Machines,East,6,0.1,208.37
+CA-2023-11582,2023-02-03,473.42,Office Supplies,Storage,Central,8,0.0,131.27
+CA-2023-11583,2023-02-03,344.93,Technology,Phones,South,3,0.1,44.97
+CA-2023-11584,2023-02-04,338.86,Furniture,Tables,East,3,0.2,94.51
+CA-2023-11585,2023-02-04,156.23,Furniture,Furnishings,Central,1,0.2,24.93
+CA-2023-11586,2023-02-04,508.83,Furniture,Furnishings,West,6,0.15,113.86
+CA-2023-11587,2023-02-05,1059.92,Furniture,Furnishings,West,26,0.2,136.72
+CA-2023-11588,2023-02-06,270.57,Technology,Machines,South,3,0.0,26.23
+CA-2023-11589,2023-02-06,91.87,Technology,Copiers,East,1,0.15,23.96
+CA-2023-11590,2023-02-06,303.08,Office Supplies,Appliances,South,3,0.15,81.81
+CA-2023-11591,2023-02-07,769.23,Technology,Phones,Central,19,0.0,117.92
+CA-2023-11592,2023-02-08,884.39,Office Supplies,Appliances,South,36,0.0,101.63
+CA-2023-11593,2023-02-08,3.77,Office Supplies,Binders,East,1,0.2,0.43
+CA-2023-11594,2023-02-09,786.18,Office Supplies,Storage,East,6,0.1,129.39
+CA-2023-11595,2023-02-10,640.89,Technology,Machines,East,4,0.2,74.39
+CA-2023-11596,2023-02-11,50.43,Technology,Machines,West,1,0.2,13.81
+CA-2023-11597,2023-02-11,46.47,Furniture,Chairs,West,1,0.0,10.62
+CA-2023-11598,2023-02-11,968.43,Furniture,Bookcases,West,24,0.0,257.59
+CA-2023-11599,2023-02-12,954.62,Office Supplies,Art,South,15,0.0,100.74
+CA-2023-11600,2023-02-13,359.97,Furniture,Furnishings,Central,2,0.2,48.8
+CA-2023-11601,2023-02-13,91.62,Furniture,Chairs,South,1,0.0,17.08
+CA-2023-11602,2023-02-13,172.98,Technology,Machines,South,1,0.0,42.73
+CA-2023-11603,2023-02-14,436.71,Furniture,Chairs,South,3,0.0,94.08
+CA-2023-11604,2023-02-14,69.86,Furniture,Furnishings,South,1,0.0,9.63
+CA-2023-11605,2023-02-14,221.34,Technology,Machines,East,5,0.1,40.35
+CA-2023-11606,2023-02-15,175.25,Technology,Copiers,West,3,0.2,29.54
+CA-2023-11607,2023-02-15,547.92,Technology,Accessories,West,4,0.0,130.59
+CA-2023-11608,2023-02-16,202.52,Office Supplies,Binders,East,3,0.1,18.9
+CA-2023-11609,2023-02-16,602.0,Technology,Copiers,West,4,0.0,101.53
+CA-2023-11610,2023-02-17,249.93,Technology,Copiers,Central,6,0.2,50.15
+CA-2023-11611,2023-02-17,667.11,Office Supplies,Paper,Central,6,0.15,96.7
+CA-2023-11612,2023-02-18,792.26,Office Supplies,Art,East,6,0.2,175.59
+CA-2023-11613,2023-02-18,178.01,Furniture,Chairs,East,3,0.15,40.68
+CA-2023-11614,2023-02-19,191.47,Technology,Copiers,Central,3,0.1,39.97
+CA-2023-11615,2023-02-19,923.53,Furniture,Bookcases,West,8,0.2,164.37
+CA-2023-11616,2023-02-20,395.5,Office Supplies,Binders,West,3,0.15,103.57
+CA-2023-11617,2023-02-20,270.07,Technology,Accessories,Central,6,0.0,36.68
+CA-2023-11618,2023-02-21,135.67,Technology,Machines,West,1,0.0,36.89
+CA-2023-11619,2023-02-21,189.14,Technology,Copiers,East,3,0.1,47.92
+CA-2023-11620,2023-02-21,421.72,Office Supplies,Appliances,East,11,0.15,59.01
+CA-2023-11621,2023-02-22,727.64,Technology,Machines,East,5,0.2,160.01
+CA-2023-11622,2023-02-22,2.6,Technology,Phones,South,1,0.1,0.39
+CA-2023-11623,2023-02-23,668.05,Furniture,Chairs,East,5,0.15,131.37
+CA-2023-11624,2023-02-23,334.89,Technology,Copiers,East,3,0.1,85.55
+CA-2023-11625,2023-02-24,488.53,Office Supplies,Art,West,13,0.15,58.88
+CA-2023-11626,2023-02-24,292.13,Technology,Copiers,Central,5,0.1,57.75
+CA-2023-11627,2023-02-24,179.06,Furniture,Furnishings,Central,1,0.15,15.47
+CA-2023-11628,2023-02-25,18.62,Technology,Accessories,East,1,0.15,2.09
+CA-2023-11629,2023-02-25,1051.04,Furniture,Bookcases,West,7,0.15,207.92
+CA-2023-11630,2023-02-26,888.7,Technology,Accessories,South,6,0.0,108.65
+CA-2023-11631,2023-02-27,261.94,Technology,Copiers,West,6,0.0,50.09
+CA-2023-11632,2023-02-27,489.75,Office Supplies,Storage,East,15,0.15,104.7
+CA-2023-11633,2023-02-28,841.42,Technology,Accessories,East,7,0.1,188.23
+CA-2023-11634,2023-03-01,417.06,Office Supplies,Paper,South,5,0.1,52.74
+CA-2023-11635,2023-03-01,33.2,Furniture,Bookcases,South,1,0.2,2.75
+CA-2023-11636,2023-03-01,383.5,Office Supplies,Art,West,4,0.2,54.26
+CA-2023-11637,2023-03-02,866.69,Furniture,Furnishings,West,6,0.1,159.35
+CA-2023-11638,2023-03-03,921.09,Furniture,Tables,Central,17,0.1,164.8
+CA-2023-11639,2023-03-04,150.86,Furniture,Bookcases,South,1,0.1,26.38
+CA-2023-11640,2023-03-04,1325.37,Office Supplies,Storage,South,36,0.2,213.28
+CA-2023-11641,2023-03-05,499.45,Office Supplies,Storage,East,5,0.1,82.35
+CA-2023-11642,2023-03-05,443.2,Technology,Phones,Central,3,0.1,77.06
+CA-2023-11643,2023-03-06,131.94,Technology,Machines,Central,1,0.2,10.91
+CA-2023-11644,2023-03-06,49.18,Furniture,Chairs,East,1,0.2,9.05
+CA-2023-11645,2023-03-06,378.18,Office Supplies,Art,South,4,0.2,84.52
+CA-2023-11646,2023-03-07,639.18,Technology,Copiers,West,7,0.15,78.21
+CA-2023-11647,2023-03-08,824.13,Technology,Copiers,South,10,0.2,226.8
+CA-2023-11648,2023-03-09,323.56,Office Supplies,Appliances,West,2,0.1,58.39
+CA-2023-11649,2023-03-09,644.49,Furniture,Chairs,West,11,0.1,145.02
+CA-2023-11650,2023-03-10,989.72,Office Supplies,Appliances,East,18,0.2,154.95
+CA-2023-11651,2023-03-11,218.82,Technology,Phones,West,2,0.0,29.52
+CA-2023-11652,2023-03-11,126.07,Office Supplies,Appliances,Central,1,0.2,28.4
+CA-2023-11653,2023-03-11,726.58,Furniture,Bookcases,East,17,0.0,72.55
+CA-2023-11654,2023-03-12,805.05,Technology,Machines,West,9,0.15,98.71
+CA-2023-11655,2023-03-12,345.56,Furniture,Furnishings,East,3,0.0,76.95
+CA-2023-11656,2023-03-13,517.73,Furniture,Tables,West,7,0.1,81.2
+CA-2023-11657,2023-03-13,12.82,Office Supplies,Storage,East,1,0.0,3.39
+CA-2023-11658,2023-03-13,190.38,Office Supplies,Storage,South,7,0.0,28.95
+CA-2023-11659,2023-03-14,132.52,Furniture,Chairs,South,1,0.15,35.93
+CA-2023-11660,2023-03-14,300.87,Office Supplies,Storage,Central,14,0.0,58.79
+CA-2023-11661,2023-03-14,239.6,Office Supplies,Binders,East,1,0.2,45.24
+CA-2023-11662,2023-03-15,128.25,Technology,Machines,Central,3,0.1,12.25
+CA-2023-11663,2023-03-15,595.24,Furniture,Tables,East,4,0.2,48.14
+CA-2023-11664,2023-03-16,75.31,Furniture,Chairs,South,1,0.2,13.22
+CA-2023-11665,2023-03-16,699.37,Furniture,Bookcases,East,15,0.1,167.92
+CA-2023-11666,2023-03-17,1234.14,Office Supplies,Art,Central,44,0.0,156.18
+CA-2023-11667,2023-03-17,11.51,Technology,Machines,East,1,0.2,2.26
+CA-2023-11668,2023-03-18,21.13,Technology,Accessories,West,1,0.1,5.78
+CA-2023-11669,2023-03-18,331.06,Furniture,Tables,South,2,0.1,84.32
+CA-2023-11670,2023-03-18,846.16,Office Supplies,Binders,South,9,0.1,157.62
+CA-2023-11671,2023-03-19,1047.25,Technology,Accessories,South,12,0.0,98.93
+CA-2023-11672,2023-03-20,80.23,Office Supplies,Storage,Central,1,0.0,6.45
+CA-2023-11673,2023-03-20,636.86,Office Supplies,Binders,East,9,0.2,127.57
+CA-2023-11674,2023-03-21,1044.49,Furniture,Tables,East,23,0.2,291.94
+CA-2023-11675,2023-03-22,766.13,Technology,Machines,West,6,0.2,162.14
+CA-2023-11676,2023-03-23,428.52,Technology,Machines,West,11,0.0,108.7
+CA-2023-11677,2023-03-23,484.32,Technology,Phones,Central,5,0.1,84.32
+CA-2023-11678,2023-03-24,931.4,Furniture,Furnishings,Central,20,0.1,148.17
+CA-2023-11679,2023-03-25,249.97,Office Supplies,Paper,Central,2,0.0,31.86
+CA-2023-11680,2023-03-25,711.58,Furniture,Tables,South,23,0.15,148.4
+CA-2023-11681,2023-03-26,297.46,Office Supplies,Appliances,South,2,0.15,29.96
+CA-2023-11682,2023-03-26,128.38,Furniture,Furnishings,South,1,0.2,26.75
+CA-2023-11683,2023-03-26,491.56,Technology,Phones,West,4,0.2,67.56
+CA-2023-11684,2023-03-27,189.64,Office Supplies,Storage,South,2,0.2,25.29
+CA-2023-11685,2023-03-27,52.03,Technology,Copiers,Central,1,0.1,9.11
+CA-2023-11686,2023-03-27,578.35,Furniture,Tables,West,5,0.15,142.85
+CA-2023-11687,2023-03-28,753.45,Furniture,Chairs,Central,8,0.1,63.36
+CA-2023-11688,2023-03-29,140.16,Furniture,Furnishings,Central,5,0.1,27.25
+CA-2023-11689,2023-03-29,227.27,Technology,Accessories,South,2,0.1,50.63
+CA-2023-11690,2023-03-29,543.87,Technology,Accessories,East,8,0.15,96.51
+CA-2023-11691,2023-03-30,254.97,Furniture,Bookcases,South,11,0.1,61.93
+CA-2023-11692,2023-03-30,469.63,Furniture,Tables,West,9,0.2,112.4
+CA-2023-11693,2023-03-30,75.34,Furniture,Bookcases,West,1,0.1,13.99
+CA-2023-11694,2023-03-31,994.53,Technology,Copiers,West,40,0.15,92.68
+CA-2023-11695,2023-04-01,1133.47,Furniture,Tables,Central,10,0.15,152.68
+CA-2023-11696,2023-04-02,656.06,Technology,Copiers,East,7,0.2,125.68
+CA-2023-11697,2023-04-02,72.72,Office Supplies,Art,East,1,0.2,14.53
+CA-2023-11698,2023-04-02,476.73,Technology,Accessories,South,6,0.2,116.96
+CA-2023-11699,2023-04-03,490.95,Office Supplies,Binders,South,8,0.1,81.29
+CA-2023-11700,2023-04-03,6.89,Furniture,Chairs,Central,1,0.15,1.21
+CA-2023-11701,2023-04-03,304.25,Office Supplies,Art,Central,10,0.0,71.03
+CA-2023-11702,2023-04-04,1093.1,Technology,Copiers,East,8,0.1,133.63
+CA-2023-11703,2023-04-05,292.83,Technology,Copiers,West,2,0.2,56.81
+CA-2023-11704,2023-04-05,299.06,Office Supplies,Art,South,2,0.1,80.2
+CA-2023-11705,2023-04-05,473.47,Office Supplies,Appliances,East,4,0.0,89.39
+CA-2023-11706,2023-04-06,716.81,Office Supplies,Binders,West,8,0.1,108.13
+CA-2023-11707,2023-04-07,1145.33,Furniture,Tables,East,10,0.0,165.33
+CA-2023-11708,2023-04-08,1250.83,Technology,Machines,Central,32,0.1,240.93
+CA-2023-11709,2023-04-09,1489.26,Technology,Accessories,South,33,0.2,146.26
+CA-2023-11710,2023-04-10,959.01,Furniture,Tables,East,6,0.15,253.83
+CA-2023-11711,2023-04-11,425.58,Furniture,Bookcases,Central,7,0.0,63.69
+CA-2023-11712,2023-04-11,626.44,Technology,Machines,South,8,0.2,159.65
+CA-2023-11713,2023-04-12,296.14,Technology,Accessories,South,3,0.2,80.68
+CA-2023-11714,2023-04-12,690.96,Office Supplies,Paper,South,6,0.1,84.07
+CA-2023-11715,2023-04-13,282.5,Furniture,Chairs,West,2,0.0,65.8
+CA-2023-11716,2023-04-13,522.61,Technology,Phones,West,3,0.2,68.6
+CA-2023-11717,2023-04-13,514.92,Office Supplies,Art,West,17,0.0,89.63
+CA-2023-11718,2023-04-14,1320.5,Furniture,Bookcases,West,19,0.1,328.65
+CA-2023-11719,2023-04-15,352.97,Office Supplies,Binders,West,3,0.1,59.61
+CA-2023-11720,2023-04-15,269.44,Furniture,Bookcases,East,2,0.1,34.77
+CA-2023-11721,2023-04-15,379.44,Furniture,Tables,Central,4,0.0,46.67
+CA-2023-11722,2023-04-16,1440.26,Technology,Copiers,South,11,0.15,318.38
+CA-2023-11723,2023-04-17,160.2,Technology,Machines,West,1,0.2,22.36
+CA-2023-11724,2023-04-17,765.3,Office Supplies,Paper,East,6,0.2,213.04
+CA-2023-11725,2023-04-18,360.95,Technology,Phones,East,12,0.2,63.38
+CA-2023-11726,2023-04-18,668.95,Office Supplies,Paper,South,15,0.1,60.18
+CA-2023-11727,2023-04-19,475.0,Office Supplies,Storage,East,14,0.1,90.73
+CA-2023-11728,2023-04-19,525.75,Technology,Phones,West,13,0.0,144.32
+CA-2023-11729,2023-04-20,128.58,Technology,Copiers,South,1,0.1,16.23
+CA-2023-11730,2023-04-20,885.29,Furniture,Furnishings,West,16,0.2,140.7
+CA-2023-11731,2023-04-21,890.01,Office Supplies,Art,Central,8,0.0,223.67
+CA-2023-11732,2023-04-21,180.95,Furniture,Furnishings,South,2,0.15,32.29
+CA-2023-11733,2023-04-21,5.7,Furniture,Tables,Central,1,0.1,1.31
+CA-2023-11734,2023-04-22,993.62,Office Supplies,Art,South,7,0.0,181.93
+CA-2023-11735,2023-04-23,625.19,Furniture,Chairs,West,26,0.0,143.86
+CA-2023-11736,2023-04-23,807.35,Furniture,Chairs,East,18,0.0,130.45
+CA-2023-11737,2023-04-24,781.45,Technology,Phones,East,22,0.1,137.92
+CA-2023-11738,2023-04-25,954.02,Technology,Accessories,South,45,0.15,230.18
+CA-2023-11739,2023-04-25,1.41,Furniture,Furnishings,West,1,0.1,0.26
+CA-2023-11740,2023-04-26,266.26,Office Supplies,Paper,South,1,0.1,39.64
+CA-2023-11741,2023-04-26,311.83,Technology,Phones,East,4,0.2,33.1
+CA-2023-11742,2023-04-26,771.22,Furniture,Tables,East,7,0.1,115.48
+CA-2023-11743,2023-04-27,417.7,Technology,Accessories,Central,2,0.1,38.76
+CA-2023-11744,2023-04-27,588.95,Technology,Machines,South,4,0.1,138.59
+CA-2023-11745,2023-04-28,526.4,Office Supplies,Storage,South,3,0.0,118.15
+CA-2023-11746,2023-04-28,46.64,Office Supplies,Binders,South,1,0.2,4.73
+CA-2023-11747,2023-04-28,665.44,Furniture,Furnishings,West,7,0.2,98.89
+CA-2023-11748,2023-04-29,1600.16,Office Supplies,Appliances,Central,19,0.1,256.57
+CA-2023-11749,2023-04-30,652.26,Office Supplies,Art,South,6,0.1,140.24
+CA-2023-11750,2023-04-30,704.28,Technology,Accessories,Central,8,0.0,177.1
+CA-2023-11751,2023-05-01,886.67,Furniture,Tables,South,10,0.15,178.42
+CA-2023-11752,2023-05-02,784.2,Furniture,Tables,South,6,0.1,68.8
+CA-2023-11753,2023-05-02,156.78,Furniture,Furnishings,West,1,0.1,14.61
+CA-2023-11754,2023-05-03,1064.34,Technology,Phones,South,14,0.1,283.58
+CA-2023-11755,2023-05-03,160.09,Technology,Accessories,East,1,0.1,32.03
+CA-2023-11756,2023-05-04,974.97,Office Supplies,Appliances,West,18,0.0,95.92
+CA-2023-11757,2023-05-04,46.93,Office Supplies,Storage,West,1,0.2,5.19
+CA-2023-11758,2023-05-04,275.27,Furniture,Tables,South,7,0.15,39.22
+CA-2023-11759,2023-05-05,969.15,Furniture,Furnishings,Central,13,0.0,107.31
+CA-2023-11760,2023-05-05,421.16,Technology,Copiers,East,4,0.2,58.45
+CA-2023-11761,2023-05-05,220.01,Office Supplies,Binders,Central,7,0.1,20.25
+CA-2023-11762,2023-05-06,909.73,Office Supplies,Binders,Central,39,0.0,148.19
+CA-2023-11763,2023-05-06,552.62,Office Supplies,Storage,Central,7,0.1,69.64
+CA-2023-11764,2023-05-07,1453.74,Furniture,Tables,South,11,0.2,122.2
+CA-2023-11765,2023-05-08,303.66,Technology,Accessories,Central,4,0.15,74.44
+CA-2023-11766,2023-05-08,427.14,Technology,Copiers,West,8,0.15,64.08
+CA-2023-11767,2023-05-09,1119.88,Furniture,Bookcases,East,10,0.1,275.72
+CA-2023-11768,2023-05-10,292.05,Office Supplies,Storage,West,4,0.2,32.1
+CA-2023-11769,2023-05-10,572.38,Office Supplies,Art,West,14,0.0,154.15
+CA-2023-11770,2023-05-11,208.86,Office Supplies,Binders,South,1,0.0,40.15
+CA-2023-11771,2023-05-11,974.33,Furniture,Tables,West,8,0.2,85.31
+CA-2023-11772,2023-05-12,329.14,Technology,Copiers,South,2,0.2,65.59
+CA-2023-11773,2023-05-12,113.71,Technology,Machines,South,1,0.15,20.87
+CA-2023-11774,2023-05-12,627.98,Technology,Accessories,Central,7,0.2,118.88
+CA-2023-11775,2023-05-13,561.57,Technology,Accessories,East,17,0.1,120.82
+CA-2023-11776,2023-05-13,194.01,Office Supplies,Paper,Central,2,0.0,51.38
+CA-2023-11777,2023-05-13,396.21,Furniture,Furnishings,South,5,0.15,102.65
+CA-2023-11778,2023-05-14,19.02,Furniture,Chairs,West,1,0.15,3.31
+CA-2023-11779,2023-05-14,1052.17,Office Supplies,Storage,South,18,0.15,87.47
+CA-2023-11780,2023-05-14,293.68,Office Supplies,Art,South,2,0.2,39.2
+CA-2023-11781,2023-05-15,572.08,Furniture,Furnishings,East,8,0.0,81.37
+CA-2023-11782,2023-05-15,361.21,Furniture,Chairs,West,4,0.2,84.34
+CA-2023-11783,2023-05-15,49.68,Furniture,Chairs,South,1,0.1,5.29
+CA-2023-11784,2023-05-16,439.2,Technology,Machines,East,6,0.0,101.45
+CA-2023-11785,2023-05-16,944.85,Furniture,Furnishings,West,8,0.15,81.9
+CA-2023-11786,2023-05-17,192.34,Office Supplies,Binders,West,3,0.2,15.9
+CA-2023-11787,2023-05-17,105.92,Technology,Phones,Central,2,0.15,9.77
+CA-2023-11788,2023-05-17,809.88,Technology,Phones,Central,11,0.0,126.48
+CA-2023-11789,2023-05-18,142.88,Office Supplies,Storage,South,1,0.0,38.66
+CA-2023-11790,2023-05-18,675.64,Furniture,Furnishings,East,8,0.15,117.64
+CA-2023-11791,2023-05-19,1432.64,Technology,Machines,West,48,0.2,334.27
+CA-2023-11792,2023-05-20,1245.18,Technology,Copiers,East,10,0.15,105.62
+CA-2023-11793,2023-05-21,388.96,Furniture,Furnishings,East,3,0.0,72.25
+CA-2023-11794,2023-05-21,51.08,Furniture,Chairs,South,1,0.15,7.85
+CA-2023-11795,2023-05-21,940.65,Furniture,Furnishings,Central,42,0.1,195.96
+CA-2023-11796,2023-05-22,1041.6,Office Supplies,Paper,West,7,0.15,150.82
+CA-2023-11797,2023-05-23,1187.48,Technology,Accessories,South,17,0.15,277.16
+CA-2023-11798,2023-05-24,378.51,Technology,Machines,East,4,0.2,31.36
+CA-2023-11799,2023-05-24,699.58,Technology,Copiers,East,30,0.2,159.44
+CA-2023-11800,2023-05-24,269.33,Technology,Accessories,Central,2,0.15,31.16
+CA-2023-11801,2023-05-25,673.17,Technology,Phones,East,23,0.15,65.43
+CA-2023-11802,2023-05-25,187.28,Technology,Phones,South,3,0.2,40.96
+CA-2023-11803,2023-05-25,358.24,Office Supplies,Binders,South,5,0.15,98.66
+CA-2023-11804,2023-05-26,1295.84,Office Supplies,Storage,Central,9,0.0,251.15
+CA-2023-11805,2023-05-27,72.75,Furniture,Tables,West,1,0.15,8.83
+CA-2023-11806,2023-05-27,842.26,Furniture,Furnishings,East,18,0.15,208.08
+CA-2023-11807,2023-05-27,255.07,Technology,Phones,West,4,0.1,31.99
+CA-2023-11808,2023-05-28,1209.37,Furniture,Tables,West,8,0.15,202.57
+CA-2023-11809,2023-05-29,96.48,Office Supplies,Appliances,South,1,0.15,8.82
+CA-2023-11810,2023-05-29,783.36,Furniture,Tables,South,5,0.15,72.95
+CA-2023-11811,2023-05-30,144.81,Technology,Accessories,West,1,0.15,11.89
+CA-2023-11812,2023-05-30,916.44,Technology,Copiers,South,7,0.0,193.84
+CA-2023-11813,2023-05-31,228.03,Office Supplies,Storage,West,4,0.0,45.07
+CA-2023-11814,2023-05-31,240.59,Technology,Machines,Central,4,0.1,42.07
+CA-2023-11815,2023-05-31,667.38,Furniture,Bookcases,West,10,0.1,127.31
+CA-2023-11816,2023-06-01,1048.03,Technology,Accessories,East,45,0.2,257.65
+CA-2023-11817,2023-06-01,222.66,Furniture,Tables,Central,1,0.15,45.08
+CA-2023-11818,2023-06-01,0.28,Technology,Accessories,Central,1,0.2,0.06
+CA-2023-11819,2023-06-02,665.6,Technology,Copiers,Central,11,0.15,59.13
+CA-2023-11820,2023-06-02,504.62,Technology,Copiers,West,17,0.1,65.13
+CA-2023-11821,2023-06-03,1089.33,Office Supplies,Art,West,41,0.2,241.2
+CA-2023-11822,2023-06-03,272.66,Office Supplies,Appliances,East,3,0.0,61.66
+CA-2023-11823,2023-06-04,1205.48,Office Supplies,Art,West,26,0.1,271.12
+CA-2023-11824,2023-06-05,6.87,Technology,Accessories,East,1,0.2,1.25
+CA-2023-11825,2023-06-05,15.43,Office Supplies,Storage,South,1,0.15,3.09
+CA-2023-11826,2023-06-05,906.65,Technology,Copiers,East,8,0.2,181.86
+CA-2023-11827,2023-06-06,914.73,Office Supplies,Binders,Central,11,0.15,213.34
+CA-2023-11828,2023-06-07,17.93,Office Supplies,Appliances,South,1,0.0,3.24
+CA-2023-11829,2023-06-07,1149.06,Office Supplies,Binders,Central,11,0.15,184.66
+CA-2023-11830,2023-06-08,420.4,Technology,Phones,Central,2,0.1,104.47
+CA-2023-11831,2023-06-08,534.29,Furniture,Tables,East,7,0.0,145.79
+CA-2023-11832,2023-06-09,418.03,Technology,Copiers,Central,2,0.2,82.75
+CA-2023-11833,2023-06-09,737.34,Technology,Accessories,West,33,0.15,113.82
+CA-2023-11834,2023-06-09,65.74,Technology,Copiers,Central,2,0.1,18.16
+CA-2023-11835,2023-06-10,1437.94,Furniture,Tables,South,10,0.0,169.89
+CA-2023-11836,2023-06-10,112.33,Technology,Phones,South,2,0.2,17.6
+CA-2023-11837,2023-06-11,542.25,Furniture,Chairs,South,8,0.0,132.04
+CA-2023-11838,2023-06-11,357.66,Technology,Copiers,Central,5,0.0,40.76
+CA-2023-11839,2023-06-11,449.18,Technology,Phones,East,5,0.15,58.74
+CA-2023-11840,2023-06-12,1028.92,Furniture,Bookcases,South,13,0.0,168.99
+CA-2023-11841,2023-06-13,565.04,Technology,Phones,South,9,0.1,92.29
+CA-2023-11842,2023-06-13,134.92,Office Supplies,Paper,East,1,0.2,29.23
+CA-2023-11843,2023-06-13,551.06,Furniture,Bookcases,Central,4,0.0,73.46
+CA-2023-11844,2023-06-14,253.48,Furniture,Chairs,South,2,0.0,44.37
+CA-2023-11845,2023-06-14,597.37,Furniture,Bookcases,East,7,0.0,123.64
+CA-2023-11846,2023-06-14,152.45,Technology,Copiers,West,2,0.1,36.15
+CA-2023-11847,2023-06-15,41.14,Furniture,Tables,South,1,0.0,6.73
+CA-2023-11848,2023-06-15,117.5,Technology,Copiers,East,1,0.1,24.01
+CA-2023-11849,2023-06-15,1061.33,Technology,Phones,East,13,0.1,106.28
+CA-2023-11850,2023-06-16,847.74,Technology,Machines,South,8,0.0,115.18
+CA-2023-11851,2023-06-16,158.44,Technology,Phones,East,4,0.15,33.12
+CA-2023-11852,2023-06-17,1278.96,Technology,Machines,East,10,0.2,282.13
+CA-2023-11853,2023-06-17,39.62,Furniture,Chairs,Central,1,0.0,9.74
+CA-2023-11854,2023-06-18,96.18,Technology,Accessories,South,1,0.1,22.34
+CA-2023-11855,2023-06-18,1020.39,Furniture,Tables,East,9,0.0,166.47
+CA-2023-11856,2023-06-19,533.96,Furniture,Tables,West,6,0.0,75.65
+CA-2023-11857,2023-06-19,535.45,Technology,Machines,South,6,0.15,101.04
+CA-2023-11858,2023-06-19,37.06,Office Supplies,Paper,West,1,0.15,7.57
+CA-2023-11859,2023-06-20,636.79,Furniture,Bookcases,East,4,0.2,141.21
+CA-2023-11860,2023-06-20,303.58,Technology,Accessories,West,3,0.1,44.73
+CA-2023-11861,2023-06-21,423.2,Office Supplies,Art,West,3,0.1,63.49
+CA-2023-11862,2023-06-21,188.31,Technology,Accessories,West,1,0.1,35.66
+CA-2023-11863,2023-06-21,271.97,Technology,Accessories,East,7,0.1,25.73
+CA-2023-11864,2023-06-22,854.06,Technology,Machines,West,6,0.15,99.12
+CA-2023-11865,2023-06-23,572.97,Furniture,Bookcases,East,4,0.0,102.03
+CA-2023-11866,2023-06-23,193.57,Technology,Phones,East,3,0.0,49.16
+CA-2023-11867,2023-06-23,444.58,Office Supplies,Art,Central,8,0.15,88.37
+CA-2023-11868,2023-06-24,513.81,Technology,Copiers,South,4,0.15,54.24
+CA-2023-11869,2023-06-24,932.53,Furniture,Tables,West,8,0.1,167.02
+CA-2023-11870,2023-06-25,154.48,Technology,Phones,Central,1,0.15,25.16
+CA-2023-11871,2023-06-25,1203.85,Technology,Phones,South,13,0.2,210.14
+CA-2023-11872,2023-06-26,899.41,Technology,Accessories,West,24,0.15,118.3
+CA-2023-11873,2023-06-27,1187.77,Furniture,Bookcases,Central,9,0.0,306.75
+CA-2023-11874,2023-06-28,13.86,Office Supplies,Appliances,West,1,0.15,1.71
+CA-2023-11875,2023-06-28,198.87,Technology,Machines,West,7,0.1,43.73
+CA-2023-11876,2023-06-28,954.51,Technology,Machines,East,17,0.2,227.4
+CA-2023-11877,2023-06-29,695.38,Technology,Accessories,South,8,0.2,113.82
+CA-2023-11878,2023-06-29,419.29,Office Supplies,Binders,South,3,0.15,92.17
+CA-2023-11879,2023-06-30,150.58,Office Supplies,Storage,West,2,0.15,23.58
+CA-2023-11880,2023-06-30,1259.42,Office Supplies,Art,East,56,0.15,164.26
+CA-2023-11881,2023-07-01,1177.82,Furniture,Tables,East,8,0.1,201.62
+CA-2023-11882,2023-07-01,104.21,Furniture,Bookcases,South,1,0.0,26.92
+CA-2023-11883,2023-07-01,260.88,Office Supplies,Paper,West,2,0.1,36.81
+CA-2023-11884,2023-07-02,50.82,Furniture,Chairs,East,1,0.1,6.3
+CA-2023-11885,2023-07-02,975.3,Technology,Copiers,East,10,0.2,120.6
+CA-2023-11886,2023-07-02,370.7,Office Supplies,Binders,West,8,0.1,49.76
+CA-2023-11887,2023-07-03,933.43,Office Supplies,Binders,South,8,0.15,158.11
+CA-2023-11888,2023-07-04,984.15,Office Supplies,Art,East,38,0.0,170.11
+CA-2023-11889,2023-07-05,1045.16,Furniture,Bookcases,West,11,0.15,114.63
+CA-2023-11890,2023-07-05,42.49,Office Supplies,Appliances,South,1,0.2,6.59
+CA-2023-11891,2023-07-05,63.83,Office Supplies,Binders,South,2,0.2,13.91
+CA-2023-11892,2023-07-06,906.53,Office Supplies,Binders,East,17,0.2,102.31
+CA-2023-11893,2023-07-07,878.24,Office Supplies,Art,West,5,0.0,104.08
+CA-2023-11894,2023-07-07,298.66,Technology,Copiers,West,5,0.15,66.31
+CA-2023-11895,2023-07-08,1285.98,Technology,Machines,East,12,0.0,317.22
+CA-2023-11896,2023-07-09,1179.98,Technology,Machines,Central,12,0.1,326.84
+CA-2023-11897,2023-07-10,839.67,Technology,Machines,East,9,0.0,139.27
+CA-2023-11898,2023-07-10,23.52,Furniture,Chairs,East,1,0.0,5.96
+CA-2023-11899,2023-07-11,482.95,Furniture,Furnishings,East,16,0.15,93.24
+CA-2023-11900,2023-07-11,635.66,Technology,Machines,Central,8,0.15,83.52
+CA-2023-11901,2023-07-12,922.22,Furniture,Tables,West,8,0.1,130.08
+CA-2023-11902,2023-07-12,77.85,Furniture,Furnishings,South,1,0.0,7.7
+CA-2023-11903,2023-07-12,29.05,Furniture,Furnishings,South,1,0.1,6.05
+CA-2023-11904,2023-07-13,1008.86,Office Supplies,Storage,Central,10,0.0,256.66
+CA-2023-11905,2023-07-14,954.36,Office Supplies,Appliances,South,10,0.0,214.92
+CA-2023-11906,2023-07-14,245.91,Furniture,Furnishings,South,2,0.1,67.16
+CA-2023-11907,2023-07-15,565.82,Technology,Accessories,East,6,0.0,132.78
+CA-2023-11908,2023-07-15,228.06,Furniture,Furnishings,South,2,0.2,59.73
+CA-2023-11909,2023-07-15,327.5,Technology,Phones,East,5,0.1,42.07
+CA-2023-11910,2023-07-16,228.77,Office Supplies,Binders,Central,1,0.15,45.24
+CA-2023-11911,2023-07-16,610.63,Furniture,Tables,West,11,0.2,50.35
+CA-2023-11912,2023-07-16,558.26,Furniture,Tables,Central,5,0.2,85.01
+CA-2023-11913,2023-07-17,455.68,Technology,Machines,Central,6,0.15,116.72
+CA-2023-11914,2023-07-17,328.6,Office Supplies,Art,Central,2,0.2,61.25
+CA-2023-11915,2023-07-17,73.68,Technology,Accessories,West,1,0.0,18.09
+CA-2023-11916,2023-07-18,1026.25,Technology,Machines,South,45,0.1,226.08
+CA-2023-11917,2023-07-19,1146.23,Furniture,Tables,South,47,0.15,306.45
+CA-2023-11918,2023-07-19,134.17,Furniture,Chairs,Central,2,0.1,33.71
+CA-2023-11919,2023-07-20,855.12,Office Supplies,Storage,East,24,0.0,232.38
+CA-2023-11920,2023-07-21,1189.72,Office Supplies,Storage,East,18,0.15,124.67
+CA-2023-11921,2023-07-22,1006.36,Technology,Machines,Central,28,0.2,213.96
+CA-2023-11922,2023-07-23,1291.82,Office Supplies,Storage,Central,8,0.2,226.81
+CA-2023-11923,2023-07-24,853.95,Furniture,Furnishings,West,6,0.2,87.92
+CA-2023-11924,2023-07-25,1024.62,Technology,Accessories,West,8,0.15,147.16
+CA-2023-11925,2023-07-26,32.2,Office Supplies,Storage,East,1,0.2,6.99
+CA-2023-11926,2023-07-26,950.29,Furniture,Tables,Central,21,0.2,174.46
+CA-2023-11927,2023-07-27,1226.32,Office Supplies,Binders,West,21,0.15,156.87
+CA-2023-11928,2023-07-28,1100.37,Furniture,Tables,West,10,0.15,98.88
+CA-2023-11929,2023-07-29,666.68,Office Supplies,Art,East,7,0.1,59.4
+CA-2023-11930,2023-07-29,667.94,Furniture,Chairs,Central,11,0.2,173.41
+CA-2023-11931,2023-07-29,143.12,Furniture,Furnishings,South,1,0.2,29.16
+CA-2023-11932,2023-07-30,452.51,Technology,Copiers,East,3,0.1,38.76
+CA-2023-11933,2023-07-30,572.84,Furniture,Chairs,East,5,0.15,46.26
+CA-2023-11934,2023-07-31,62.05,Office Supplies,Storage,East,1,0.2,16.71
+CA-2023-11935,2023-07-31,272.16,Furniture,Bookcases,East,2,0.1,23.83
+CA-2023-11936,2023-07-31,487.15,Technology,Machines,West,3,0.15,92.5
+CA-2023-11937,2023-08-01,461.9,Furniture,Chairs,Central,3,0.2,78.43
+CA-2023-11938,2023-08-01,516.04,Technology,Phones,Central,3,0.1,132.72
+CA-2023-11939,2023-08-01,36.0,Office Supplies,Paper,East,1,0.2,4.78
+CA-2023-11940,2023-08-02,909.6,Office Supplies,Binders,South,6,0.0,126.71
+CA-2023-11941,2023-08-03,728.3,Technology,Accessories,Central,5,0.2,168.53
+CA-2023-11942,2023-08-03,519.47,Technology,Phones,Central,19,0.15,66.31
+CA-2023-11943,2023-08-04,876.34,Furniture,Bookcases,South,7,0.1,197.43
+CA-2023-11944,2023-08-04,147.04,Technology,Machines,East,1,0.0,18.58
+CA-2023-11945,2023-08-04,137.55,Technology,Copiers,South,2,0.15,35.74
+CA-2023-11946,2023-08-05,966.39,Office Supplies,Storage,West,10,0.1,230.58
+CA-2023-11947,2023-08-05,333.5,Office Supplies,Storage,East,7,0.0,55.25
+CA-2023-11948,2023-08-06,918.72,Office Supplies,Appliances,Central,12,0.15,249.49
+CA-2023-11949,2023-08-06,483.55,Technology,Copiers,South,4,0.1,91.67
+CA-2023-11950,2023-08-06,94.75,Furniture,Chairs,South,3,0.0,19.44
+CA-2023-11951,2023-08-07,62.41,Furniture,Chairs,West,1,0.0,9.05
+CA-2023-11952,2023-08-07,501.86,Technology,Accessories,East,11,0.0,74.26
+CA-2023-11953,2023-08-07,251.55,Furniture,Furnishings,West,2,0.0,26.09
+CA-2023-11954,2023-08-08,660.75,Technology,Copiers,South,11,0.1,92.12
+CA-2023-11955,2023-08-08,271.4,Furniture,Tables,East,1,0.1,60.94
+CA-2023-11956,2023-08-09,1067.68,Office Supplies,Storage,West,8,0.15,272.82
+CA-2023-11957,2023-08-10,106.26,Office Supplies,Storage,South,1,0.0,20.8
+CA-2023-11958,2023-08-10,158.77,Office Supplies,Binders,West,2,0.1,20.07
+CA-2023-11959,2023-08-10,640.76,Furniture,Bookcases,West,9,0.1,55.82
+CA-2023-11960,2023-08-11,1175.62,Office Supplies,Art,West,9,0.0,205.45
+CA-2023-11961,2023-08-12,1437.99,Furniture,Furnishings,East,12,0.1,238.58
+CA-2023-11962,2023-08-13,746.21,Office Supplies,Binders,West,18,0.1,119.85
+CA-2023-11963,2023-08-13,111.24,Technology,Copiers,West,2,0.0,22.52
+CA-2023-11964,2023-08-13,179.73,Office Supplies,Appliances,South,1,0.1,18.13
+CA-2023-11965,2023-08-14,260.31,Office Supplies,Storage,East,3,0.1,52.35
+CA-2023-11966,2023-08-14,4.93,Technology,Phones,South,1,0.0,1.27
+CA-2023-11967,2023-08-14,544.07,Technology,Phones,West,7,0.15,121.23
+CA-2023-11968,2023-08-15,1050.69,Technology,Phones,West,19,0.1,207.78
+CA-2023-11969,2023-08-16,634.53,Furniture,Furnishings,East,5,0.2,114.54
+CA-2023-11970,2023-08-16,487.78,Furniture,Chairs,East,4,0.2,124.1
+CA-2023-11971,2023-08-17,970.24,Office Supplies,Binders,Central,11,0.2,200.84
+CA-2023-11972,2023-08-18,1123.47,Office Supplies,Binders,East,12,0.1,106.79
+CA-2023-11973,2023-08-19,579.88,Furniture,Tables,East,5,0.0,66.78
+CA-2023-11974,2023-08-19,581.62,Furniture,Tables,East,7,0.2,116.92
+CA-2023-11975,2023-08-19,274.9,Office Supplies,Appliances,East,2,0.2,27.65
+CA-2023-11976,2023-08-20,1024.13,Furniture,Bookcases,South,42,0.15,208.25
+CA-2023-11977,2023-08-20,130.81,Technology,Machines,Central,1,0.0,16.03
+CA-2023-11978,2023-08-21,356.51,Furniture,Furnishings,East,4,0.1,59.66
+CA-2023-11979,2023-08-21,330.11,Furniture,Furnishings,East,13,0.1,78.65
+CA-2023-11980,2023-08-22,1055.78,Office Supplies,Binders,West,8,0.15,233.78
+CA-2023-11981,2023-08-23,806.9,Furniture,Bookcases,South,11,0.15,99.41
+CA-2023-11982,2023-08-24,158.11,Office Supplies,Paper,West,5,0.15,40.73
+CA-2023-11983,2023-08-24,355.4,Office Supplies,Binders,East,2,0.1,43.35
+CA-2023-11984,2023-08-24,226.67,Office Supplies,Paper,Central,2,0.15,61.4
+CA-2023-11985,2023-08-25,290.9,Technology,Machines,West,2,0.2,79.05
+CA-2023-11986,2023-08-25,676.77,Furniture,Chairs,West,6,0.1,173.22
+CA-2023-11987,2023-08-26,255.54,Technology,Phones,Central,3,0.1,20.87
+CA-2023-11988,2023-08-26,781.93,Technology,Accessories,East,5,0.0,84.5
+CA-2023-11989,2023-08-27,396.68,Office Supplies,Appliances,East,3,0.2,41.94
+CA-2023-11990,2023-08-27,554.04,Office Supplies,Art,East,8,0.2,136.39
+CA-2023-11991,2023-08-28,187.88,Furniture,Bookcases,Central,1,0.15,32.58
+CA-2023-11992,2023-08-28,35.53,Furniture,Furnishings,Central,1,0.0,3.21
+CA-2023-11993,2023-08-28,576.67,Office Supplies,Storage,East,11,0.0,83.87
+CA-2023-11994,2023-08-29,169.85,Office Supplies,Storage,East,3,0.2,15.29
+CA-2023-11995,2023-08-29,401.78,Technology,Accessories,South,3,0.0,54.77
+CA-2023-11996,2023-08-29,166.9,Technology,Phones,East,2,0.0,32.31
+CA-2023-11997,2023-08-30,911.37,Office Supplies,Art,Central,8,0.0,237.11
+CA-2023-11998,2023-08-31,427.93,Furniture,Chairs,South,3,0.2,56.56
+CA-2023-11999,2023-08-31,387.53,Office Supplies,Storage,Central,10,0.1,98.53
+CA-2023-12000,2023-08-31,146.49,Technology,Machines,East,1,0.2,16.3
+CA-2023-12001,2023-09-01,131.44,Technology,Phones,Central,2,0.2,15.5
+CA-2023-12002,2023-09-01,336.38,Technology,Copiers,West,6,0.15,35.01
+CA-2023-12003,2023-09-01,331.39,Technology,Copiers,South,6,0.15,53.07
+CA-2023-12004,2023-09-02,128.88,Furniture,Chairs,East,1,0.2,27.81
+CA-2023-12005,2023-09-02,1075.58,Furniture,Tables,East,11,0.15,143.56
+CA-2023-12006,2023-09-03,945.11,Furniture,Tables,East,17,0.2,145.17
+CA-2023-12007,2023-09-03,187.4,Office Supplies,Appliances,West,5,0.2,49.22
+CA-2023-12008,2023-09-03,58.31,Furniture,Bookcases,South,1,0.2,10.59
+CA-2023-12009,2023-09-04,167.24,Technology,Machines,South,3,0.15,37.79
+CA-2023-12010,2023-09-04,222.18,Office Supplies,Storage,East,5,0.0,53.21
+CA-2023-12011,2023-09-04,415.18,Technology,Accessories,Central,7,0.1,82.6
+CA-2023-12012,2023-09-05,827.54,Technology,Phones,West,7,0.0,208.4
+CA-2023-12013,2023-09-06,913.86,Technology,Accessories,South,11,0.15,224.83
+CA-2023-12014,2023-09-07,1023.69,Technology,Machines,West,14,0.15,253.88
+CA-2023-12015,2023-09-07,33.52,Furniture,Chairs,West,1,0.2,7.37
+CA-2023-12016,2023-09-08,267.52,Office Supplies,Art,Central,2,0.15,38.04
+CA-2023-12017,2023-09-08,741.49,Furniture,Bookcases,West,10,0.15,92.66
+CA-2023-12018,2023-09-09,586.07,Technology,Accessories,East,14,0.0,89.13
+CA-2023-12019,2023-09-09,42.04,Technology,Accessories,Central,1,0.1,10.7
+CA-2023-12020,2023-09-09,372.78,Technology,Machines,East,13,0.15,64.46
+CA-2023-12021,2023-09-10,1018.64,Technology,Copiers,West,16,0.1,120.0
+CA-2023-12022,2023-09-11,759.64,Office Supplies,Storage,South,10,0.2,148.92
+CA-2023-12023,2023-09-12,14.6,Office Supplies,Art,South,1,0.1,1.46
+CA-2023-12024,2023-09-12,633.04,Furniture,Chairs,East,7,0.15,159.67
+CA-2023-12025,2023-09-12,315.06,Furniture,Chairs,Central,9,0.2,63.84
+CA-2023-12026,2023-09-13,495.99,Furniture,Bookcases,Central,5,0.1,77.62
+CA-2023-12027,2023-09-13,428.38,Technology,Phones,East,3,0.2,91.4
+CA-2023-12028,2023-09-14,799.46,Office Supplies,Paper,Central,6,0.2,113.67
+CA-2023-12029,2023-09-15,240.58,Technology,Accessories,East,5,0.2,63.28
+CA-2023-12030,2023-09-15,628.43,Office Supplies,Storage,Central,11,0.2,136.29
+CA-2023-12031,2023-09-15,141.64,Technology,Machines,East,1,0.2,25.2
+CA-2023-12032,2023-09-16,686.46,Office Supplies,Art,East,12,0.2,133.96
+CA-2023-12033,2023-09-16,280.19,Office Supplies,Paper,South,3,0.0,72.6
+CA-2023-12034,2023-09-17,896.72,Technology,Machines,West,16,0.0,198.38
+CA-2023-12035,2023-09-17,98.42,Furniture,Chairs,South,3,0.2,19.22
+CA-2023-12036,2023-09-18,296.18,Technology,Machines,West,9,0.15,44.95
+CA-2023-12037,2023-09-18,425.98,Furniture,Chairs,East,14,0.15,75.83
+CA-2023-12038,2023-09-19,574.54,Furniture,Tables,West,5,0.0,78.63
+CA-2023-12039,2023-09-19,226.66,Furniture,Chairs,East,3,0.1,30.5
+CA-2023-12040,2023-09-19,69.82,Furniture,Tables,East,1,0.0,7.9
+CA-2023-12041,2023-09-20,621.2,Furniture,Chairs,South,10,0.15,154.67
+CA-2023-12042,2023-09-20,245.4,Furniture,Chairs,Central,2,0.2,39.33
+CA-2023-12043,2023-09-21,210.88,Furniture,Tables,South,6,0.15,48.86
+CA-2023-12044,2023-09-21,252.12,Office Supplies,Paper,Central,8,0.2,48.34
+CA-2023-12045,2023-09-21,242.76,Furniture,Chairs,South,3,0.2,54.44
+CA-2023-12046,2023-09-22,560.47,Technology,Phones,South,4,0.15,64.22
+CA-2023-12047,2023-09-22,206.13,Office Supplies,Art,South,2,0.2,57.19
+CA-2023-12048,2023-09-22,96.13,Furniture,Chairs,West,2,0.15,10.59
+CA-2023-12049,2023-09-23,193.63,Technology,Accessories,South,7,0.1,20.95
+CA-2023-12050,2023-09-23,764.77,Office Supplies,Storage,West,9,0.15,131.08
+CA-2023-12051,2023-09-24,561.44,Furniture,Tables,West,16,0.15,51.25
+CA-2023-12052,2023-09-24,314.97,Technology,Machines,West,2,0.0,30.53
+CA-2023-12053,2023-09-25,629.87,Technology,Phones,Central,17,0.0,122.16
+CA-2023-12054,2023-09-26,106.28,Office Supplies,Art,Central,2,0.2,28.71
+CA-2023-12055,2023-09-26,149.67,Furniture,Bookcases,Central,1,0.1,28.84
+CA-2023-12056,2023-09-26,429.97,Furniture,Tables,East,3,0.1,78.8
+CA-2023-12057,2023-09-27,677.87,Technology,Copiers,East,17,0.2,162.95
+CA-2023-12058,2023-09-27,34.29,Furniture,Chairs,South,1,0.2,7.34
+CA-2023-12059,2023-09-28,789.59,Technology,Phones,East,8,0.2,183.45
+CA-2023-12060,2023-09-29,267.8,Office Supplies,Storage,Central,2,0.15,30.99
+CA-2023-12061,2023-09-29,742.04,Office Supplies,Storage,East,9,0.1,168.09
+CA-2023-12062,2023-09-29,96.33,Office Supplies,Appliances,South,1,0.15,19.8
+CA-2023-12063,2023-09-30,942.96,Office Supplies,Appliances,East,22,0.1,255.62
+CA-2023-12064,2023-09-30,138.33,Furniture,Chairs,Central,1,0.0,24.38
+CA-2023-12065,2023-09-30,101.47,Technology,Machines,Central,1,0.0,9.3
+CA-2023-12066,2023-10-01,849.52,Office Supplies,Storage,South,6,0.15,149.74
+CA-2023-12067,2023-10-02,90.53,Furniture,Chairs,Central,2,0.0,25.03
+CA-2023-12068,2023-10-02,431.4,Furniture,Tables,Central,5,0.2,82.05
+CA-2023-12069,2023-10-03,820.45,Furniture,Bookcases,South,13,0.1,69.49
+CA-2023-12070,2023-10-04,494.95,Technology,Machines,Central,4,0.15,58.64
+CA-2023-12071,2023-10-04,13.71,Office Supplies,Binders,East,1,0.0,3.76
+CA-2023-12072,2023-10-04,165.67,Technology,Machines,South,2,0.0,18.35
+CA-2023-12073,2023-10-05,59.27,Technology,Copiers,South,1,0.15,8.7
+CA-2023-12074,2023-10-05,491.7,Technology,Accessories,Central,8,0.1,85.37
+CA-2023-12075,2023-10-05,172.44,Technology,Accessories,West,1,0.0,31.73
+CA-2023-12076,2023-10-06,910.88,Furniture,Bookcases,Central,8,0.1,84.13
+CA-2023-12077,2023-10-07,678.07,Office Supplies,Art,South,7,0.0,138.77
+CA-2023-12078,2023-10-08,329.71,Office Supplies,Paper,Central,3,0.1,31.12
+CA-2023-12079,2023-10-08,653.87,Technology,Accessories,East,10,0.2,70.73
+CA-2023-12080,2023-10-09,772.96,Office Supplies,Binders,Central,6,0.2,119.81
+CA-2023-12081,2023-10-10,364.67,Technology,Accessories,Central,9,0.0,92.18
+CA-2023-12082,2023-10-10,1.84,Furniture,Chairs,South,1,0.1,0.44
+CA-2023-12083,2023-10-10,363.2,Office Supplies,Art,East,3,0.0,101.42
+CA-2023-12084,2023-10-11,538.16,Technology,Machines,Central,5,0.1,144.44
+CA-2023-12085,2023-10-11,104.02,Furniture,Bookcases,East,2,0.1,27.42
+CA-2023-12086,2023-10-12,344.73,Technology,Machines,South,3,0.1,83.94
+CA-2023-12087,2023-10-12,434.98,Technology,Machines,West,14,0.2,97.24
+CA-2023-12088,2023-10-13,373.57,Office Supplies,Art,East,3,0.0,80.82
+CA-2023-12089,2023-10-13,25.8,Technology,Machines,East,1,0.1,3.18
+CA-2023-12090,2023-10-13,290.3,Furniture,Furnishings,Central,2,0.1,72.54
+CA-2023-12091,2023-10-14,63.4,Technology,Machines,West,1,0.2,17.46
+CA-2023-12092,2023-10-14,63.05,Furniture,Tables,South,2,0.15,12.48
+CA-2023-12093,2023-10-14,638.72,Technology,Copiers,West,6,0.15,171.89
+CA-2023-12094,2023-10-15,984.35,Office Supplies,Art,East,6,0.1,110.41
+CA-2023-12095,2023-10-16,569.0,Office Supplies,Storage,South,19,0.15,150.32
+CA-2023-12096,2023-10-17,722.15,Technology,Machines,West,34,0.15,102.64
+CA-2023-12097,2023-10-18,290.52,Furniture,Tables,Central,2,0.2,80.76
+CA-2023-12098,2023-10-18,435.76,Office Supplies,Paper,Central,4,0.15,117.45
+CA-2023-12099,2023-10-19,368.55,Office Supplies,Storage,Central,3,0.2,42.84
+CA-2023-12100,2023-10-19,461.63,Technology,Machines,East,3,0.1,53.65
+CA-2023-12101,2023-10-20,688.22,Furniture,Tables,Central,5,0.15,132.13
+CA-2023-12102,2023-10-20,68.98,Office Supplies,Storage,West,1,0.1,8.29
+CA-2023-12103,2023-10-20,60.42,Office Supplies,Paper,Central,1,0.0,10.58
+CA-2023-12104,2023-10-21,78.03,Furniture,Furnishings,West,1,0.0,14.78
+CA-2023-12105,2023-10-21,32.44,Technology,Machines,East,1,0.2,3.94
+CA-2023-12106,2023-10-21,840.0,Technology,Phones,Central,6,0.1,232.06
+CA-2023-12107,2023-10-22,572.88,Technology,Machines,South,10,0.15,74.03
+CA-2023-12108,2023-10-22,274.87,Furniture,Chairs,West,2,0.15,30.45
+CA-2023-12109,2023-10-22,104.06,Furniture,Tables,East,1,0.15,10.15
+CA-2023-12110,2023-10-23,355.06,Furniture,Chairs,South,2,0.1,95.91
+CA-2023-12111,2023-10-23,161.87,Technology,Copiers,West,2,0.15,40.12
+CA-2023-12112,2023-10-23,74.58,Technology,Machines,West,1,0.2,19.13
+CA-2023-12113,2023-10-24,82.44,Office Supplies,Paper,Central,1,0.1,22.68
+CA-2023-12114,2023-10-24,680.97,Technology,Machines,Central,4,0.2,157.33
+CA-2023-12115,2023-10-25,642.59,Furniture,Bookcases,East,13,0.1,157.33
+CA-2023-12116,2023-10-26,634.79,Technology,Accessories,Central,5,0.0,72.83
+CA-2023-12117,2023-10-27,910.3,Office Supplies,Storage,West,11,0.2,205.49
+CA-2023-12118,2023-10-28,692.34,Technology,Copiers,West,6,0.15,131.8
+CA-2023-12119,2023-10-28,50.08,Furniture,Tables,Central,1,0.15,9.66
+CA-2023-12120,2023-10-29,460.24,Office Supplies,Binders,West,8,0.0,128.41
+CA-2023-12121,2023-10-29,334.65,Office Supplies,Appliances,Central,2,0.0,57.64
+CA-2023-12122,2023-10-29,84.03,Furniture,Chairs,West,1,0.1,18.43
+CA-2023-12123,2023-10-30,270.83,Furniture,Furnishings,Central,2,0.2,21.77
+CA-2023-12124,2023-10-30,361.17,Technology,Accessories,West,10,0.15,41.86
+CA-2023-12125,2023-10-31,869.32,Office Supplies,Storage,West,9,0.2,78.46
+CA-2023-12126,2023-10-31,53.33,Office Supplies,Binders,Central,1,0.1,11.66
+CA-2023-12127,2023-11-01,255.74,Office Supplies,Appliances,Central,3,0.0,69.62
+CA-2023-12128,2023-11-01,308.69,Office Supplies,Paper,East,2,0.0,55.82
+CA-2023-12129,2023-11-01,67.35,Furniture,Tables,West,1,0.2,18.25
+CA-2023-12130,2023-11-02,420.13,Technology,Machines,East,4,0.0,60.2
+CA-2023-12131,2023-11-02,271.81,Technology,Accessories,East,4,0.0,41.12
+CA-2023-12132,2023-11-02,338.74,Furniture,Chairs,South,3,0.0,61.03
+CA-2023-12133,2023-11-03,976.65,Furniture,Furnishings,West,20,0.0,115.2
+CA-2023-12134,2023-11-03,85.45,Office Supplies,Binders,West,1,0.0,18.2
+CA-2023-12135,2023-11-04,518.21,Furniture,Furnishings,West,4,0.1,42.07
+CA-2023-12136,2023-11-04,430.7,Technology,Phones,South,4,0.1,43.88
+CA-2023-12137,2023-11-05,1284.57,Office Supplies,Paper,East,11,0.1,291.38
+CA-2023-12138,2023-11-06,735.49,Technology,Accessories,West,11,0.1,165.6
+CA-2023-12139,2023-11-07,765.46,Technology,Machines,South,9,0.2,127.29
+CA-2023-12140,2023-11-08,444.96,Technology,Accessories,West,17,0.2,38.66
+CA-2023-12141,2023-11-08,578.53,Office Supplies,Storage,Central,5,0.0,79.58
+CA-2023-12142,2023-11-09,200.93,Office Supplies,Paper,Central,2,0.1,50.24
+CA-2023-12143,2023-11-09,477.49,Technology,Accessories,West,4,0.0,124.29
+CA-2023-12144,2023-11-09,296.84,Office Supplies,Storage,East,10,0.1,50.3
+CA-2023-12145,2023-11-10,495.82,Furniture,Furnishings,Central,8,0.1,83.76
+CA-2023-12146,2023-11-10,389.18,Technology,Machines,Central,4,0.1,35.99
+CA-2023-12147,2023-11-11,885.87,Furniture,Chairs,South,8,0.0,218.88
+CA-2023-12148,2023-11-11,293.38,Technology,Accessories,West,2,0.1,77.88
+CA-2023-12149,2023-11-11,66.44,Technology,Accessories,South,1,0.2,11.42
+CA-2023-12150,2023-11-12,1139.67,Office Supplies,Binders,South,14,0.0,200.5
+CA-2023-12151,2023-11-13,766.4,Technology,Phones,West,9,0.2,111.76
+CA-2023-12152,2023-11-14,649.99,Office Supplies,Appliances,Central,6,0.1,164.19
+CA-2023-12153,2023-11-14,335.56,Furniture,Chairs,West,2,0.2,47.65
+CA-2023-12154,2023-11-15,156.48,Office Supplies,Storage,East,1,0.2,18.71
+CA-2023-12155,2023-11-15,18.37,Office Supplies,Binders,East,1,0.0,3.84
+CA-2023-12156,2023-11-15,535.61,Technology,Copiers,East,4,0.0,149.69
+CA-2023-12157,2023-11-16,235.02,Office Supplies,Binders,South,3,0.0,49.45
+CA-2023-12158,2023-11-16,198.21,Office Supplies,Binders,South,1,0.15,49.66
+CA-2023-12159,2023-11-16,319.92,Office Supplies,Paper,West,2,0.1,61.88
+CA-2023-12160,2023-11-17,136.94,Office Supplies,Storage,South,2,0.0,27.59
+CA-2023-12161,2023-11-17,1032.69,Office Supplies,Storage,South,24,0.1,158.2
+CA-2023-12162,2023-11-18,128.88,Technology,Phones,West,1,0.2,11.49
+CA-2023-12163,2023-11-18,1077.78,Office Supplies,Art,Central,19,0.2,164.99
+CA-2023-12164,2023-11-18,27.71,Technology,Phones,West,1,0.1,5.81
+CA-2023-12165,2023-11-19,1085.08,Office Supplies,Art,East,9,0.0,285.88
+CA-2023-12166,2023-11-20,489.11,Furniture,Tables,East,4,0.15,67.01
+CA-2023-12167,2023-11-20,270.1,Furniture,Tables,Central,2,0.15,42.35
+CA-2023-12168,2023-11-21,356.61,Office Supplies,Paper,Central,6,0.0,58.56
+CA-2023-12169,2023-11-21,466.66,Office Supplies,Paper,East,7,0.1,64.89
+CA-2023-12170,2023-11-22,502.88,Office Supplies,Appliances,Central,7,0.1,63.07
+CA-2023-12171,2023-11-22,417.68,Technology,Phones,West,4,0.1,100.22
+CA-2023-12172,2023-11-23,873.85,Technology,Accessories,Central,9,0.2,243.03
+CA-2023-12173,2023-11-24,15.84,Furniture,Bookcases,South,1,0.1,2.68
+CA-2023-12174,2023-11-24,38.01,Furniture,Tables,South,1,0.15,7.57
+CA-2023-12175,2023-11-24,752.15,Furniture,Bookcases,West,9,0.0,88.8
+CA-2023-12176,2023-11-25,733.31,Technology,Accessories,West,22,0.2,74.99
+CA-2023-12177,2023-11-25,434.79,Office Supplies,Storage,West,5,0.0,109.23
+CA-2023-12178,2023-11-26,1231.01,Furniture,Chairs,Central,10,0.0,198.03
+CA-2023-12179,2023-11-27,385.99,Technology,Machines,South,10,0.0,82.36
+CA-2023-12180,2023-11-27,80.11,Office Supplies,Storage,South,1,0.2,9.59
+CA-2023-12181,2023-11-27,334.09,Technology,Copiers,East,8,0.15,29.82
+CA-2023-12182,2023-11-28,19.68,Technology,Machines,Central,1,0.2,4.95
+CA-2023-12183,2023-11-28,412.93,Furniture,Bookcases,South,11,0.2,56.33
+CA-2023-12184,2023-11-28,502.92,Technology,Machines,West,3,0.2,53.43
+CA-2023-12185,2023-11-29,388.68,Furniture,Tables,West,14,0.15,100.21
+CA-2023-12186,2023-11-29,434.12,Office Supplies,Binders,Central,3,0.2,82.74
+CA-2023-12187,2023-11-29,87.6,Technology,Accessories,Central,1,0.0,16.44
+CA-2023-12188,2023-11-30,310.5,Technology,Copiers,East,6,0.0,63.29
+CA-2023-12189,2023-11-30,541.15,Office Supplies,Art,East,8,0.1,77.51
+CA-2023-12190,2023-12-01,1176.33,Office Supplies,Storage,South,30,0.15,238.15
+CA-2023-12191,2023-12-02,279.38,Technology,Machines,Central,1,0.1,59.91
+CA-2023-12192,2023-12-02,288.23,Furniture,Bookcases,West,6,0.1,79.08
+CA-2023-12193,2023-12-02,566.65,Office Supplies,Paper,South,3,0.0,63.42
+CA-2023-12194,2023-12-03,101.69,Office Supplies,Paper,South,2,0.1,18.13
+CA-2023-12195,2023-12-03,19.54,Technology,Phones,Central,1,0.0,4.23
+CA-2023-12196,2023-12-03,1020.82,Office Supplies,Storage,East,7,0.2,263.08
+CA-2023-12197,2023-12-04,227.39,Furniture,Furnishings,South,3,0.2,29.67
+CA-2023-12198,2023-12-04,423.34,Technology,Phones,East,7,0.2,83.71
+CA-2023-12199,2023-12-04,37.51,Office Supplies,Binders,South,1,0.2,9.55
+CA-2023-12200,2023-12-05,130.21,Furniture,Bookcases,South,1,0.1,16.2
+CA-2023-12201,2023-12-05,908.89,Technology,Phones,East,11,0.2,162.28
+CA-2023-12202,2023-12-06,212.09,Technology,Accessories,East,1,0.2,23.08
+CA-2023-12203,2023-12-06,454.41,Furniture,Tables,East,4,0.0,86.04
+CA-2023-12204,2023-12-07,803.68,Technology,Copiers,East,18,0.2,174.84
+CA-2023-12205,2023-12-07,260.81,Office Supplies,Binders,Central,2,0.1,35.73
+CA-2023-12206,2023-12-08,1070.44,Furniture,Tables,Central,45,0.15,283.89
+CA-2023-12207,2023-12-09,213.74,Furniture,Bookcases,West,2,0.0,53.41
+CA-2023-12208,2023-12-09,1004.45,Technology,Copiers,West,16,0.1,116.39
+CA-2023-12209,2023-12-10,1274.5,Office Supplies,Paper,East,50,0.1,355.52
+CA-2023-12210,2023-12-11,552.49,Technology,Copiers,South,18,0.2,126.15
+CA-2023-12211,2023-12-11,64.93,Technology,Accessories,Central,1,0.1,12.46
+CA-2023-12212,2023-12-11,48.34,Technology,Accessories,East,1,0.1,7.86
+CA-2023-12213,2023-12-12,997.29,Furniture,Chairs,Central,20,0.2,122.36
+CA-2023-12214,2023-12-12,165.39,Office Supplies,Storage,West,4,0.0,37.98
+CA-2023-12215,2023-12-13,817.21,Technology,Phones,South,7,0.1,100.02
+CA-2023-12216,2023-12-14,819.04,Technology,Accessories,Central,17,0.1,95.99
+CA-2023-12217,2023-12-15,981.03,Technology,Machines,Central,15,0.2,166.67
+CA-2023-12218,2023-12-16,1135.36,Technology,Accessories,West,20,0.15,264.2
+CA-2023-12219,2023-12-17,189.45,Office Supplies,Appliances,East,2,0.0,20.52
+CA-2023-12220,2023-12-17,817.9,Furniture,Furnishings,West,9,0.0,145.32
+CA-2023-12221,2023-12-18,630.48,Furniture,Chairs,South,4,0.15,151.69
+CA-2023-12222,2023-12-18,93.82,Technology,Copiers,West,1,0.2,18.18
+CA-2023-12223,2023-12-19,265.48,Office Supplies,Paper,East,2,0.0,70.59
+CA-2023-12224,2023-12-19,322.62,Furniture,Bookcases,East,6,0.2,86.34
+CA-2023-12225,2023-12-19,385.12,Furniture,Tables,Central,2,0.2,46.17
+CA-2023-12226,2023-12-20,597.18,Technology,Phones,East,28,0.15,104.33
+CA-2023-12227,2023-12-20,412.47,Office Supplies,Paper,West,3,0.0,55.39
+CA-2023-12228,2023-12-21,169.08,Technology,Accessories,West,3,0.1,19.71
+CA-2023-12229,2023-12-21,149.4,Office Supplies,Art,East,1,0.2,23.82
+CA-2023-12230,2023-12-21,513.09,Technology,Machines,West,6,0.1,60.27
+CA-2023-12231,2023-12-22,3.04,Furniture,Chairs,West,1,0.1,0.31
+CA-2023-12232,2023-12-22,695.32,Technology,Phones,South,8,0.0,59.53
+CA-2023-12233,2023-12-22,298.09,Technology,Copiers,East,4,0.15,49.26
+CA-2023-12234,2023-12-23,1238.83,Technology,Phones,Central,32,0.15,148.84
+CA-2023-12235,2023-12-24,1038.62,Technology,Phones,East,21,0.2,265.03
+CA-2023-12236,2023-12-25,135.08,Technology,Copiers,South,1,0.0,11.19
+CA-2023-12237,2023-12-25,236.7,Technology,Machines,South,2,0.1,45.88
+CA-2023-12238,2023-12-25,172.83,Furniture,Chairs,West,1,0.15,21.74
+CA-2023-12239,2023-12-26,989.13,Technology,Machines,South,6,0.2,106.72
+CA-2023-12240,2023-12-27,1150.99,Furniture,Tables,East,24,0.1,193.4
+CA-2023-12241,2023-12-28,931.93,Technology,Phones,South,6,0.2,204.38
+CA-2023-12242,2023-12-29,289.6,Technology,Accessories,East,2,0.0,53.04
+CA-2023-12243,2023-12-29,649.89,Technology,Accessories,East,26,0.2,58.22
+CA-2023-12244,2023-12-30,1241.15,Office Supplies,Appliances,Central,47,0.0,216.84
+CA-2023-12245,2023-12-31,189.25,Technology,Machines,West,7,0.0,43.37
+CA-2023-12246,2023-12-31,1080.17,Furniture,Tables,West,24,0.2,245.2
+CA-2021-10011,2021-01-05,324.55,Furniture,Chairs,East,2,0.0,26.98
+CA-2021-10051,2021-01-22,38.43,Technology,Machines,West,1,0.0,4.49

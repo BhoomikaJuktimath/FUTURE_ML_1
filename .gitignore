@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.joblib
+
+# Node & Frontend
+node_modules/
+dist/
+build/
+.env
+.env.local
+.DS_Store
+
+# Data / Local persistent state
+backend/saved_models/*
+!backend/saved_models/.gitkeep
+
+# IDE / System
+.vscode/
+.idea/
+*.log
