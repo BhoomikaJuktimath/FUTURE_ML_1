@@ -1,64 +1,65 @@
 import React from 'react';
-import { TrendingUp, Server, Cpu, RefreshCw } from 'lucide-react';
 
 interface NavbarProps {
   apiStatus: boolean;
   modelStatus: boolean;
   onRefresh: () => void;
   isRefreshing: boolean;
+  selectedHorizon?: number;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
   apiStatus,
   modelStatus,
   onRefresh,
-  isRefreshing
+  isRefreshing,
+  selectedHorizon = 30,
 }) => {
   return (
-    <header className="h-16 border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-0 z-30 px-6 flex items-center justify-between">
-      <div className="flex items-center space-x-3">
-        <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-blue-400 flex items-center justify-center shadow-lg shadow-brand-500/20">
-          <TrendingUp className="w-6 h-6 text-white" />
-        </div>
-        <div>
-          <h1 className="font-bold text-lg text-white tracking-tight flex items-center gap-2">
-            ForecastIQ
-            <span className="text-xs px-2 py-0.5 rounded-full bg-brand-500/10 text-brand-400 border border-brand-500/20 font-medium">
-              v1.0 ML System
-            </span>
-          </h1>
-          <p className="text-xs text-slate-400">Sales & Demand Forecasting System</p>
-        </div>
+    <header className="fixed top-0 left-64 right-0 h-16 bg-surface-container-lowest/80 backdrop-blur-xl z-40 px-gutter-desktop flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+      <div className="flex items-center gap-space-md">
+        <span className="material-symbols-outlined text-outline text-[18px]">home</span>
+        <span className="font-body-sm text-body-sm text-outline">/</span>
+        <span className="font-body-md text-body-md text-on-surface font-headline-sm">Enterprise Workspace</span>
       </div>
 
-      <div className="flex items-center space-x-4">
-        {/* Status Indicators */}
-        <div className="flex items-center space-x-3 text-xs">
-          <div className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-800/80 border border-slate-700">
-            <Server className={`w-3.5 h-3.5 ${apiStatus ? 'text-emerald-400' : 'text-rose-400'}`} />
-            <span className="text-slate-300">Backend:</span>
-            <span className={apiStatus ? 'text-emerald-400 font-medium' : 'text-rose-400 font-medium'}>
-              {apiStatus ? 'Online' : 'Offline'}
-            </span>
-          </div>
+      <div className="flex items-center gap-space-md">
+        <div className="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xxs rounded-full bg-surface-container">
+          <span className={`w-2 h-2 rounded-full ${apiStatus ? 'bg-tertiary-container' : 'bg-error'}`} />
+          <span className="font-label-data text-label-data text-on-surface">
+            Backend: {apiStatus ? 'Online' : 'Offline'}
+          </span>
+        </div>
 
-          <div className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-800/80 border border-slate-700">
-            <Cpu className={`w-3.5 h-3.5 ${modelStatus ? 'text-brand-400' : 'text-amber-400'}`} />
-            <span className="text-slate-300">Model:</span>
-            <span className={modelStatus ? 'text-brand-400 font-medium' : 'text-amber-400 font-medium'}>
-              {modelStatus ? 'Trained & Saved' : 'Untrained'}
-            </span>
-          </div>
+        <div className="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xxs rounded-full bg-surface-container">
+          <span className={`w-2 h-2 rounded-full ${modelStatus ? 'bg-secondary' : 'bg-outline'}`} />
+          <span className="font-label-data text-label-data text-on-surface">
+            Model: {modelStatus ? 'Trained & Saved' : 'Untrained'}
+          </span>
+        </div>
+
+        <div className="flex items-center px-space-sm py-space-xxs rounded-full bg-secondary-container">
+          <span className="font-label-caps text-label-caps text-on-secondary-container tracking-wide">
+            P{selectedHorizon} HORIZON
+          </span>
         </div>
 
         <button
           onClick={onRefresh}
           disabled={isRefreshing}
-          className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 transition-colors flex items-center justify-center disabled:opacity-50"
-          title="Refresh All Data"
+          className="flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container hover:bg-surface-container-high text-on-surface rounded-lg transition-colors disabled:opacity-50"
+          title="Quick Refresh"
+          type="button"
         >
-          <RefreshCw className={`w-4 h-4 ${isRefreshing ? 'animate-spin text-brand-400' : ''}`} />
+          <span className={`material-symbols-outlined text-[18px] ${isRefreshing ? 'animate-spin' : ''}`}>
+            refresh
+          </span>
+          <span className="font-label-caps text-label-caps hidden md:inline uppercase">Sync</span>
         </button>
+
+        <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
+          <span className="material-symbols-outlined text-on-primary text-[18px]">person</span>
+        </div>
       </div>
     </header>
   );

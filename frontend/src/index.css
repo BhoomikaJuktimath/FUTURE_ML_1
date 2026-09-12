@@ -3,40 +3,44 @@
 @tailwind utilities;
 
 @layer base {
+  html,
   body {
-    @apply bg-slate-950 text-slate-100 min-h-screen overflow-x-hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    @apply bg-background text-on-surface min-h-screen overflow-x-hidden font-body-md;
+    overscroll-behavior: none;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    user-select: none;
   }
 }
 
-/* Custom Glassmorphism Effects */
-.glass-panel {
-  background: rgba(15, 23, 42, 0.75);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+@layer components {
+  .glass-panel {
+    @apply bg-surface-container rounded-xl shadow-md;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+  }
+
+  .glass-panel-hover {
+    @apply transition-all duration-200;
+  }
+
+  .glass-panel-hover:hover {
+    @apply bg-surface-container-high;
+    border-color: rgba(173, 198, 255, 0.2);
+    box-shadow: 0 10px 30px -10px rgba(77, 142, 255, 0.12);
+  }
+
+  .surface-card {
+    @apply bg-surface-container rounded-xl p-space-lg shadow-md;
+  }
 }
 
-.glass-panel-hover {
-  transition: all 0.2s ease-in-out;
-}
-.glass-panel-hover:hover {
-  background: rgba(30, 41, 59, 0.85);
-  border-color: rgba(56, 189, 248, 0.25);
-  box-shadow: 0 10px 30px -10px rgba(12, 141, 228, 0.15);
-}
-
-/* Custom Scrollbars */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: #0f172a;
-}
-::-webkit-scrollbar-thumb {
-  background: #334155;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #475569;
+  display: none;
 }

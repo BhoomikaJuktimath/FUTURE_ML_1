@@ -1,5 +1,4 @@
 import React from 'react';
-import { AlertTriangle, CheckCircle2, Info, X } from 'lucide-react';
 
 interface AlertMessageProps {
   type?: 'error' | 'success' | 'info';
@@ -12,41 +11,47 @@ export const AlertMessage: React.FC<AlertMessageProps> = ({
   type = 'error',
   title,
   message,
-  onClose
+  onClose,
 }) => {
   const styles = {
     error: {
-      bg: 'bg-rose-500/10 border-rose-500/30 text-rose-300',
-      icon: AlertTriangle,
-      iconColor: 'text-rose-400',
+      bg: 'bg-error-container/30 border-error/30 text-on-error-container',
+      icon: 'error',
+      iconColor: 'text-error',
     },
     success: {
-      bg: 'bg-emerald-500/10 border-emerald-500/30 text-emerald-300',
-      icon: CheckCircle2,
-      iconColor: 'text-emerald-400',
+      bg: 'bg-tertiary-container/20 border-tertiary/30 text-tertiary',
+      icon: 'check_circle',
+      iconColor: 'text-tertiary',
     },
     info: {
-      bg: 'bg-brand-500/10 border-brand-500/30 text-brand-300',
-      icon: Info,
-      iconColor: 'text-brand-400',
+      bg: 'bg-primary/10 border-primary/30 text-primary',
+      icon: 'info',
+      iconColor: 'text-primary',
     },
   };
 
   const current = styles[type];
-  const Icon = current.icon;
 
   return (
-    <div className={`p-4 rounded-xl border ${current.bg} flex items-start justify-between space-x-3 my-4`}>
-      <div className="flex items-start space-x-3">
-        <Icon className={`w-5 h-5 shrink-0 mt-0.5 ${current.iconColor}`} />
-        <div className="text-xs space-y-0.5">
-          {title && <p className="font-semibold text-sm">{title}</p>}
-          <p>{message}</p>
+    <div className={`p-space-base rounded-xl border ${current.bg} flex items-start justify-between gap-space-sm`}>
+      <div className="flex items-start gap-space-sm">
+        <span className={`material-symbols-outlined text-[20px] shrink-0 mt-0.5 ${current.iconColor}`}>
+          {current.icon}
+        </span>
+        <div className="font-body-sm text-body-sm space-y-space-xxs">
+          {title && <p className="font-headline-sm text-headline-sm text-on-surface">{title}</p>}
+          <p className="text-on-surface-variant">{message}</p>
         </div>
       </div>
       {onClose && (
-        <button onClick={onClose} className="text-slate-400 hover:text-slate-200">
-          <X className="w-4 h-4" />
+        <button
+          type="button"
+          onClick={onClose}
+          className="text-outline hover:text-on-surface transition-colors"
+          aria-label="Dismiss"
+        >
+          <span className="material-symbols-outlined text-[18px]">close</span>
         </button>
       )}
     </div>

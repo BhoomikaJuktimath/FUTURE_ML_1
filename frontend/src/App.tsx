@@ -144,82 +144,89 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100">
+    <div className="min-h-screen bg-background text-on-surface font-body-md">
       {isProcessing && <LoadingOverlay message={loadingMessage} />}
 
-      <Navbar
-        apiStatus={apiStatus}
-        modelStatus={modelStatus}
-        onRefresh={() => loadAllData(selectedHorizon)}
-        isRefreshing={isProcessing}
-      />
+      <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
 
-      <div className="flex flex-1">
-        <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
+      <div className="pl-64 flex flex-col min-h-screen">
+        <Navbar
+          apiStatus={apiStatus}
+          modelStatus={modelStatus}
+          onRefresh={() => loadAllData(selectedHorizon)}
+          isRefreshing={isProcessing}
+          selectedHorizon={selectedHorizon}
+        />
 
-        <main className="flex-1 p-6 lg:p-8 overflow-y-auto max-w-7xl">
-          {errorMsg && (
-            <AlertMessage
-              type="error"
-              title="Application Error"
-              message={errorMsg}
-              onClose={() => setErrorMsg(null)}
-            />
-          )}
+        <main className="w-full pt-16 bg-background flex-1">
+          <div className="p-gutter-desktop flex flex-col gap-space-lg max-w-[1680px] mx-auto w-full">
+            {errorMsg && (
+              <AlertMessage
+                type="error"
+                title="Application Error"
+                message={errorMsg}
+                onClose={() => setErrorMsg(null)}
+              />
+            )}
 
-          {successMsg && (
-            <AlertMessage
-              type="success"
-              title="Success"
-              message={successMsg}
-              onClose={() => setSuccessMsg(null)}
-            />
-          )}
+            {successMsg && (
+              <AlertMessage
+                type="success"
+                title="Success"
+                message={successMsg}
+                onClose={() => setSuccessMsg(null)}
+              />
+            )}
 
-          {activeTab === 'dashboard' && (
-            <Dashboard
-              dataSummary={dataSummary}
-              performance={performance}
-              forecast={forecast}
-              insights={insights}
-              onNavigate={setActiveTab}
-            />
-          )}
+            {activeTab === 'dashboard' && (
+              <Dashboard
+                dataSummary={dataSummary}
+                performance={performance}
+                forecast={forecast}
+                insights={insights}
+                onNavigate={setActiveTab}
+              />
+            )}
 
-          {activeTab === 'data' && (
-            <DataPage
-              dataSummary={dataSummary}
-              onFileUpload={handleFileUpload}
-              onLoadDemo={handleLoadDemo}
-              onTrainModel={handleTrainModel}
-              isProcessing={isProcessing}
-            />
-          )}
+            {activeTab === 'data' && (
+              <DataPage
+                dataSummary={dataSummary}
+                onFileUpload={handleFileUpload}
+                onLoadDemo={handleLoadDemo}
+                onTrainModel={handleTrainModel}
+                isProcessing={isProcessing}
+              />
+            )}
 
-          {activeTab === 'forecast' && (
-            <ForecastPage
-              forecast={forecast}
-              selectedHorizon={selectedHorizon}
-              onHorizonChange={handleHorizonChange}
-              isProcessing={isProcessing}
-            />
-          )}
+            {activeTab === 'forecast' && (
+              <ForecastPage
+                forecast={forecast}
+                selectedHorizon={selectedHorizon}
+                onHorizonChange={handleHorizonChange}
+                isProcessing={isProcessing}
+              />
+            )}
 
-          {activeTab === 'performance' && (
-            <ModelPerformance performance={performance} />
-          )}
+            {activeTab === 'performance' && (
+              <ModelPerformance
+                performance={performance}
+                onRetrain={() => handleTrainModel()}
+                isProcessing={isProcessing}
+              />
+            )}
 
-          {activeTab === 'insights' && (
-            <BusinessInsights insights={insights} />
-          )}
+            {activeTab === 'insights' && (
+              <BusinessInsights insights={insights} />
+            )}
 
-          {activeTab === 'quality' && (
-            <DataQuality dataSummary={dataSummary} />
-          )}
+            {activeTab === 'quality' && (
+              <DataQuality dataSummary={dataSummary} />
+            )}
 
-          {activeTab === 'about' && (
-            <AboutPage />
-          )}
+            {activeTab === 'about' && (
+              <AboutPage />
+            )}
+          </div>
         </main>
       </div>
     </div>
